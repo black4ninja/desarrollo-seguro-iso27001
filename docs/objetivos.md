@@ -105,7 +105,7 @@ Al completar exitosamente este curso, serás capaz de:
 | **Muy Bueno (80-89)** | Usa herramientas correctamente, identifica la mayoría de vulnerabilidades, plan de mejora adecuado |
 | **Bueno (70-79)** | Usa herramientas básicamente, identifica vulnerabilidades principales, plan de mejora aceptable |
 | **Satisfactorio (60-69)** | Necesita apoyo con herramientas, identifica algunas vulnerabilidades, plan de mejora básico |
-| **Insuficiente (<60)** | No alcanza competencias mínimas |
+| **Insuficiente (menor a 60)** | No alcanza competencias mínimas |
 
 ## 🏆 Certificación
 

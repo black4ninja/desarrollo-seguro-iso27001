@@ -109,7 +109,7 @@ sidebar_position: 1
 - 80-89 pts (B) = Muy Bueno
 - 70-79 pts (C) = Bueno
 - 60-69 pts (D) = Satisfactorio
-- <60 pts (F) = Insuficiente
+- Menor a 60 pts (F) = Insuficiente
 
 ## 🛠️ Troubleshooting y Contingencias
 

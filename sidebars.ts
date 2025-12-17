@@ -17,8 +17,6 @@ const sidebars: SidebarsConfig = {
       items: [
         'dia-1/intro',
         'dia-1/iso-27001-27002',
-        'dia-1/owasp-top-10',
-        'dia-1/principios-seguridad',
         {
           type: 'category',
           label: 'Laboratorios',
@@ -35,8 +33,6 @@ const sidebars: SidebarsConfig = {
       label: 'Día 2: Preparación para Implementar',
       items: [
         'dia-2/intro',
-        'dia-2/sdlc-seguro',
-        'dia-2/metodologias-pentesting',
         {
           type: 'category',
           label: 'Laboratorios',
@@ -54,9 +50,6 @@ const sidebars: SidebarsConfig = {
       label: 'Día 3: Implementación de Controles',
       items: [
         'dia-3/intro',
-        'dia-3/owasp-api-security',
-        'dia-3/arquitecturas-modernas',
-        'dia-3/configuraciones-seguras',
         {
           type: 'category',
           label: 'Laboratorios',
@@ -74,9 +67,6 @@ const sidebars: SidebarsConfig = {
       label: 'Día 4: Mejora del Ciclo de Vida',
       items: [
         'dia-4/intro',
-        'dia-4/devsecops',
-        'dia-4/cicd-security',
-        'dia-4/logging-monitoring',
         {
           type: 'category',
           label: 'Laboratorios',
@@ -94,7 +84,6 @@ const sidebars: SidebarsConfig = {
       label: 'Día 5: Fortalecimiento',
       items: [
         'dia-5/intro',
-        'dia-5/gestion-vulnerabilidades',
         {
           type: 'category',
           label: 'Actividades Finales',
