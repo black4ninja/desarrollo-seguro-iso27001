@@ -4,14 +4,7 @@ sidebar_position: 1
 
 # Día 1: Controles ISO 27001/27002:2022 y OWASP Top 10
 
-## 📅 Agenda del Día (8 horas)
-
-
-    Presentación y expectativas
-    Introducción a ISO y OWASP
-    Conceptos fundamentales de seguridad
-    Práctica controles de ISO
-    Preparación de checklist y preparación de componente para inspección
+## 📅 Agenda del Día (5 horas)
 
 
 | Hora | Duración | Actividad | Tipo |
@@ -22,7 +15,7 @@ sidebar_position: 1
 | 11:10 - 11:50 | 40 min | Conceptos fundamentales de seguridad | Teoría |
 | 11:50 - 12:50 | 60 min | **Lab 1.1:** Práctica controles de ISO | Práctica |
 | 12:50 - 13:10 | 20 min | ☕ Receso | - |
-| 13:10 - 14:00 | 50 min | Preparación de checklist y preparación de componente para inspección | Práctica |
+| 13:10 - 14:00 | 50 min | Preparación para inspección de seguridad | Práctica |
 
 
 ## 🎯 Objetivos del Día
@@ -125,6 +118,11 @@ En este laboratorio:
 - Mapear estructura de aplicación
 
 📄 [Ver guía completa del Lab 1.3](./labs/lab-1-3-reconocimiento)
+
+### Preparación para inspección de seguridad
+
+📄 [Ver contenido completo: Preparación para inspección de seguridad](./preparacion-inspeccion)
+
 
 **Herramientas:**
 - nmap
