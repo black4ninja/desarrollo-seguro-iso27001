@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "🔍 Running pre-push checks..."
+echo "📦 Building Docusaurus to validate configuration..."
+
+yarn build
+
+if [ $? -ne 0 ]; then
+    echo "❌ Build failed! Push aborted."
+    echo "Please fix the build errors before pushing."
+    exit 1
+fi
+
+echo "✅ Build successful! Proceeding with push."
+exit 0

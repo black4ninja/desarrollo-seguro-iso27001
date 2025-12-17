@@ -14,6 +14,7 @@ Este proyecto está construido con [Docusaurus 3](https://docusaurus.io/), un ge
 
 - [Requisitos Previos](#-requisitos-previos)
 - [Instalación](#-instalación)
+- [Git Hooks y Husky](#-git-hooks-y-husky)
 - [Ejecución Local](#-ejecución-local)
 - [Build de Producción](#-build-de-producción)
 - [Estructura del Proyecto](#-estructura-del-proyecto)
@@ -91,7 +92,16 @@ yarn --version
    yarn install
    ```
 
-   Esto instalará todas las dependencias necesarias listadas en `package.json`, incluyendo Docusaurus y sus plugins.
+   Esto instalará todas las dependencias necesarias listadas en `package.json`, incluyendo:
+   - Docusaurus y sus plugins
+   - Husky (git hooks)
+   - lint-staged
+   - Todas las demás dependencias del proyecto
+
+   **¿Qué sucede durante la instalación?**
+   - Se descargan ~200 MB de dependencias
+   - Se ejecuta automáticamente el script `prepare` que configura Husky
+   - Los git hooks quedan listos para usar
 
    :::tip Alternativa con npm
    Si prefieres usar npm en lugar de Yarn:
@@ -99,6 +109,55 @@ yarn --version
    npm install
    ```
    :::
+
+---
+
+## 🎣 Git Hooks y Husky
+
+Este proyecto usa **Husky** para gestionar git hooks que ayudan a mantener la calidad del código.
+
+### Pre-push Hook
+
+**¿Qué hace?**
+Cada vez que intentas hacer `git push`, se ejecuta automáticamente un hook que:
+
+1. Ejecuta `yarn build` para validar que Docusaurus compile correctamente
+2. Si el build falla → **Bloquea el push** y muestra el error
+3. Si el build es exitoso → Permite continuar con el push
+
+**Ventajas:**
+- ✅ Previene que se suba código que rompe el build
+- ✅ Detecta errores de configuración antes de que lleguen al repositorio
+- ✅ Valida links rotos y problemas de compilación MDX
+- ✅ Mantiene el sitio siempre en estado funcional
+
+### Configuración Automática
+
+Los git hooks se configuran automáticamente cuando ejecutas `yarn install`. No necesitas hacer nada adicional.
+
+**Archivos involucrados:**
+- `.husky/pre-push` - Script del hook de pre-push
+- `package.json` - Contiene el script `prepare: "husky"` que se ejecuta automáticamente
+
+### Bypass del Hook (Solo Emergencias)
+
+Si necesitas hacer un push sin validar el build (NO recomendado):
+
+```bash
+# Opción 1: Skip hooks (no recomendado)
+git push --no-verify
+
+# Opción 2: Desactivar Husky temporalmente
+HUSKY=0 git push
+```
+
+⚠️ **Advertencia:** Solo usa esto en casos de emergencia. El hook existe para proteger la calidad del proyecto.
+
+### Más Información
+
+Para detalles completos sobre deployment, git hooks y GitHub Actions, consulta:
+
+📖 **[DEPLOYMENT.md](DEPLOYMENT.md)** - Guía completa de deployment y configuración
 
 ---
 
@@ -440,65 +499,131 @@ yarn build
 # Revisa y corrige los links indicados
 ```
 
+### Problema: Pre-push hook no se ejecuta
+
+**Síntomas:** El hook no valida el build al hacer push.
+
+**Solución:**
+```bash
+# Reinstalar Husky
+yarn install
+
+# Verificar que el hook existe y es ejecutable
+ls -la .husky/pre-push
+chmod +x .husky/pre-push
+
+# Si no existe, reinicializar Husky
+npx husky init
+```
+
+### Problema: Pre-push hook falla pero quiero hacer push de emergencia
+
+**Solución:**
+```bash
+# Primero intenta arreglar el error del build
+yarn build
+
+# Si es una emergencia y DEBES hacer push:
+git push --no-verify
+
+# O:
+HUSKY=0 git push
+```
+
+⚠️ **Solo usa esto en emergencias. Arregla el build lo antes posible.**
+
+### Problema: GitHub Actions falla en deployment
+
+**Solución:**
+
+1. **Revisa los logs** en GitHub → Actions
+2. **Verifica que el build funcione localmente**:
+   ```bash
+   yarn build
+   ```
+3. **Común:** Permisos insuficientes
+   - Ve a Settings → Actions → General
+   - Marca "Read and write permissions"
+4. **Consulta** [DEPLOYMENT.md](DEPLOYMENT.md) para troubleshooting detallado
+
 ---
 
 ## 🌐 Deployment
 
-### Opción 1: GitHub Pages
+Este proyecto está configurado con **deployment automático a GitHub Pages** usando GitHub Actions.
 
-1. **Configura el repositorio** en `docusaurus.config.ts`:
-   ```typescript
-   url: 'https://tu-usuario.github.io',
-   baseUrl: '/desarrollo-seguro-iso27001/',
-   organizationName: 'tu-usuario',
-   projectName: 'desarrollo-seguro-iso27001',
-   ```
+### 🚀 Deployment Automático (Configurado)
 
-2. **Agrega script de deploy** a `package.json`:
-   ```json
-   "scripts": {
-     "deploy": "GIT_USER=<tu-usuario> yarn deploy"
-   }
-   ```
+**Ya está todo listo.** Cada vez que hagas `git push` a la rama `main`:
 
-3. **Ejecuta el deploy**:
-   ```bash
-   yarn deploy
-   ```
+1. El **pre-push hook** valida que el build funcione localmente
+2. Si el build pasa, el push se completa
+3. **GitHub Actions** automáticamente:
+   - Instala las dependencias
+   - Construye el sitio
+   - Despliega a GitHub Pages
+4. Tu sitio se actualiza en ~3 minutos
 
-### Opción 2: Netlify
-
-1. **Crea cuenta en [Netlify](https://www.netlify.com/)**
-2. **Conecta tu repositorio GitHub**
-3. **Configuración de build**:
-   - Build command: `yarn build`
-   - Publish directory: `build`
-4. **Deploy automático** en cada push a `main`
-
-### Opción 3: Vercel
-
-1. **Instala Vercel CLI**:
-   ```bash
-   npm install -g vercel
-   ```
-
-2. **Deploy**:
-   ```bash
-   vercel
-   ```
-
-### Opción 4: Servidor propio (Apache/Nginx)
-
-```bash
-# Build del proyecto
-yarn build
-
-# Copia los archivos al servidor
-scp -r build/* usuario@servidor:/var/www/html/
-
-# O usa rsync
-rsync -avz build/ usuario@servidor:/var/www/html/
+**URL del sitio desplegado:**
 ```
+https://black4ninja.github.io/desarrollo-seguro-iso27001/
+```
+
+### ⚙️ Configuración Inicial de GitHub Pages
+
+Si es la primera vez que despliegas, necesitas habilitar GitHub Pages:
+
+1. **Ve a tu repositorio en GitHub**
+2. **Settings** → **Pages**
+3. En **Source**, selecciona: **GitHub Actions**
+4. (Opcional) En **Settings** → **Actions** → **General**:
+   - Marca **Read and write permissions**
+
+**¡Listo!** El próximo push activará el deployment automático.
+
+### 📋 Workflow de Deployment
+
+**Archivo de configuración:** `.github/workflows/deploy.yml`
+
+El workflow se ejecuta:
+- ✅ Automáticamente en cada push a `main`
+- ✅ Manualmente desde la pestaña "Actions" en GitHub
+
+**Pasos que ejecuta:**
+1. Checkout del código
+2. Setup de Node.js 18 con cache de Yarn
+3. `yarn install --frozen-lockfile`
+4. `yarn build`
+5. Deploy a GitHub Pages
+
+### 🔍 Monitorear Deployments
+
+Para ver el estado de tus deployments:
+
+1. **GitHub**: Pestaña **Actions** en tu repositorio
+2. **Logs completos**: Haz clic en cualquier workflow run
+3. **URL del sitio**: Se muestra al final del deployment exitoso
+
+### 📖 Documentación Completa
+
+Para información detallada sobre deployment, git hooks, troubleshooting y mejores prácticas:
+
+📘 **[DEPLOYMENT.md](DEPLOYMENT.md)** - Guía completa de deployment
+
+**Incluye:**
+- Explicación detallada de Husky y git hooks
+- Configuración de GitHub Actions paso a paso
+- Troubleshooting de deployment
+- Comandos útiles y mejores prácticas
+- Cómo hacer deployment manual si es necesario
+
+### 🛠️ Otras Opciones de Deployment
+
+Si prefieres usar otro servicio en lugar de GitHub Pages, consulta [DEPLOYMENT.md](DEPLOYMENT.md) para instrucciones sobre:
+
+- **Netlify**: Deployment automático con interfaz visual
+- **Vercel**: Deployment con preview automático de PRs
+- **Servidor propio**: Apache/Nginx con rsync
 
 ---
 
@@ -526,6 +651,8 @@ rsync -avz build/ usuario@servidor:/var/www/html/
    ```bash
    git push origin dia-1-contenido
    ```
+
+   **Nota:** El pre-push hook validará que tu código compile correctamente antes de permitir el push.
 
 5. **Crea un Pull Request** en GitHub para revisión
 
@@ -584,14 +711,29 @@ Este material es privado y propiedad del curso **Desarrollo Seguro e ISO 27001/2
 
 ## ✅ Checklist para Comenzar
 
-- [ ] Node.js >= 18.0 instalado
+### Configuración Inicial
+- [ ] Node.js >= 18.0 instalado (`node --version`)
 - [ ] Yarn instalado (`yarn --version`)
 - [ ] Repositorio clonado
 - [ ] Dependencias instaladas (`yarn install`)
+- [ ] Git hooks de Husky configurados automáticamente
+
+### Desarrollo Local
 - [ ] Servidor de desarrollo funcionando (`yarn start`)
 - [ ] Página de inicio visible en [http://localhost:3000](http://localhost:3000)
+- [ ] Hot reload funciona correctamente
 - [ ] Primer contenido agregado y validado
-- [ ] Cambios commiteados a Git
+
+### Git y Deployment
+- [ ] Pre-push hook funciona (prueba con `git push`)
+- [ ] GitHub Pages habilitado en Settings → Pages
+- [ ] Primer deployment exitoso
+- [ ] Sitio visible en `https://black4ninja.github.io/desarrollo-seguro-iso27001/`
+
+### Documentación
+- [ ] Leído [README.md](README.md)
+- [ ] Leído [DEPLOYMENT.md](DEPLOYMENT.md) (configuración de deployment)
+- [ ] Leído [INSTRUCCIONES_PARA_COMPAÑERO.md](INSTRUCCIONES_PARA_COMPAÑERO.md) (si aplica)
 
 ---
 
@@ -605,7 +747,11 @@ Ahora puedes comenzar a agregar contenido al curso. Algunos puntos de partida:
 4. **Prueba localmente** con `yarn start`
 5. **Commit y push** regularmente
 
-**💡 Recuerda:** El contenido se escribe en Markdown (.md) y se organiza por días. ¡Cualquier cambio que hagas se verá reflejado automáticamente en el navegador!
+**💡 Recuerda:**
+- El contenido se escribe en Markdown (.md) y se organiza por días
+- Los cambios se reflejan automáticamente en el navegador con hot reload
+- El pre-push hook valida tu build antes de cada push
+- Consulta [DEPLOYMENT.md](DEPLOYMENT.md) para más información sobre el workflow de desarrollo
 
 ---
 

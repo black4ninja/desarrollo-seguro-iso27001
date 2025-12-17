@@ -7,14 +7,18 @@ const config: Config = {
   tagline: 'Formación integral en seguridad del desarrollo de software',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-docusaurus-site.example.com',
-  baseUrl: '/',
+  url: 'https://black4ninja.github.io',
+  baseUrl: '/desarrollo-seguro-iso27001/',
 
-  organizationName: 'curso-desarrollo-seguro',
+  organizationName: 'black4ninja',
   projectName: 'desarrollo-seguro-iso27001',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
+
+  // Deployment configuration
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   i18n: {
     defaultLocale: 'es',
@@ -27,7 +31,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/your-org/your-repo/tree/main/',
+          editUrl: 'https://github.com/black4ninja/desarrollo-seguro-iso27001/tree/main/',
         },
         blog: false,
         theme: {
@@ -53,7 +57,7 @@ const config: Config = {
           label: 'Contenido del Curso',
         },
         {
-          href: 'https://github.com/your-org/your-repo',
+          href: 'https://github.com/black4ninja/desarrollo-seguro-iso27001',
           label: 'GitHub',
           position: 'right',
         },
@@ -109,7 +113,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/your-org/your-repo',
+              href: 'https://github.com/black4ninja/desarrollo-seguro-iso27001',
             },
           ],
         },
