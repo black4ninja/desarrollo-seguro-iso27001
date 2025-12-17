@@ -30,9 +30,9 @@ Este proyecto está construido con [Docusaurus 3](https://docusaurus.io/), un ge
 
 Antes de comenzar, asegúrate de tener instalado:
 
-- **Node.js** versión 18.0 o superior
+- **Node.js** versión 20.0 o superior
   ```bash
-  node --version  # Debe mostrar v18.x.x o superior
+  node --version  # Debe mostrar v20.x.x o superior
   ```
 
 - **Yarn** (gestor de paquetes recomendado)
@@ -58,7 +58,7 @@ brew install node
 
 #### Linux (Ubuntu/Debian)
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
@@ -486,7 +486,7 @@ yarn start
 rm -rf node_modules yarn.lock
 yarn install
 
-# Si persiste, verifica que tengas Node.js >= 18
+# Si persiste, verifica que tengas Node.js >= 20
 node --version
 ```
 
@@ -591,7 +591,7 @@ El workflow se ejecuta:
 
 **Pasos que ejecuta:**
 1. Checkout del código
-2. Setup de Node.js 18 con cache de Yarn
+2. Setup de Node.js 20 con cache de Yarn
 3. `yarn install --frozen-lockfile`
 4. `yarn build`
 5. Deploy a GitHub Pages
@@ -712,7 +712,7 @@ Este material es privado y propiedad del curso **Desarrollo Seguro e ISO 27001/2
 ## ✅ Checklist para Comenzar
 
 ### Configuración Inicial
-- [ ] Node.js >= 18.0 instalado (`node --version`)
+- [ ] Node.js >= 20.0 instalado (`node --version`)
 - [ ] Yarn instalado (`yarn --version`)
 - [ ] Repositorio clonado
 - [ ] Dependencias instaladas (`yarn install`)

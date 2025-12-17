@@ -7,7 +7,7 @@ Guía rápida para instalar y ejecutar el proyecto con **Yarn** (recomendado).
 ### Opción 1: Instalación con Yarn (Recomendada)
 
 ```bash
-# 1. Asegúrate de tener Node.js >= 18
+# 1. Asegúrate de tener Node.js >= 20
 node --version
 
 # 2. Instala Yarn si no lo tienes
@@ -79,7 +79,7 @@ Deberías ver:
 
 ### Error: "Node version incompatible"
 ```bash
-# Instala Node.js 18 o superior
+# Instala Node.js 20 o superior
 # macOS: brew install node
 # Windows: descarga de nodejs.org
 # Linux: usa nvm (Node Version Manager)

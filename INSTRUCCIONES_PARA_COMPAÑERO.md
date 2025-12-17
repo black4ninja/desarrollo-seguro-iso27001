@@ -12,7 +12,7 @@ Está construido con **Docusaurus**, una herramienta moderna que convierte archi
 
 ```bash
 # Verificar Node.js
-node --version  # Debe ser v18.x.x o superior
+node --version  # Debe ser v20.x.x o superior
 
 # Verificar Yarn
 yarn --version  # Debe ser 1.22.x o superior
@@ -21,7 +21,7 @@ yarn --version  # Debe ser 1.22.x o superior
 ❌ **Si no tienes Node.js:**
 - **macOS**: `brew install node`
 - **Windows**: Descarga de [nodejs.org](https://nodejs.org/)
-- **Linux**: `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install -y nodejs`
+- **Linux**: `curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash - && sudo apt-get install -y nodejs`
 
 ❌ **Si no tienes Yarn:**
 ```bash
