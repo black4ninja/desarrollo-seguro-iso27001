@@ -34,9 +34,9 @@ Antes de comenzar, asegúrate de tener instalado:
   node --version  # Debe mostrar v18.x.x o superior
   ```
 
-- **npm** (incluido con Node.js) o **yarn**
+- **Yarn** (gestor de paquetes recomendado)
   ```bash
-  npm --version   # Debe mostrar 9.x.x o superior
+  yarn --version   # Debe mostrar 1.22.x o superior
   ```
 
 ### Instalación de Node.js
@@ -61,6 +61,21 @@ curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
+### Instalación de Yarn
+
+Una vez que tengas Node.js instalado:
+
+```bash
+# Habilitar Corepack (incluido con Node.js >= 16)
+corepack enable
+
+# O instalar Yarn globalmente con npm
+npm install -g yarn
+
+# Verificar instalación
+yarn --version
+```
+
 ---
 
 ## 📦 Instalación
@@ -71,17 +86,19 @@ sudo apt-get install -y nodejs
    cd desarrollo-seguro-iso27001
    ```
 
-2. **Instala las dependencias**:
-   ```bash
-   npm install
-   ```
-
-   O si prefieres usar yarn:
+2. **Instala las dependencias con Yarn**:
    ```bash
    yarn install
    ```
 
    Esto instalará todas las dependencias necesarias listadas en `package.json`, incluyendo Docusaurus y sus plugins.
+
+   :::tip Alternativa con npm
+   Si prefieres usar npm en lugar de Yarn:
+   ```bash
+   npm install
+   ```
+   :::
 
 ---
 
@@ -89,11 +106,6 @@ sudo apt-get install -y nodejs
 
 ### Iniciar el servidor de desarrollo
 
-```bash
-npm start
-```
-
-O con yarn:
 ```bash
 yarn start
 ```
@@ -116,7 +128,7 @@ Presiona `Ctrl + C` en la terminal donde está corriendo el servidor.
 Para generar una versión optimizada del sitio para producción:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Este comando:
@@ -129,7 +141,7 @@ Este comando:
 Después de hacer el build, puedes probarlo localmente:
 
 ```bash
-npm run serve
+yarn serve
 ```
 
 Esto iniciará un servidor local en [http://localhost:3000](http://localhost:3000) sirviendo los archivos del build.
@@ -272,17 +284,17 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="windows" label="Windows" default>
     ```powershell
-    npm install
+    yarn install
     ```
   </TabItem>
   <TabItem value="mac" label="macOS">
     ```bash
-    npm install
+    yarn install
     ```
   </TabItem>
   <TabItem value="linux" label="Linux">
     ```bash
-    npm install
+    yarn install
     ```
   </TabItem>
 </Tabs>
@@ -353,21 +365,27 @@ const config: Config = {
 
 ## 🔍 Troubleshooting
 
-### Problema: `npm install` falla con errores de permisos
+### Problema: `yarn install` falla con errores de permisos
 
 **Solución (macOS/Linux):**
 ```bash
-# Limpiar cache de npm
-npm cache clean --force
+# Limpiar cache de Yarn
+yarn cache clean
 
-# Si el problema persiste, corrige permisos (reemplaza 501:20 con tu usuario:grupo)
-sudo chown -R $(whoami) ~/.npm
+# Si el problema persiste, reinstala Yarn
+npm install -g yarn
 ```
 
 **Solución (Windows):**
 ```powershell
-# Ejecuta PowerShell/CMD como Administrador
-npm cache clean --force
+# Ejecuta PowerShell como Administrador
+yarn cache clean
+yarn install
+```
+
+**Alternativa con npm:**
+```bash
+# Si Yarn sigue fallando, usa npm
 npm install
 ```
 
@@ -376,7 +394,7 @@ npm install
 **Solución:**
 ```bash
 # Especifica un puerto diferente
-npm start -- --port 3001
+yarn start --port 3001
 ```
 
 O mata el proceso que usa el puerto 3000:
@@ -395,10 +413,10 @@ taskkill /PID <PID> /F
 ```bash
 # Detén el servidor (Ctrl+C)
 # Limpia el cache
-npm run clear
+yarn clear
 
 # Reinicia
-npm start
+yarn start
 ```
 
 ### Problema: Errores de TypeScript
@@ -406,8 +424,8 @@ npm start
 **Solución:**
 ```bash
 # Reinstala dependencias
-rm -rf node_modules package-lock.json
-npm install
+rm -rf node_modules yarn.lock
+yarn install
 
 # Si persiste, verifica que tengas Node.js >= 18
 node --version
@@ -417,7 +435,7 @@ node --version
 
 ```bash
 # El comando build te mostrará qué links están rotos
-npm run build
+yarn build
 
 # Revisa y corrige los links indicados
 ```
@@ -439,13 +457,13 @@ npm run build
 2. **Agrega script de deploy** a `package.json`:
    ```json
    "scripts": {
-     "deploy": "GIT_USER=<tu-usuario> npm run deploy"
+     "deploy": "GIT_USER=<tu-usuario> yarn deploy"
    }
    ```
 
 3. **Ejecuta el deploy**:
    ```bash
-   npm run deploy
+   yarn deploy
    ```
 
 ### Opción 2: Netlify
@@ -453,7 +471,7 @@ npm run build
 1. **Crea cuenta en [Netlify](https://www.netlify.com/)**
 2. **Conecta tu repositorio GitHub**
 3. **Configuración de build**:
-   - Build command: `npm run build`
+   - Build command: `yarn build`
    - Publish directory: `build`
 4. **Deploy automático** en cada push a `main`
 
@@ -473,7 +491,7 @@ npm run build
 
 ```bash
 # Build del proyecto
-npm run build
+yarn build
 
 # Copia los archivos al servidor
 scp -r build/* usuario@servidor:/var/www/html/
@@ -495,7 +513,7 @@ rsync -avz build/ usuario@servidor:/var/www/html/
 
 2. **Agrega tu contenido** y prueba localmente:
    ```bash
-   npm start
+   yarn start
    ```
 
 3. **Commit de cambios**:
@@ -567,9 +585,10 @@ Este material es privado y propiedad del curso **Desarrollo Seguro e ISO 27001/2
 ## ✅ Checklist para Comenzar
 
 - [ ] Node.js >= 18.0 instalado
+- [ ] Yarn instalado (`yarn --version`)
 - [ ] Repositorio clonado
-- [ ] Dependencias instaladas (`npm install`)
-- [ ] Servidor de desarrollo funcionando (`npm start`)
+- [ ] Dependencias instaladas (`yarn install`)
+- [ ] Servidor de desarrollo funcionando (`yarn start`)
 - [ ] Página de inicio visible en [http://localhost:3000](http://localhost:3000)
 - [ ] Primer contenido agregado y validado
 - [ ] Cambios commiteados a Git
@@ -583,7 +602,7 @@ Ahora puedes comenzar a agregar contenido al curso. Algunos puntos de partida:
 1. **Revisa la estructura** en [docs/](docs/)
 2. **Agrega contenido teórico** a los días correspondientes
 3. **Completa los laboratorios** en las carpetas `labs/`
-4. **Prueba localmente** con `npm start`
+4. **Prueba localmente** con `yarn start`
 5. **Commit y push** regularmente
 
 **💡 Recuerda:** El contenido se escribe en Markdown (.md) y se organiza por días. ¡Cualquier cambio que hagas se verá reflejado automáticamente en el navegador!

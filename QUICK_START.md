@@ -2,55 +2,57 @@
 
 ## Para tu Compañero - Primeros Pasos
 
-Si tienes problemas con `npm install`, sigue estos pasos:
+Guía rápida para instalar y ejecutar el proyecto con **Yarn** (recomendado).
 
-### Opción 1: Instalación Normal (Recomendada)
+### Opción 1: Instalación con Yarn (Recomendada)
 
 ```bash
 # 1. Asegúrate de tener Node.js >= 18
 node --version
 
-# 2. Limpia el caché de npm (si tienes problemas)
-npm cache clean --force
+# 2. Instala Yarn si no lo tienes
+corepack enable
+# O: npm install -g yarn
 
 # 3. Instala dependencias
-npm install
+yarn install
 
 # 4. Inicia el servidor
-npm start
-```
-
-### Opción 2: Si Opción 1 falla
-
-```bash
-# Usa yarn en lugar de npm
-npm install -g yarn
-yarn install
 yarn start
 ```
 
-### Opción 3: Si tienes problemas de permisos (macOS/Linux)
+### Opción 2: Si tienes problemas con Yarn
 
 ```bash
-# Corrige permisos de npm
-sudo chown -R $(whoami) ~/.npm
-sudo chown -R $(whoami) /usr/local/lib/node_modules
+# Limpia el caché de Yarn
+yarn cache clean
 
-# Intenta de nuevo
+# Reinstala
+yarn install
+
+# Inicia
+yarn start
+```
+
+### Opción 3: Usar npm como alternativa
+
+```bash
+# Si Yarn no funciona, usa npm
 npm install
+npm start
 ```
 
 ### Opción 4: Instalación desde cero
 
 ```bash
 # Borra node_modules y lockfiles
-rm -rf node_modules package-lock.json
+rm -rf node_modules yarn.lock
 
-# Reinstala con npm
-npm install
-
-# O con yarn
+# Reinstala con Yarn
 yarn install
+
+# O con npm si es necesario
+npm install
 ```
 
 ## ✅ Verificación
@@ -64,7 +66,7 @@ Cuando la instalación sea exitosa, verás:
 Luego:
 
 ```bash
-npm start
+yarn start
 ```
 
 Deberías ver:
@@ -86,14 +88,14 @@ Deberías ver:
 ### Error: "Port 3000 already in use"
 ```bash
 # Usa un puerto diferente
-npm start -- --port 3001
+yarn start --port 3001
 ```
 
 ### Error: "Cannot find module"
 ```bash
 # Reinstala dependencias
-rm -rf node_modules
-npm install
+rm -rf node_modules yarn.lock
+yarn install
 ```
 
 ## 📞 Contacto
@@ -105,4 +107,4 @@ Si ninguna opción funciona, contacta al otro facilitador con:
 
 ---
 
-**Tip:** Una vez que funcione `npm start`, cualquier cambio en los archivos `.md` se reflejará automáticamente en el navegador. ¡No necesitas reiniciar el servidor!
+**Tip:** Una vez que funcione `yarn start`, cualquier cambio en los archivos `.md` se reflejará automáticamente en el navegador. ¡No necesitas reiniciar el servidor!

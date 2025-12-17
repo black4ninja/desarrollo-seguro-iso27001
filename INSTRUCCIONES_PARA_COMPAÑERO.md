@@ -8,30 +8,41 @@ Está construido con **Docusaurus**, una herramienta moderna que convierte archi
 
 ## ⚡ Inicio Rápido (5 minutos)
 
-### Paso 1: Verifica Node.js
+### Paso 1: Verifica Node.js y Yarn
 
 ```bash
-node --version
+# Verificar Node.js
+node --version  # Debe ser v18.x.x o superior
+
+# Verificar Yarn
+yarn --version  # Debe ser 1.22.x o superior
 ```
 
-**Debes ver:** `v18.x.x` o superior
-
-❌ **Si no lo tienes:**
+❌ **Si no tienes Node.js:**
 - **macOS**: `brew install node`
 - **Windows**: Descarga de [nodejs.org](https://nodejs.org/)
 - **Linux**: `curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash - && sudo apt-get install -y nodejs`
+
+❌ **Si no tienes Yarn:**
+```bash
+# Opción 1: Habilitar Corepack (recomendado)
+corepack enable
+
+# Opción 2: Instalar globalmente
+yarn install -g yarn
+```
 
 ---
 
 ### Paso 2: Instala las Dependencias
 
 ```bash
-npm install
+yarn install
 ```
 
 ⏱️ **Tiempo:** 2-3 minutos (descarga ~200 MB)
 
-❌ **Si falla con errores de permisos:**
+❌ **Si falla con errores:**
 Ver soluciones en [QUICK_START.md](QUICK_START.md)
 
 ---
@@ -39,7 +50,7 @@ Ver soluciones en [QUICK_START.md](QUICK_START.md)
 ### Paso 3: Inicia el Servidor
 
 ```bash
-npm start
+yarn start
 ```
 
 ✅ **Debes ver:**
@@ -135,7 +146,7 @@ docs/
 ### Código
 ````markdown
 ```bash
-npm install
+yarn install
 ```
 
 ```csharp
@@ -192,7 +203,7 @@ Contiene ejemplos de:
 
 1. **Inicia el servidor** (una vez):
    ```bash
-   npm start
+   yarn start
    ```
 
 2. **Edita archivos** en `docs/dia-X/`
@@ -242,19 +253,19 @@ Contiene ejemplos de:
 
 ```bash
 # Iniciar servidor (desarrollo)
-npm start
+yarn start
 
 # Detener servidor
 Ctrl + C
 
 # Limpiar cache (si algo no funciona)
-npm run clear
+yarn clear
 
 # Generar sitio estático (producción)
-npm run build
+yarn build
 
 # Ver el build localmente
-npm run serve
+yarn serve
 ```
 
 ---
@@ -265,19 +276,19 @@ npm run serve
 
 ```bash
 # Solución 1: Limpiar cache
-npm run clear
-npm start
+yarn clear
+yarn start
 
 # Solución 2: Reinstalar
 rm -rf node_modules
-npm install
+yarn install
 ```
 
 ### Puerto 3000 ocupado
 
 ```bash
 # Usa otro puerto
-npm start -- --port 3001
+yarn start -- --port 3001
 ```
 
 ### Cambios no se ven
@@ -285,7 +296,7 @@ npm start -- --port 3001
 ```bash
 # Reinicia el servidor
 Ctrl + C
-npm start
+yarn start
 ```
 
 ### Link roto
@@ -350,7 +361,7 @@ git commit -m "update"
 
 Para familiarizarte:
 
-1. ✅ **Instala y arranca** el servidor (`npm install && npm start`)
+1. ✅ **Instala y arranca** el servidor (`yarn install && yarn start`)
 2. ✅ **Navega** por el sitio en [http://localhost:3000](http://localhost:3000)
 3. ✅ **Lee** `docs/dia-1/iso-27001-27002.md` como ejemplo
 4. ✅ **Edita** `docs/dia-1/owasp-top-10.md` y agrega contenido básico
@@ -375,8 +386,8 @@ Si tienes dudas:
 
 El proyecto está **100% funcional**. Solo necesitas:
 
-1. Instalar (`npm install`)
-2. Iniciar (`npm start`)
+1. Instalar (`yarn install`)
+2. Iniciar (`yarn start`)
 3. Editar archivos `.md`
 4. Ver los cambios en tiempo real
 
