@@ -6,19 +6,24 @@ sidebar_position: 1
 
 ## 📅 Agenda del Día (8 horas)
 
+
+    Presentación y expectativas
+    Introducción a ISO y OWASP
+    Conceptos fundamentales de seguridad
+    Práctica controles de ISO
+    Preparación de checklist y preparación de componente para inspección
+
+
 | Hora | Duración | Actividad | Tipo |
 |------|----------|-----------|------|
-| 09:00 - 09:15 | 15 min | Bienvenida y presentación del curso | Intro |
-| 09:15 - 10:30 | 75 min | Marco normativo ISO 27001/27002 + OWASP Top 10 | Teoría |
-| 10:30 - 10:45 | 15 min | ☕ Receso | - |
-| 10:45 - 11:45 | 60 min | Principios fundamentales de seguridad | Teoría |
-| 11:45 - 12:30 | 45 min | **Lab 1.1:** Mapeo de controles ISO | Práctica |
-| 12:30 - 13:30 | 60 min | 🍽️ Almuerzo | - |
-| 13:30 - 14:15 | 45 min | Introducción a pentesting | Teoría |
-| 14:15 - 15:30 | 75 min | **Lab 1.2:** DVWA - Exploración de vulnerabilidades | Práctica |
-| 15:30 - 15:45 | 15 min | ☕ Receso | - |
-| 15:45 - 17:15 | 90 min | **Lab 1.3:** Reconocimiento básico | Práctica |
-| 17:15 - 18:00 | 45 min | Revisión de hallazgos, Q&A | Discusión |
+| 09:05 - 10:00 | 55 min | Presentación y expectativas | Intro |
+| 10:00 - 10:50 | 50 min | Introducción a ISO y OWASP | Teoría |
+| 10:50 - 11:10 | 20 min | ☕ Receso | - |
+| 11:10 - 11:50 | 40 min | Conceptos fundamentales de seguridad | Teoría |
+| 11:50 - 12:50 | 60 min | **Lab 1.1:** Práctica controles de ISO | Práctica |
+| 12:50 - 13:10 | 20 min | ☕ Receso | - |
+| 13:10 - 14:00 | 50 min | Preparación de checklist y preparación de componente para inspección | Práctica |
+
 
 ## 🎯 Objetivos del Día
 
@@ -31,6 +36,10 @@ Al finalizar el Día 1, podrás:
 5. ✅ Realizar reconocimiento de aplicaciones web
 
 ## 📚 Contenido Teórico
+
+### Presentación y expectativas
+
+📄 [Ver contenido completo: Presentaciones y expectativas]()
 
 ### Sesión 1: Marco Normativo (09:15 - 10:30)
 **Facilitador:** Procesos y Calidad
