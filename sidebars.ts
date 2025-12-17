@@ -100,7 +100,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Recursos',
       items: [
-        'recursos/guia-facilitador',
+        // 'recursos/guia-facilitador',  // Oculto temporalmente
         {
           type: 'category',
           label: 'Checklists',
