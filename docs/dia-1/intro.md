@@ -39,7 +39,7 @@ Al finalizar el Día 1, podrás:
 
 ### Presentación y expectativas
 
-📄 [Ver contenido completo: Presentaciones y expectativas]()
+📄 [Ver contenido completo: Presentaciones y expectativas](https://padlet.com/edjuarezp1/desarrollo-seguro-sgf83yviy1mmpcy2)
 
 ### Sesión 1: Marco Normativo (09:15 - 10:30)
 **Facilitador:** Procesos y Calidad
