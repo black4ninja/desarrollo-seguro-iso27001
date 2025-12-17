@@ -25,37 +25,37 @@ A lo largo de 5 días, desarrollarás competencias en:
 ## 📅 Estructura del Curso
 
 ### [Día 1: Controles ISO 27001 y OWASP Top 10](./dia-1/intro)
-- Presentación y expectativas
-- Introducción a ISO y OWASP
-- Conceptos fundamentales de seguridad
-- Práctica controles de ISO
-- Preparación de checklist y preparación de componente para inspección
+- ✅ Presentación y expectativas
+- Introducción a ISO y OWASP [Lalo]
+- Conceptos fundamentales de seguridad [Lalo]
+- Práctica controles de ISO [Álex]
+- Preparación para inspección de seguridad [Lalo]
 
 ### [Día 2: Preparación para Implementar](./dia-2/intro)
-- El museo de los horrores
-- Proceso de inspección
-- Inspección de seguridad
-- Análisis de la inspección
+- El museo de los horrores [Álex]
+- Proceso de inspección [Lalo]
+- Inspección de seguridad [Lalo]
+- Análisis de la inspección [Lalo]
 
 ### [Día 3: Implementación de Controles](./dia-3/intro)
-- El abogado del diablo
-- ¿Cuánto nos cuestan los defectos?
-- Creación de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
-- Creación de checklists individuales
-- Code reviews
+- El abogado del diablo [Alex]
+- ¿Cuánto nos cuestan los defectos? [Lalo]
+- Creación de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue [Lalo]
+- Creación de checklists individuales [Lalo]
+- Code reviews [Álex]
 
 ### [Día 4: Mejora del Ciclo de Vida](./dia-4/intro)
-- Clasifica tu vida
-- Inventario de activos
-- RTP
-- AP
-- SoA
+- Clasifica tu vida [Álex]
+- Inventario de activos [Lalo]
+- RTP [Álex]
+- AP [Álex]
+- SoA [Álex]
 
 ### [Día 5: Fortalecimiento](./dia-5/intro)
-- RBAC
-- Loggin y monitoreo
+- RBAC [Lalo]
+- Loggin y monitoreo [Álex]
 - 
-- Hackeando hollywood
+- Hackeando hollywood [Álex]
 
 ## 🛠️ Herramientas que Usaremos
 
