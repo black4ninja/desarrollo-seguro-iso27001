@@ -7,8 +7,8 @@ const sidebars: SidebarsConfig = {
       label: 'Información General',
       items: [
         'intro',
-        'objetivos',
-        'metodologia',
+        // 'objetivos',     // Oculto temporalmente
+        // 'metodologia',   // Oculto temporalmente
       ],
     },
     {
