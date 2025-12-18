@@ -34,6 +34,10 @@ Al finalizar el Día 1, podrás:
 
 📄 [Ver contenido completo: Presentaciones y expectativas](https://padlet.com/edjuarezp1/desarrollo-seguro-sgf83yviy1mmpcy2)
 
+### Introducción a ISO 27001
+
+📄 [Ver contenido completo: Introducción a ISO 27001](https://docs.google.com/presentation/d/11ZiM_yI5Au4D1wAwae2dKe9fiT9plT4l40wRjwhTWjk/edit?usp=sharing)
+
 ### Sesión 1: Marco Normativo (09:15 - 10:30)
 **Facilitador:** Procesos y Calidad
 
