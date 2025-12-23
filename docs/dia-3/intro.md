@@ -31,7 +31,9 @@ Al finalizar el Día 3, podrás:
 
 ## 📚 Contenido
 
-_(Contenido detallado por agregar)_
+### El Abogado del Diablo
+
+📄 [Ver contenido completo: Abogado del Diablo](https://docs.google.com/presentation/d/1nlUzUe8zbOvQ1XUxAsenhzsHPkITZ7R7Enur8yHY4A0/edit?usp=sharing)
 
 ### Laboratorios
 

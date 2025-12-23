@@ -31,7 +31,9 @@ Al finalizar el Día 5, podrás:
 
 ## 📚 Contenido
 
-_(Contenido detallado por agregar)_
+### Hackeando Hollywood
+
+📄 [Ver contenido completo: Hackeando Hollywood](https://docs.google.com/presentation/d/1Ik7mDcM_HF7uhLWuApfUgGmDlynqLVxYQ79QVhFVOgs/edit?usp=sharing)
 
 ### Actividades Finales
 

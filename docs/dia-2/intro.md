@@ -32,7 +32,10 @@ Al finalizar el Día 2, podrás:
 
 ## 📚 Contenido
 
-_(Contenido detallado por agregar)_
+### El Museo de los Horrores
+
+📄 [Ver contenido completo: Dinámica](https://padlet.com/afdez/el-museo-de-los-horrores-fxwakfeavyr1dy48)
+
 
 ### Laboratorios
 

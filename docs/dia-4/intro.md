@@ -31,7 +31,9 @@ Al finalizar el Día 4, podrás:
 
 ## 📚 Contenido
 
-_(Contenido detallado por agregar)_
+### Clasifica tu vida
+
+📄 [Ver contenido completo: Clasifica tu vida](https://docs.google.com/presentation/d/1rQoYapA8L662gZntS8XU18CCUIXzvkn2m-UzFXGMrBE/edit?usp=sharing)
 
 ### Laboratorios
 

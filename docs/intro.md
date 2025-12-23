@@ -32,20 +32,20 @@ A lo largo de 5 días, desarrollarás competencias en:
 - Preparación para inspección de seguridad [Lalo]
 
 ### [Día 2: Preparación para Implementar](./dia-2/intro)
-- El museo de los horrores [Álex]
+- ✅ El museo de los horrores
 - Proceso de inspección [Lalo]
 - Inspección de seguridad [Lalo]
 - Análisis de la inspección [Lalo]
 
 ### [Día 3: Implementación de Controles](./dia-3/intro)
-- El abogado del diablo [Alex]
+- ✅ El abogado del diablo
 - ¿Cuánto nos cuestan los defectos? [Lalo]
 - Creación de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue [Lalo]
 - Creación de checklists individuales [Lalo]
 - Code reviews [Álex]
 
 ### [Día 4: Mejora del Ciclo de Vida](./dia-4/intro)
-- Clasifica tu vida [Álex]
+- ✅ Clasifica tu vida
 - Inventario de activos [Lalo]
 - RTP [Álex]
 - AP [Álex]
@@ -55,7 +55,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 - RBAC [Lalo]
 - Loggin y monitoreo [Álex]
 - 
-- Hackeando hollywood [Álex]
+- ✅ Hackeando hollywood
 
 ## 🛠️ Herramientas que Usaremos
 
