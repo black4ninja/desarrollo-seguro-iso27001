@@ -103,6 +103,14 @@ const sidebars: SidebarsConfig = {
         // 'recursos/guia-facilitador',  // Oculto temporalmente
         {
           type: 'category',
+          label: 'Estándares y leyes',
+          items: [
+            'recursos/estandares/estandares',
+            'recursos/estandares/leyes',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Checklists',
           items: [
             'recursos/checklists/code-review',
