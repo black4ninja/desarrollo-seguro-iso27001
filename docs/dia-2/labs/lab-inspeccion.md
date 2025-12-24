@@ -31,11 +31,8 @@ Se designan los siguientes roles:
 3. Los defectos encontrados los debe registrar en su pestaña correspondiente en la bitácora de defectos del inspector. Ante la duda de si un hallazgo es un defecto, se debe registrar como defecto. En el análisis de la inspección se discutirán las dudas y se determinará si es o no un defecto.
 4. Una vez que el inspector termine su inspección, debe notificar al moderador. 
 
-### Análisis de la inspección
-
 
 ### Entregables
 
 - Componente inspeccionado
-- Bitácora de defectos de la inspección
-- Reporte de análisis de la inspección
+- Bitácoras de defectos de los inspectores 

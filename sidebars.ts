@@ -39,6 +39,7 @@ const sidebars: SidebarsConfig = {
           label: 'Laboratorios',
           items: [
             'dia-2/labs/lab-inspeccion',
+            'dia-2/labs/lab-analisis-inspeccion',
             'dia-2/labs/lab-2-1-threat-modeling',
             'dia-2/labs/lab-2-2-setup-entorno',
             'dia-2/labs/lab-2-3-sast-sonarqube',

@@ -42,9 +42,16 @@ Al finalizar el Día 2, podrás:
 ### Lab: Inspección de Seguridad
 **Tipo:** Práctica en equipo
 
-📄 [Ver contenido completo: Lab: Inspección de seguridad](./labs/lab-inspeccion)
+📄 [Ver contenido completo: Lab: Inspección de Seguridad](./labs/lab-inspeccion)
 
-**Entregables:** Componente inspeccionado.
+**Entregables:** Bitácoras de defectos de los inspectores.
+
+### Lab: Análisis de la Inspección de Seguridad
+**Tipo:** Práctica en equipo
+
+📄 [Ver contenido completo: Lab: Análisis de la Inspección de Seguridad](./labs/lab-analisis-inspeccion)
+
+**Entregables:** Componente inspeccionado y reporte de análisis de la inspección.
 
 <!-- @Alex esto es lo que había antes, hay que validarlo -->
 - [Lab 2.1: Threat Modeling con STRIDE](./labs/lab-2-1-threat-modeling)
@@ -55,6 +62,7 @@ Al finalizar el Día 2, podrás:
 ## 📦 Entregables del Día 2
 
 1. ✅ Componente inspeccionado
+2. ✅ Reporte de análisis de la inspección
 
 <!-- @Alex esto es lo que había antes, hay que validarlo -->
 - Diagrama de amenazas (STRIDE)
