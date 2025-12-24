@@ -24,6 +24,7 @@ const sidebars: SidebarsConfig = {
             'dia-1/labs/lab-1-1-mapeo-controles',
             'dia-1/labs/lab-1-2-dvwa',
             'dia-1/labs/lab-1-3-reconocimiento',
+            'dia-1/labs/lab-preparacion-inspeccion',
           ],
         },
       ],
@@ -112,8 +113,16 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
+          label: 'Procesos',
+          items: [
+            'recursos/procesos/inspeccion',
+          ],
+        },
+        {
+          type: 'category',
           label: 'Checklists',
           items: [
+            'recursos/checklists/inspeccion',
             'recursos/checklists/code-review',
             'recursos/checklists/configuraciones',
             'recursos/checklists/apis',

@@ -38,7 +38,8 @@ Al finalizar el Día 1, podrás:
 
 📄 [Ver contenido completo: Introducción a ISO 27001](https://docs.google.com/presentation/d/11ZiM_yI5Au4D1wAwae2dKe9fiT9plT4l40wRjwhTWjk/edit?usp=sharing)
 
-### Sesión 1: Marco Normativo (09:15 - 10:30)
+
+### Sesión 1: Marco Normativo 
 **Facilitador:** Procesos y Calidad
 
 - Introducción a ISO 27001/27002:2022
@@ -62,7 +63,7 @@ Al finalizar el Día 1, podrás:
 
 📄 [Ver contenido completo: Principios de Seguridad](./principios-seguridad)
 
-### Sesión 3: Introducción a Pentesting (13:30 - 14:15)
+### Sesión 3: Introducción a Pentesting 
 **Facilitador:** Técnico y Laboratorios
 
 - ¿Qué es el pentesting?
@@ -73,7 +74,7 @@ Al finalizar el Día 1, podrás:
 
 ## 🔬 Laboratorios Prácticos
 
-### Lab 1.1: Mapeo de Controles ISO (11:45 - 12:30)
+### Lab 1.1: Mapeo de Controles ISO 
 **Facilitador:** Procesos y Calidad (lidera)
 **Tipo:** Ejercicio en equipos
 
@@ -89,7 +90,7 @@ En este laboratorio:
 
 ---
 
-### Lab 1.2: DVWA - Exploración de Vulnerabilidades (14:15 - 15:30)
+### Lab 1.2: DVWA - Exploración de Vulnerabilidades 
 **Facilitador:** Técnico y Laboratorios
 **Tipo:** Práctica individual/parejas
 
@@ -111,7 +112,7 @@ En este laboratorio:
 
 ---
 
-### Lab 1.3: Reconocimiento Básico (15:45 - 17:15)
+### Lab 1.3: Reconocimiento Básico 
 **Facilitador:** Técnico y Laboratorios
 **Tipo:** Práctica individual
 
@@ -123,11 +124,6 @@ En este laboratorio:
 
 📄 [Ver guía completa del Lab 1.3](./labs/lab-1-3-reconocimiento)
 
-### Preparación para inspección de seguridad
-
-📄 [Ver contenido completo: Preparación para inspección de seguridad](./preparacion-inspeccion)
-
-
 **Herramientas:**
 - nmap
 - Nikto
@@ -136,11 +132,19 @@ En este laboratorio:
 
 **Entregable:** Reporte de reconocimiento
 
+### Lab 1.4: Preparación para inspección de seguridad
+**Tipo:** Práctica en equipo
+
+📄 [Ver contenido completo: Lab: Preparación para inspección de seguridad](./labs/lab-preparacion-inspeccion)
+
 ## 📦 Entregables del Día 1
 
 1. ✅ Matriz de mapeo de controles ISO → OWASP
 2. ✅ Reporte de explotación de DVWA
 3. ✅ Reporte de reconocimiento de aplicación vulnerable
+<!-- @Alex lo de abajo ya son entregables de la sesión, lo de arriba hay que revisarlos si todavía aplican -->
+4. ✅ Componente listo para ser inspeccionado
+5. ✅ Checklist lista para realizar inspección
 
 ## 🛠️ Preparación Previa
 
@@ -164,6 +168,8 @@ brew install nmap nikto          # Mac
 
 ## 📚 Recursos Adicionales
 
+- [Checklist para inspección](./recursos/checklists/inspeccion)
+<!-- @Alex lo de arriba ya son recursos de la sesión, lo de abajo hay que revisarlos si todavía aplican -->
 - [OWASP Top 10:2021](https://owasp.org/Top10/)
 - [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html)
 - [DVWA GitHub](https://github.com/digininja/DVWA)

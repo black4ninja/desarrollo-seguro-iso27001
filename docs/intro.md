@@ -29,7 +29,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 - Introducción a ISO y OWASP [Lalo]
 - Conceptos fundamentales de seguridad [Lalo]
 - Práctica controles de ISO [Álex]
-- Preparación para inspección de seguridad [Lalo]
+- ✅ Preparación para inspección de seguridad [Lalo]
 
 ### [Día 2: Preparación para Implementar](./dia-2/intro)
 - ✅ El museo de los horrores
