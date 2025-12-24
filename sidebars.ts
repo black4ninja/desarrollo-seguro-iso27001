@@ -100,6 +100,7 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: 'Recursos',
       items: [
+        'recursos/glosario',
         // 'recursos/guia-facilitador',  // Oculto temporalmente
         {
           type: 'category',
