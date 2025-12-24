@@ -132,10 +132,12 @@ En este laboratorio:
 
 **Entregable:** Reporte de reconocimiento
 
-### Lab 1.4: Preparación para inspección de seguridad
+### Lab: Preparación para inspección de seguridad
 **Tipo:** Práctica en equipo
 
 📄 [Ver contenido completo: Lab: Preparación para inspección de seguridad](./labs/lab-preparacion-inspeccion)
+
+**Entregables:** Componente listo para ser inspeccionado, checklist para inspección y plantilla de inspección.
 
 ## 📦 Entregables del Día 1
 
@@ -145,6 +147,7 @@ En este laboratorio:
 <!-- @Alex lo de abajo ya son entregables de la sesión, lo de arriba hay que revisarlos si todavía aplican -->
 4. ✅ Componente listo para ser inspeccionado
 5. ✅ Checklist lista para realizar inspección
+6. ✅ Plantilla de inspección
 
 ## 🛠️ Preparación Previa
 

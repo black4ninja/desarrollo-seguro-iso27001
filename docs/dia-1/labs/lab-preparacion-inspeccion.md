@@ -38,6 +38,8 @@ Acciones del encargado del componente:
 - Identificar y reunir todos los artefactos relacionados con el componente (análisis, diseños, todos los archivos de código, diseños de pruebas, bitácoras de pruebas, artefactos de gestión, y todos los que apliquen).
 - Asegurar que todos los artefactos estén disponibles para el equipo de inspección. Si es necesario preparar un artefacto para que el acceso a los artefactos sea fácil (por ejemplo, la matriz de trazabilidad).
 - Prepararse para presentar el componente al equipo. La presentación debe incluir la demostración del componente, y todos los artefactos.
+- Preparar la bitácora de la inspección creando una copia de la [plantilla de inspección](https://docs.google.com/spreadsheets/d/1-9UjQQLEmqfwnGWBUo_5AanqcGt8bXKLx3d-troUZGQ/edit?usp=sharing). 
+- Registrar el proyecto, componente y tamaño del componente en la bitácora de inspección.
 
 ### Preparación de la checklist de inspección
 
@@ -53,3 +55,4 @@ Acciones del equipo de inspección:
 
 - Encargado del componente listo para presentar
 - Checklist lista para realizar inspección
+- Bitácora de la inspección

@@ -39,13 +39,24 @@ Al finalizar el Día 2, podrás:
 
 ### Laboratorios
 
+### Lab: Inspección de Seguridad
+**Tipo:** Práctica en equipo
+
+📄 [Ver contenido completo: Lab: Inspección de seguridad](./labs/lab-inspeccion)
+
+**Entregables:** Componente inspeccionado.
+
+<!-- @Alex esto es lo que había antes, hay que validarlo -->
 - [Lab 2.1: Threat Modeling con STRIDE](./labs/lab-2-1-threat-modeling)
 - [Lab 2.2: Setup de entorno Docker](./labs/lab-2-2-setup-entorno)
 - [Lab 2.3: SAST con SonarQube](./labs/lab-2-3-sast-sonarqube)
 - [Lab 2.4: Análisis de dependencias](./labs/lab-2-4-dependency-check)
 
-## 📦 Entregables
+## 📦 Entregables del Día 2
 
+1. ✅ Componente inspeccionado
+
+<!-- @Alex esto es lo que había antes, hay que validarlo -->
 - Diagrama de amenazas (STRIDE)
 - Reporte inicial SAST
 - Lista de dependencias vulnerables

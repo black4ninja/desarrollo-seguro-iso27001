@@ -32,7 +32,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 
 ### [Día 2: Preparación para Implementar](./dia-2/intro)
 - ✅ El museo de los horrores
-- Inspección de seguridad [Lalo]
+- ✅ Inspección de seguridad 
 - Análisis de la inspección [Lalo]
 
 ### [Día 3: Implementación de Controles](./dia-3/intro)

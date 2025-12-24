@@ -38,6 +38,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Laboratorios',
           items: [
+            'dia-2/labs/lab-inspeccion',
             'dia-2/labs/lab-2-1-threat-modeling',
             'dia-2/labs/lab-2-2-setup-entorno',
             'dia-2/labs/lab-2-3-sast-sonarqube',
@@ -141,6 +142,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Templates',
           items: [
+            'recursos/templates/inspeccion',
             'recursos/templates/reporte-auditoria',
             'recursos/templates/threat-model',
             'recursos/templates/plan-mejora',
