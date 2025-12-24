@@ -27,13 +27,11 @@ A lo largo de 5 días, desarrollarás competencias en:
 ### [Día 1: Controles ISO 27001 y OWASP Top 10](./dia-1/intro)
 - ✅ Presentación y expectativas
 - Introducción a ISO y OWASP [Lalo]
-- Conceptos fundamentales de seguridad [Lalo]
 - Práctica controles de ISO [Álex]
-- ✅ Preparación para inspección de seguridad [Lalo]
+- ✅ Preparación para inspección de seguridad
 
 ### [Día 2: Preparación para Implementar](./dia-2/intro)
 - ✅ El museo de los horrores
-- Proceso de inspección [Lalo]
 - Inspección de seguridad [Lalo]
 - Análisis de la inspección [Lalo]
 
