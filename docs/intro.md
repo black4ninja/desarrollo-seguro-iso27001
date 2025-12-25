@@ -51,8 +51,8 @@ A lo largo de 5 días, desarrollarás competencias en:
 
 ### [Día 5: Fortalecimiento](./dia-5/intro)
 - RBAC [Lalo]
+- Mejora continua [Lalo]
 - Loggin y monitoreo [Álex]
-- 
 - ✅ Hackeando hollywood
 
 ## 🛠️ Herramientas que Usaremos

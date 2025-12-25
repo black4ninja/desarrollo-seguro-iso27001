@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# Lab: Análisisi de Inspección de Seguridad
+# Lab: Análisis de Inspección de Seguridad
 
-## Análsis de la inspección de seguridad
+## Análisis de la inspección de seguridad
 
 
 
