@@ -27,7 +27,7 @@ Se designan los siguientes roles:
 
 #### Procedimiento de inspección:
 1. Cada inspector realiza su revisión.  
-2. El inspector debe revisar el componente completo **una vez por cada tipo de defecto**, enfocándose en encontrar los defectos correspondientes al tipo de defecto que está revisando. Para cada defecto encontrado, **determinar la fase de ingeniería donde se originó el defecto** (análisis, diseño, desarrollo, pruebas). Determinar la severidad del defecto, un defecto mayor es aquel que produce resultados incorrecctos o compromete la operación del negocio.
+2. El inspector debe revisar el componente completo **una vez por cada tipo de defecto**, enfocándose en encontrar los defectos correspondientes al tipo de defecto que está revisando. Para cada defecto encontrado, se registra en Artefacto la ruta del archivo o artefacto y la línea en la que se encuentra el defecto. Se escribe la descripción del defecto y se **determina la fase de ingeniería donde se originó el defecto** (análisis, diseño, desarrollo, pruebas). Determinar la severidad del defecto, un defecto mayor es aquel que produce resultados incorrecctos o compromete la operación del negocio.
 3. Los defectos encontrados los debe registrar en su pestaña correspondiente en la bitácora de defectos del inspector. Ante la duda de si un hallazgo es un defecto, se debe registrar como defecto. En el análisis de la inspección se discutirán las dudas y se determinará si es o no un defecto.
 4. Una vez que el inspector termine su inspección, debe notificar al moderador. 
 

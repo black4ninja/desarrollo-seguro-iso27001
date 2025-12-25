@@ -30,15 +30,16 @@ A lo largo de 5 días, desarrollarás competencias en:
 - Práctica controles de ISO [Álex]
 - ✅ Preparación para inspección de seguridad
 
+<!-- @Alex, ¿Cómo ves si lo de la inspección lo movemos al día 3? Para que el día 2 sean los laboratorios técnicos y le vayan agarrando a nuevos temas de seguridad, para que en la inspección puedan encontrar mejor los defectos. -->
 ### [Día 2: Preparación para Implementar](./dia-2/intro)
 - ✅ El museo de los horrores
 - ✅ Inspección de seguridad 
-- Análisis de la inspección [Lalo]
+- ✅ Análisis de la inspección 
 
 ### [Día 3: Implementación de Controles](./dia-3/intro)
 - ✅ El abogado del diablo
 - ¿Cuánto nos cuestan los defectos? [Lalo]
-- Creación de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue [Lalo]
+- Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue [Lalo]
 - Creación de checklists individuales [Lalo]
 - Code reviews [Álex]
 
