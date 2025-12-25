@@ -37,13 +37,31 @@ Al finalizar el Día 3, podrás:
 
 ### Laboratorios
 
+### Lab: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
+**Tipo:** Práctica en equipo
+
+📄 [Ver contenido completo: Lab: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue](./labs/lab-checklists)
+
+**Entregables:** Checklists de equipo de análisis, diseño, desarrollo, pruebas y entrega.
+
+### Lab: Creación de checklists individuales
+**Tipo:** Práctica individual
+
+📄 [Ver contenido completo: Lab: Creación de checklists individuales](./labs/lab-checklists-individuales)
+
+**Entregables:** Checklists individuales de análisis, diseño, desarrollo, pruebas y entrega.
+
 - [Lab 3.1: OWASP API Security](./labs/lab-3-1-api-security)
 - [Lab 3.2: DAST con ZAP](./labs/lab-3-2-dast-zap)
 - [Lab 3.3: Pentesting de APIs](./labs/lab-3-3-pentesting-apis)
 - [Lab 3.4: Auditoría de configuraciones](./labs/lab-3-4-auditoria-configuraciones)
 
-## 📦 Entregables
+## 📦 Entregables del Día 3
 
+1. ✅ Checklists de equipo de análisis, diseño, desarrollo, pruebas y entrega
+2. ✅  Checklists individuales de equipo de análisis, diseño, desarrollo, pruebas y entrega
+
+<!-- @Alex esto es lo que había antes, hay que validarlo -->
 - Reporte de vulnerabilidades API
 - Reporte DAST
 - Reporte pentesting manual

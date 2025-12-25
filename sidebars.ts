@@ -57,6 +57,8 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Laboratorios',
           items: [
+            'dia-3/labs/lab-checklists',
+            'dia-3/labs/lab-checklists-individuales',
             'dia-3/labs/lab-3-1-api-security',
             'dia-3/labs/lab-3-2-dast-zap',
             'dia-3/labs/lab-3-3-pentesting-apis',

@@ -22,6 +22,10 @@ A lo largo de 5 días, desarrollarás competencias en:
 - **Pentesting**: Técnicas de pruebas de penetración en aplicaciones web y APIs
 - **Auditorías de Código**: Revisión sistemática con checklists de seguridad
 
+### ¿Cómo vamos a aprender?
+- Habrá algunas sesiones teóricas, asegúrate de que la comunicación sea no sólo de los instructores hacia ti, sino entre tú y los instructores, y entre todos ustedes. Estamos en un espacio de aprendizaje donde todos vamos a aprender de todos. 
+- La mayoría de las sesiones serán laboratorios prácticos, unos sobre un entorno que los facilitadores van a proveer, y otros sobre tu mismo trabajo, de tal forma que el trabajo del curso sea trabajo productivo para su organización.
+
 ## 📅 Estructura del Curso
 
 ### [Día 1: Controles ISO 27001 y OWASP Top 10](./dia-1/intro)
@@ -39,8 +43,8 @@ A lo largo de 5 días, desarrollarás competencias en:
 ### [Día 3: Implementación de Controles](./dia-3/intro)
 - ✅ El abogado del diablo
 - ¿Cuánto nos cuestan los defectos? [Lalo]
-- Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue [Lalo]
-- Creación de checklists individuales [Lalo]
+- ✅ Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
+- ✅ Creación de checklists individuales de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
 - Code reviews [Álex]
 
 ### [Día 4: Mejora del Ciclo de Vida](./dia-4/intro)
