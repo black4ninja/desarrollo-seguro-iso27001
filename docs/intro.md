@@ -59,6 +59,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 - ✅ Mejora continua
 - Loggin y monitoreo [Álex]
 - ✅ Hackeando hollywood
+- ¿Qué te llevas del curso?
 
 ## 🛠️ Herramientas que Usaremos
 

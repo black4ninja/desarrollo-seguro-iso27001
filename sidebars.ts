@@ -146,6 +146,7 @@ const sidebars: SidebarsConfig = {
           label: 'Templates',
           items: [
             'recursos/templates/inspeccion',
+            'recursos/templates/inventario',
             'recursos/templates/reporte-auditoria',
             'recursos/templates/threat-model',
             'recursos/templates/plan-mejora',
