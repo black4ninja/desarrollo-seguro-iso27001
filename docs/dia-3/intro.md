@@ -35,6 +35,10 @@ Al finalizar el Día 3, podrás:
 
 📄 [Ver contenido completo: Abogado del Diablo](https://docs.google.com/presentation/d/1nlUzUe8zbOvQ1XUxAsenhzsHPkITZ7R7Enur8yHY4A0/edit?usp=sharing)
 
+### ¿Cuánto nos cuestan los defectos?
+
+📄 [Ver contenido completo: ¿Cuánto nos cuestan los defectos?](https://docs.google.com/presentation/d/1S7Y9B5oOpbkhhUR-3sbZPS_Xc2YgxV7z6jv8JBlZ2E0/edit?usp=sharing)
+
 ### Laboratorios
 
 ### Lab: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue

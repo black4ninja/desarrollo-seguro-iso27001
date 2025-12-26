@@ -42,7 +42,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 
 ### [Día 3: Implementación de Controles](./dia-3/intro)
 - ✅ El abogado del diablo
-- ¿Cuánto nos cuestan los defectos? [Lalo]
+- ✅ ¿Cuánto nos cuestan los defectos?
 - ✅ Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
 - ✅ Creación de checklists individuales de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
 - Code reviews [Álex]

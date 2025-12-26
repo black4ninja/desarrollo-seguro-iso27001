@@ -35,6 +35,10 @@ Al finalizar el Día 5, podrás:
 
 📄 [Ver contenido completo: Hackeando Hollywood](https://docs.google.com/presentation/d/1Ik7mDcM_HF7uhLWuApfUgGmDlynqLVxYQ79QVhFVOgs/edit?usp=sharing)
 
+### Mejora continua
+
+📄 [Ver contenido completo: Mejora continua](https://docs.google.com/presentation/d/15GSZ4t26P66GvhO9oAS_JE0-VjLsRJ6hgRl9f37GDrw/edit?usp=sharing)
+
 ### Actividades Finales
 
 - [Actividad 5.1: Auditoría completa](./actividades/auditoria-completa)
