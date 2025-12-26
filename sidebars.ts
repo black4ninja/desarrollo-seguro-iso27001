@@ -76,6 +76,7 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Laboratorios',
           items: [
+            'dia-4/labs/lab-inventario',
             'dia-4/labs/lab-4-1-security-gates',
             'dia-4/labs/lab-4-2-logging-monitoring',
             'dia-4/labs/lab-4-3-gestion-secretos',

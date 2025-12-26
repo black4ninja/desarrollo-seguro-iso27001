@@ -30,7 +30,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 
 ### [Día 1: Controles ISO 27001 y OWASP Top 10](./dia-1/intro)
 - ✅ Presentación y expectativas
-- Introducción a ISO y OWASP [Lalo]
+- Introducción a ISO y OWASP [Lalo, en proceso, falta refinar la presentación]
 - Práctica controles de ISO [Álex]
 - ✅ Preparación para inspección de seguridad
 
@@ -49,7 +49,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 
 ### [Día 4: Mejora del Ciclo de Vida](./dia-4/intro)
 - ✅ Clasifica tu vida
-- Inventario de activos [Lalo]
+- ✅ Inventario de activos
 - RTP [Álex]
 - AP [Álex]
 - SoA [Álex]

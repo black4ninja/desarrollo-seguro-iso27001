@@ -37,13 +37,24 @@ Al finalizar el Día 4, podrás:
 
 ### Laboratorios
 
+#### Lab: Inventario de activos
+**Tipo:** Práctica en equipo
+
+📄 [Ver contenido completo: Lab: Inventario de activos](./labs/lab-inventario)
+
+**Entregables:** Inventario de activos.
+
+<!-- @Alex esto es lo que había antes, hay que validarlo -->
 - [Lab 4.1: Security Gates en CI/CD](./labs/lab-4-1-security-gates)
 - [Lab 4.2: Logging y Monitoring](./labs/lab-4-2-logging-monitoring)
 - [Lab 4.3: Gestión de secretos](./labs/lab-4-3-gestion-secretos)
 - [Lab 4.4: Security Unit Tests](./labs/lab-4-4-security-tests)
 
-## 📦 Entregables
+## 📦 Entregables del Día 4
 
+1. ✅ Inventario de activos
+
+<!-- @Alex esto es lo que había antes, hay que validarlo -->
 - Pipeline CI/CD con security gates
 - Dashboard de monitoring
 - Aplicación sin secretos hardcodeados
