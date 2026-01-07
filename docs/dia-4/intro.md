@@ -20,15 +20,6 @@ sidebar_position: 1
 | 16:15 - 17:15 | 60 min | **Lab 4.4:** Security unit tests | Práctica |
 | 17:15 - 18:00 | 45 min | Proceso de auditoría continua | Discusión |
 
-## 🎯 Objetivos del Día
-
-Al finalizar el Día 4, podrás:
-
-1. ✅ Implementar DevSecOps en tu organización
-2. ✅ Configurar Security Gates en CI/CD
-3. ✅ Implementar logging y monitoring de seguridad
-4. ✅ Gestionar secretos de forma segura
-
 ## 📚 Contenido
 
 ### Clasifica tu vida
@@ -44,21 +35,39 @@ Al finalizar el Día 4, podrás:
 
 **Entregables:** Inventario de activos.
 
-<!-- @Alex esto es lo que había antes, hay que validarlo -->
-- [Lab 4.1: Security Gates en CI/CD](./labs/lab-4-1-security-gates)
-- [Lab 4.2: Logging y Monitoring](./labs/lab-4-2-logging-monitoring)
-- [Lab 4.3: Gestión de secretos](./labs/lab-4-3-gestion-secretos)
-- [Lab 4.4: Security Unit Tests](./labs/lab-4-4-security-tests)
+---
+
+#### Lab: Risk Treatment Plan (RTP)
+**Tipo:** Práctica en equipo
+
+📄 [Ver contenido completo: Lab: Risk Treatment Plan (RTP)](./labs/lab-rtp)
+
+**Entregables:** Plan de tratamiento de riesgos.
+
+---
+
+#### Lab: Action Plan (AP)
+**Tipo:** Práctica en equipo
+
+📄 [Ver contenido completo: Lab: Action Plan (AP)](./labs/lab-ap)
+
+**Entregables:** Plan de acción para implementación de controles.
+
+---
+
+#### Lab: Statement of Applicability (SOA)
+**Tipo:** Práctica en equipo
+
+📄 [Ver contenido completo: Lab: Statement of Applicability (SOA)](./labs/lab-soa)
+
+**Entregables:** Declaración de aplicabilidad formal (documento completo).
 
 ## 📦 Entregables del Día 4
 
 1. ✅ Inventario de activos
-
-<!-- @Alex esto es lo que había antes, hay que validarlo -->
-- Pipeline CI/CD con security gates
-- Dashboard de monitoring
-- Aplicación sin secretos hardcodeados
-- Suite de pruebas de seguridad
+2. ✅ Risk Treatment Plan (RTP)
+3. ✅ Action Plan (AP)
+4. ✅ Statement of Applicability (SOA)
 
 ---
 

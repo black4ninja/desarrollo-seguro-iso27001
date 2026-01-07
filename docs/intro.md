@@ -31,7 +31,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 ### [Día 1: Controles ISO 27001 y OWASP Top 10](./dia-1/intro)
 - ✅ Presentación y expectativas
 - Introducción a ISO y OWASP [Lalo, en proceso, falta refinar la presentación]
-- Práctica controles de ISO [Álex]
+- ✅ Práctica controles de ISO
 - ✅ Preparación para inspección de seguridad
 
 <!-- @Alex, ¿Cómo ves si lo de la inspección lo movemos al día 3? Para que el día 2 sean los laboratorios técnicos y le vayan agarrando a nuevos temas de seguridad, para que en la inspección puedan encontrar mejor los defectos. -->
@@ -45,14 +45,14 @@ A lo largo de 5 días, desarrollarás competencias en:
 - ✅ ¿Cuánto nos cuestan los defectos?
 - ✅ Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
 - ✅ Creación de checklists individuales de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
-- Code reviews [Álex]
+- ✅ Code reviews
 
 ### [Día 4: Mejora del Ciclo de Vida](./dia-4/intro)
 - ✅ Clasifica tu vida
 - ✅ Inventario de activos
-- RTP [Álex]
-- AP [Álex]
-- SoA [Álex]
+- ✅ RTP
+- ✅ AP
+- ✅ SoA
 
 ### [Día 5: Fortalecimiento](./dia-5/intro)
 - RBAC [Lalo]

@@ -40,10 +40,10 @@ const sidebars: SidebarsConfig = {
           items: [
             'dia-2/labs/lab-inspeccion',
             'dia-2/labs/lab-analisis-inspeccion',
-            'dia-2/labs/lab-2-1-threat-modeling',
-            'dia-2/labs/lab-2-2-setup-entorno',
-            'dia-2/labs/lab-2-3-sast-sonarqube',
-            'dia-2/labs/lab-2-4-dependency-check',
+            // 'dia-2/labs/lab-2-1-threat-modeling',    // Oculto temporalmente
+            // 'dia-2/labs/lab-2-2-setup-entorno',      // Oculto temporalmente
+            // 'dia-2/labs/lab-2-3-sast-sonarqube',     // Oculto temporalmente
+            // 'dia-2/labs/lab-2-4-dependency-check',   // Oculto temporalmente
           ],
         },
       ],
@@ -59,10 +59,11 @@ const sidebars: SidebarsConfig = {
           items: [
             'dia-3/labs/lab-checklists',
             'dia-3/labs/lab-checklists-individuales',
-            'dia-3/labs/lab-3-1-api-security',
-            'dia-3/labs/lab-3-2-dast-zap',
-            'dia-3/labs/lab-3-3-pentesting-apis',
-            'dia-3/labs/lab-3-4-auditoria-configuraciones',
+            'dia-3/labs/lab-code-reviews',
+            // 'dia-3/labs/lab-3-1-api-security',              // Oculto temporalmente
+            // 'dia-3/labs/lab-3-2-dast-zap',                  // Oculto temporalmente
+            // 'dia-3/labs/lab-3-3-pentesting-apis',           // Oculto temporalmente
+            // 'dia-3/labs/lab-3-4-auditoria-configuraciones', // Oculto temporalmente
           ],
         },
       ],
@@ -77,10 +78,13 @@ const sidebars: SidebarsConfig = {
           label: 'Laboratorios',
           items: [
             'dia-4/labs/lab-inventario',
-            'dia-4/labs/lab-4-1-security-gates',
-            'dia-4/labs/lab-4-2-logging-monitoring',
-            'dia-4/labs/lab-4-3-gestion-secretos',
-            'dia-4/labs/lab-4-4-security-tests',
+            'dia-4/labs/lab-rtp',
+            'dia-4/labs/lab-ap',
+            'dia-4/labs/lab-soa',
+            // 'dia-4/labs/lab-4-1-security-gates',           // Oculto temporalmente
+            // 'dia-4/labs/lab-4-2-logging-monitoring',       // Oculto temporalmente
+            // 'dia-4/labs/lab-4-3-gestion-secretos',         // Oculto temporalmente
+            // 'dia-4/labs/lab-4-4-security-tests',           // Oculto temporalmente
           ],
         },
       ],
