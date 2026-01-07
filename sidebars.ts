@@ -22,8 +22,8 @@ const sidebars: SidebarsConfig = {
           label: 'Laboratorios',
           items: [
             'dia-1/labs/lab-1-1-mapeo-controles',
-            'dia-1/labs/lab-1-2-dvwa',
-            'dia-1/labs/lab-1-3-reconocimiento',
+            // 'dia-1/labs/lab-1-2-dvwa',             // Oculto temporalmente
+            // 'dia-1/labs/lab-1-3-reconocimiento',   // Oculto temporalmente
             'dia-1/labs/lab-preparacion-inspeccion',
           ],
         },
