@@ -73,7 +73,7 @@ lab1.1-mapeo-controles/
 
 Descarga el archivo con el código base del laboratorio:
 
-📥 [Descargar lab1.1.zip](/static/lab1.1.zip)
+📥 [Descargar lab1.1.zip](/desarrollo-seguro-iso27001/lab1.1.zip)
 
 Extrae el archivo en tu directorio de trabajo:
 
