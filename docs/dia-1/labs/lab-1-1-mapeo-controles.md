@@ -69,19 +69,31 @@ lab1.1-mapeo-controles/
 
 ## 🛠️ Preparación
 
-### Paso 1: Navegar al directorio del proyecto
+### Paso 1: Descargar el código base del proyecto
+
+Descarga el archivo con el código base del laboratorio:
+
+📥 [Descargar lab1.1.zip](/static/lab1.1.zip)
+
+Extrae el archivo en tu directorio de trabajo:
 
 ```bash
-cd curso-5dias/dia1-controles-iso-owasp/laboratorios/lab1.1-mapeo-controles/proyecto-ejemplo
+unzip lab1.1.zip
 ```
 
-### Paso 2: Restaurar dependencias
+### Paso 2: Navegar al directorio del proyecto
+
+```bash
+cd lab1.1/proyecto-ejemplo
+```
+
+### Paso 3: Restaurar dependencias
 
 ```bash
 dotnet restore
 ```
 
-### Paso 3: Compilar el proyecto (verificar que funciona)
+### Paso 4: Compilar el proyecto (verificar que funciona)
 
 ```bash
 dotnet build
@@ -94,7 +106,7 @@ Build succeeded.
     0 Error(s)
 ```
 
-### Paso 4: (Opcional) Ejecutar la aplicación
+### Paso 5: (Opcional) Ejecutar la aplicación
 
 ```bash
 dotnet run
