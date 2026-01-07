@@ -432,26 +432,6 @@ Basándote en la severidad y el impacto, crea un plan de remediación priorizado
 
 ---
 
-## ✅ Entregables
-
-Al final de este lab, debes tener:
-
-1. **Matriz de Mapeo Completa** (Excel o CSV)
-   - 7 vulnerabilidades documentadas
-   - Mapeo a OWASP Top 10
-   - Mapeo a ISO 27002:2022
-   - Mapeo a CWE
-
-2. **Plan de Remediación Priorizado**
-   - Ordenado por severidad
-   - Con estimación de esfuerzo
-   - Con acciones concretas
-
-3. **Screenshot de la Matriz**
-   - Para evidencia de auditoría ISO 27001
-
----
-
 ## 🔗 Mapeo Completo a Estándares
 
 ### ISO 27002:2022 - Controles Violados
@@ -509,9 +489,6 @@ Si tienes tiempo y acceso a tu código:
 ✅ Relacionar vulnerabilidades con OWASP Top 10
 ✅ Priorizar remediación basada en severidad e impacto
 ✅ Crear documentación para auditoría ISO 27001
-
-### Próximo Lab:
-**Lab 1.2:** Explotación de vulnerabilidades en DVWA (Damn Vulnerable Web App)
 
 ---
 
