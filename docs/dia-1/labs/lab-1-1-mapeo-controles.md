@@ -84,7 +84,7 @@ unzip lab1.1.zip
 ### Paso 2: Navegar al directorio del proyecto
 
 ```bash
-cd lab1.1/proyecto-ejemplo
+cd lab1-1
 ```
 
 ### Paso 3: Restaurar dependencias
