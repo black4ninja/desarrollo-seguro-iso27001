@@ -378,7 +378,7 @@ Ahora que identificaste las vulnerabilidades, mapéalas a los controles ISO 2700
 
 ### 📝 Ejercicio: Completa la Matriz de Mapeo
 
-Descarga la plantilla: `plantillas/matriz-mapeo.xlsx`
+Descarga la plantilla: 📥 [matriz-mapeo.csv](/lab11_matriz-mapeo.csv)
 
 Completa la matriz con las 7 vulnerabilidades identificadas:
 
