@@ -16,7 +16,7 @@ const sidebars: SidebarsConfig = {
       label: 'Día 1: ISO 27001 y OWASP Top 10',
       items: [
         'dia-1/intro',
-        'dia-1/iso-27001-27002',
+        // 'dia-1/iso-27001-27002',                  // Oculto temporalmente
         {
           type: 'category',
           label: 'Laboratorios',
