@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Día 4: Preparación para Implementar Controles
+# Día 4: Inspecciones de Seguridad de la Información
 
 ## 📅 Agenda del Día (5 horas)
 

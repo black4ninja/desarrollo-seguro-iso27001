@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Día 2: Mejora del Ciclo de Vida con Controles
+# Día 2: Preparación para Implementar Controles de Seguridad de la Información
 
 ## 📅 Agenda del Día (5 horas)
 

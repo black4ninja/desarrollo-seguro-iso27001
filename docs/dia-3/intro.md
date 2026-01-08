@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Día 3: Fortalecimiento de Capacidades
+# Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información
 
 ## 📅 Agenda del Día (5 horas)
 

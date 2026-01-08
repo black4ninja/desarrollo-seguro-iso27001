@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Día 1: Controles ISO 27001/27002:2022 y OWASP Top 10
+# Día 1: ISO 27001:2022 y OWASP Top 10
 
 ## 📅 Agenda del Día (5 horas)
 

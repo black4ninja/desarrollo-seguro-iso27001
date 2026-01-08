@@ -13,7 +13,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Día 1: ISO 27001 y OWASP Top 10',
+      label: 'Día 1: ISO 27001:2022 y OWASP Top 10',
       items: [
         'dia-1/intro',
         // 'dia-1/iso-27001-27002',                  // Oculto temporalmente
@@ -31,7 +31,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Día 2: Mejora del Ciclo de Vida',
+      label: 'Día 2: Preparación para Implementar Controles de Seguridad de la Información',
       items: [
         'dia-2/intro',
         {
@@ -52,7 +52,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Día 3: Fortalecimiento',
+      label: 'Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información',
       items: [
         'dia-3/intro',
         {
@@ -67,7 +67,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Día 4: Preparación para Implementar',
+      label: 'Día 4: Inspecciones de Seguridad de la Información',
       items: [
         'dia-4/intro',
         'dia-4/threat-modeling-stride',
@@ -87,7 +87,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Día 5: Implementación de Controles',
+      label: 'Día 5: Mejora del Ciclo de Vida de Desarrollo con Controles de Seguridad de la Información',
       items: [
         'dia-5/intro',
         {

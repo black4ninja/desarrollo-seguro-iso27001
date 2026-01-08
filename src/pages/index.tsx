@@ -30,16 +30,16 @@ function HomepageHeader() {
 function HomepageFeatures() {
   const features = [
     {
-      title: '📚 5 Días Intensivos',
+      title: '📚 5 Días',
       description: (
         <>
-          40 horas de formación presencial que combina teoría, práctica y
-          laboratorios reales para dominar el desarrollo seguro.
+          25 horas de formación presencial que combina teoría, práctica y
+          laboratorios aplicadosa al propio trabajo para dominar el desarrollo seguro.
         </>
       ),
     },
     {
-      title: '🔒 ISO 27001/27002:2022',
+      title: '🔒 ISO 27001:2022',
       description: (
         <>
           Aprende a implementar controles de seguridad alineados con los
@@ -51,26 +51,26 @@ function HomepageFeatures() {
       title: '⚡ OWASP Top 10',
       description: (
         <>
-          Identifica, explota y corrige las vulnerabilidades más críticas
+          Identifica, corrige y previene las vulnerabilidades más críticas
           en aplicaciones web y APIs.
         </>
       ),
     },
     {
-      title: '🛠️ Herramientas Profesionales',
+      title: '🛠️ Controles de seguridad de la información',
       description: (
         <>
-          Domina SonarQube, OWASP ZAP, Dependency-Check y más herramientas
-          de análisis de seguridad.
+          Implementa 19 controles de seguridad de la información en tu ciclo 
+          de vida de desarrollo.
         </>
       ),
     },
     {
-      title: '🔄 DevSecOps',
+      title: '🔄 Prevención de Problemas de Seguridad de la Información',
       description: (
         <>
-          Integra seguridad en el ciclo de desarrollo con CI/CD security gates
-          y automatización de análisis.
+          Prevención de problemas, reducción de costos y riesgos
+          de seguridad de la información.
         </>
       ),
     },
@@ -78,8 +78,8 @@ function HomepageFeatures() {
       title: '👥 Metodología Práctica',
       description: (
         <>
-          Laboratorios hands-on, threat modeling, pentesting y auditorías
-          completas de código real.
+          Laboratorios hands-on, threat modeling, inspecciones y mejora del
+          ciclo de vida.
         </>
       ),
     },
@@ -108,7 +108,7 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Curso completo de Desarrollo Seguro e ISO 27001/27002:2022">
+      description="Curso Código Seguro">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
@@ -132,7 +132,6 @@ export default function Home(): JSX.Element {
                     <ul>
                       <li>Desarrolladores de software</li>
                       <li>Arquitectos de soluciones</li>
-                      <li>DevOps Engineers</li>
                       <li>Analistas de seguridad</li>
                       <li>QA/Testing Engineers</li>
                       <li>Project Managers técnicos</li>
@@ -148,11 +147,9 @@ export default function Home(): JSX.Element {
                   <div className="card__body">
                     <ul>
                       <li>Implementar desarrollo seguro (SDLC)</li>
-                      <li>Aplicar controles ISO 27001/27002</li>
-                      <li>Identificar vulnerabilidades OWASP</li>
-                      <li>Usar herramientas SAST/DAST</li>
-                      <li>Integrar seguridad en CI/CD</li>
-                      <li>Realizar auditorías de código</li>
+                      <li>Aplicar controles de segurida de la información ISO 27001/27002</li>
+                      <li>Identificar, corregir y prevenir vulnerabilidades OWASP</li>
+                      <li>Realizar inspecciones de seguridad de la información</li>
                     </ul>
                   </div>
                 </div>
@@ -166,11 +163,11 @@ export default function Home(): JSX.Element {
                   </div>
                   <div className="card__body">
                     <ul>
-                      <li><strong>Día 1:</strong> Controles ISO 27001/27002:2022 y OWASP Top 10</li>
-                      <li><strong>Día 2:</strong> Preparación para Implementar Controles</li>
-                      <li><strong>Día 3:</strong> Implementación de Controles de Seguridad</li>
-                      <li><strong>Día 4:</strong> Mejora del Ciclo de Vida con Controles</li>
-                      <li><strong>Día 5:</strong> Fortalecimiento de Capacidades y Evaluación</li>
+                      <li><strong>Día 1:</strong> ISO 27001:2022 y OWASP Top 10</li>
+                      <li><strong>Día 2:</strong> Preparación para Implementar Controles de Seguridad de la Información</li>
+                      <li><strong>Día 3:</strong> Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información</li>
+                      <li><strong>Día 4:</strong> Inspecciones de Seguridad de la Información</li>
+                      <li><strong>Día 5:</strong> Mejora del Ciclo de Vida de Desarrollo con Controles de Seguridad de la Información</li>
                     </ul>
                   </div>
                 </div>

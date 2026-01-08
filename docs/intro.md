@@ -28,39 +28,35 @@ A lo largo de 5 días, desarrollarás competencias en:
 
 ## 📅 Estructura del Curso
 
-### [Día 1: Controles ISO 27001 y OWASP Top 10](./dia-1/intro)
+### [Día 1: ISO 27001:2022 y OWASP Top 10](./dia-1/intro)
 - ✅ Presentación y expectativas
-- Introducción a ISO y OWASP [Lalo, en proceso, falta refinar la presentación]
+- ✅ Introducción a ISO y OWASP
 - ✅ Práctica controles de ISO
 - ✅ Preparación para inspección de seguridad
 
-### [Día 2: Mejora del Ciclo de Vida](./dia-2/intro)
+### [Día 2: Preparación para Implementar Controles de Seguridad de la Información](./dia-2/intro)
 - ✅ Clasifica tu vida
 - ✅ Inventario de activos
 - ✅ Gestión de riesgos (RTP, AP y SoA)
-- RBAC [Lalo]
+- ✅ RBAC
 
-### [Día 3: Fortalecimiento](./dia-3/intro)
+### [Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información](./dia-3/intro)
 - ✅ El abogado del diablo
 - ✅ Mejora continua
 - ✅ Logging y monitoreo
 - ✅ Code reviews
 
-### [Día 4: Preparación para Implementar](./dia-4/intro)
+### [Día 4: Inspecciones de Seguridad de la Información](./dia-4/intro)
 - ✅ El museo de los horrores
 - ✅ Inspección de seguridad
 - ✅ Análisis de la inspección
 
-### [Día 5: Implementación de Controles](./dia-5/intro)
+### [Día 5: Mejora del Ciclo de Vida de Desarrollo con Controles de Seguridad de la Información](./dia-5/intro)
 - ✅ Hackeando Hollywood
 - ✅ ¿Cuánto nos cuestan los defectos?
 - ✅ Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
 - ✅ Creación de checklists individuales de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
-- ¿Qué te llevas del curso?
-
-## 🛠️ Herramientas que Usaremos
-
--  
+- ✅ ¿Qué te llevas del curso?
 
 ## 📋 Requisitos Previos
 
@@ -69,10 +65,6 @@ A lo largo de 5 días, desarrollarás competencias en:
 - Conceptos básicos de redes y HTTP
 - Git y control de versiones
 - Familiaridad con línea de comandos
-
-### Software a Instalar
-- 
-
 
 ## 📚 Recursos Adicionales
 

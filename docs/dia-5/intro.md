@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Día 5: Implementación de Controles
+# Día 5: Mejora del Ciclo de Vida de Desarrollo con Controles de Seguridad de la Información
 
 ## 📅 Agenda del Día (5 horas)
 
