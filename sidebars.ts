@@ -51,7 +51,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Día 3: Implementación de Controles',
+      label: 'Día 3: Fortalecimiento',
       items: [
         'dia-3/intro',
         {
@@ -71,7 +71,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Día 4: Mejora del Ciclo de Vida',
+      label: 'Día 4: Inspecciones',
       items: [
         'dia-4/intro',
         {
@@ -92,7 +92,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Día 5: Fortalecimiento',
+      label: 'Día 5: Mejora del Ciclo de Vida',
       items: [
         'dia-5/intro',
         {
