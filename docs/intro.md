@@ -29,7 +29,6 @@ A lo largo de 5 días, desarrollarás competencias en:
 - ✅ Presentación y expectativas
 - ✅ Introducción a ISO y OWASP
 - ✅ Práctica controles de ISO
-- ✅ Preparación para inspección de seguridad
 
 ### [Día 2: Preparación para Implementar Controles de Seguridad de la Información](./dia-2/intro)
 - ✅ Clasifica tu vida
@@ -39,9 +38,9 @@ A lo largo de 5 días, desarrollarás competencias en:
 
 ### [Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información](./dia-3/intro)
 - ✅ El abogado del diablo
-- ✅ Mejora continua
 - ✅ Logging y monitoreo
 - ✅ Code reviews
+- ✅ Preparación para inspección de seguridad
 
 ### [Día 4: Inspecciones de Seguridad de la Información](./dia-4/intro)
 - ✅ El museo de los horrores
@@ -53,6 +52,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 - ✅ ¿Cuánto nos cuestan los defectos?
 - ✅ Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
 - ✅ Creación de checklists individuales de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
+- ✅ Mejora continua
 - ✅ Cierre
 
 ## 📋 Requisitos Previos
