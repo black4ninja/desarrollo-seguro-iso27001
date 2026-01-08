@@ -15,12 +15,9 @@ Este curso de **25 horas presenciales** (5 días intensivos) está diseñado par
 A lo largo de 5 días, desarrollarás competencias en:
 
 - **Controles de Seguridad ISO 27001/27002:2022**: Implementación práctica de controles de seguridad de información
-- **OWASP Top 10**: Identificación, explotación y corrección de vulnerabilidades críticas
-- **Análisis de Seguridad**: Uso de herramientas SAST, DAST y SCA
-- **DevSecOps**: Integración de seguridad en pipelines CI/CD
+- **OWASP Top 10**: Identificación, corrección y prevención de vulnerabilidades críticas
 - **Threat Modeling**: Identificación proactiva de amenazas con STRIDE
-- **Pentesting**: Técnicas de pruebas de penetración en aplicaciones web y APIs
-- **Auditorías de Código**: Revisión sistemática con checklists de seguridad
+- **Inspeccciones de Seguridad de la Información**: Revisión sistemática con checklists de seguridad
 
 ### ¿Cómo vamos a aprender?
 - Habrá algunas sesiones teóricas, asegúrate de que la comunicación sea no sólo de los instructores hacia ti, sino entre tú y los instructores, y entre todos ustedes. Estamos en un espacio de aprendizaje donde todos vamos a aprender de todos. 
