@@ -64,11 +64,11 @@ Al finalizar el Día 5, podrás:
 📄 [Ver contenido completo: Cierre del curso](https://docs.google.com/presentation/d/1NcAenAQbVB2DjmJri5YtGhyraid36ss4gubXMgKJX0c/edit?usp=sharing)
 
 
-
 ## 📦 Entregables del Día 5
 
 1. ✅ Checklists de equipo de análisis, diseño, desarrollo, pruebas y entrega
 2. ✅ Checklists individuales de equipo de análisis, diseño, desarrollo, pruebas y entrega
+3. ✅ Bitácora de experimentos
 
 ---
 
