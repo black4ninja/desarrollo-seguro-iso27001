@@ -1,8 +1,36 @@
 # Lab 2.4 - Análisis de Dependencias con OWASP Dependency-Check
 
-**Duración:** 75 minutos
+**Duración:** 90 minutos (incluye 15 min de setup)
 **Facilitador:** Facilitador 2 (Técnico)
 **Día:** 2 - Preparación para Implementar Controles
+
+---
+
+## 🔧 Prerequisitos
+
+Antes de iniciar el laboratorio, verifica que tengas instalado:
+
+### Obligatorios
+
+- ✅ .NET 8.0 SDK o superior
+  ```bash
+  dotnet --version  # Debe mostrar 8.0.x
+  ```
+
+### Opcionales (para Parte 2)
+
+- ✅ OWASP Dependency-Check
+  ```bash
+  dependency-check --version  # Debe mostrar 9.0.0+
+  ```
+
+**Si no está instalado:**
+
+- **macOS:** `brew install dependency-check` (10-15 min, incluye descarga de NVD database)
+- **Windows:** `choco install dependency-check` (10-15 min)
+- **Linux/Manual:** Ver [instrucciones oficiales](https://github.com/jeremylong/DependencyCheck)
+
+**Nota:** La primera ejecución de Dependency-Check descarga la base de datos NVD (~200MB) y puede tardar 10-15 minutos adicionales. Si no tienes la herramienta instalada, el facilitador demostrará la Parte 2.
 
 ---
 
@@ -44,16 +72,39 @@ Al finalizar este laboratorio, los participantes podrán:
 
 ### Paso 1.1: Obtener Proyectos
 
+**Descargar el código base del laboratorio:**
+
+Descarga el archivo con los proyectos del laboratorio:
+
+📥 [Descargar lab2.4-dependency-check.zip](/lab2.4-dependency-check.zip)
+
+**Extraer y preparar el proyecto:**
+
 ```bash
-# Navegar al lab
-cd ~/Meeplab/Chihuahua/curso-5dias/dia2-preparacion-controles/laboratorios/lab2.4-dependency-check
+# Navegar a tu directorio de trabajo
+cd ~/laboratorios
 
-# Copiar proyectos del legacy
-cp -r ~/Meeplab/Chihuahua/legacy-3dias/implementacion/dia2/lab02-dependency-check/proyecto-vulnerable .
-cp -r ~/Meeplab/Chihuahua/legacy-3dias/implementacion/dia2/lab02-dependency-check/proyecto-actualizado .
+# Extraer el archivo descargado
+unzip lab2.4-dependency-check.zip
 
-# Verificar
+# Navegar al directorio del lab
+cd lab2.4-dependency-check
+
+# Verificar que los proyectos estén presentes
+ls -la
+
+# Deberías ver:
+# - proyecto-vulnerable/
+# - proyecto-actualizado/
+```
+
+**Verificar estructura de los proyectos:**
+
+```bash
+# Ver contenido del proyecto vulnerable
 ls -la proyecto-vulnerable/
+
+# Ver contenido del proyecto actualizado
 ls -la proyecto-actualizado/
 ```
 
@@ -80,9 +131,9 @@ Abre `proyecto-vulnerable/VulnerableAPI.csproj`:
 
 | Paquete | Versión Vulnerable | CVEs | Severidad |
 |---------|-------------------|------|-----------|
-| **Newtonsoft.Json** | 9.0.1 | CVE-2018-1000127 | 🔴 High |
-| **System.IdentityModel.Tokens.Jwt** | 5.6.0 | Múltiples CVEs | 🟡 Medium |
-| **Microsoft.Data.SqlClient** | 2.0.0 | CVE-2021-1636 | 🔴 High |
+| **Newtonsoft.Json** | 9.0.1 | CVE-2018-1000127 (GHSA-5crp-9r3c-p9vr) | 🔴 High |
+| **System.IdentityModel.Tokens.Jwt** | 5.6.0 | GHSA-59j7-ghrg-fj52 | 🟡 Moderate |
+| **Microsoft.Data.SqlClient** | 2.0.0 | GHSA-8g2p-5pqh-5jmc, GHSA-98g6-xh36-x2p7 | 🔴 High |
 
 ---
 
@@ -123,10 +174,17 @@ dotnet list package --outdated
 Project `VulnerableAPI` has the following updates to its packages
    [net8.0]:
    Top-level Package                      Requested   Resolved   Latest
-   > Microsoft.Data.SqlClient             2.0.0       2.0.0      5.2.0
-   > Newtonsoft.Json                      9.0.1       9.0.1      13.0.3
-   > System.IdentityModel.Tokens.Jwt      5.6.0       5.6.0      7.3.1
+   > Microsoft.Data.SqlClient             2.0.0       2.0.0      6.x.x
+   > Newtonsoft.Json                      9.0.1       9.0.1      13.0.x
+   > System.IdentityModel.Tokens.Jwt      5.6.0       5.6.0      8.x.x
 ```
+
+**📝 Nota:** Las versiones "Latest" cambiarán con el tiempo a medida que se publiquen nuevas versiones. Lo importante es identificar la **BRECHA** entre la versión actual y la más reciente.
+
+**Ejemplo de análisis:**
+- **Newtonsoft.Json:** 9.0.1 → 13.0.x (⚠️ 4 versiones major atrás)
+- **Microsoft.Data.SqlClient:** 2.0.0 → 6.x (⚠️ 4 versiones major atrás)
+- **System.IdentityModel.Tokens.Jwt:** 5.6.0 → 8.x (⚠️ 3 versiones major atrás)
 
 ---
 
@@ -162,46 +220,70 @@ Para cada uno de los 3 paquetes vulnerables, anota:
 | Paquete | CVE | Descripción breve | ¿Cómo explotarlo? | Versión parcheada |
 |---------|-----|-------------------|-------------------|-------------------|
 | Newtonsoft.Json | CVE-2018-1000127 | Deserialization attack | JSON con $type malicioso | >= 11.0.2 |
-| Microsoft.Data.SqlClient | CVE-2021-1636 | ... | ... | ... |
-| System.IdentityModel.Tokens.Jwt | ... | ... | ... | ... |
+| Microsoft.Data.SqlClient | GHSA-98g6-xh36-x2p7 | ... | ... | ... |
+| System.IdentityModel.Tokens.Jwt | GHSA-59j7-ghrg-fj52 | ... | ... | ... |
 
 **💡 Tip:** Usa los Advisory URLs para obtener la información.
+
+<details>
+<summary>👁️ Solución de Referencia (click para expandir)</summary>
+
+| Paquete | CVE/Advisory | Descripción breve | ¿Cómo explotarlo? | Versión parcheada |
+|---------|--------------|-------------------|-------------------|-------------------|
+| **Newtonsoft.Json** | CVE-2018-1000127 / GHSA-5crp-9r3c-p9vr | Deserialization of untrusted data | Enviar JSON con `{"$type": "System.Windows.Data.ObjectDataProvider, PresentationFramework", ...}` para ejecutar código arbitrario | >= 11.0.2 |
+| **Microsoft.Data.SqlClient** | GHSA-98g6-xh36-x2p7 | Data exposure vulnerability | Interceptar conexión a SQL Server no cifrada mediante MitM attack, leer credenciales y datos sensibles en tránsito | >= 2.1.4 |
+| **System.IdentityModel.Tokens.Jwt** | GHSA-59j7-ghrg-fj52 | JWT signature validation bypass | Modificar JWT con algoritmo `alg: "none"`, servidor acepta token sin validar firma digital | >= 6.5.0 |
+
+**Fuentes:**
+- GitHub Security Advisories (GHSA)
+- National Vulnerability Database (NVD)
+- CVE.org
+
+</details>
 
 ---
 
 ## Parte 2: Análisis Detallado con OWASP Dependency-Check (25 min)
 
-### Paso 2.1: Instalar OWASP Dependency-Check
+**⚠️ IMPORTANTE:** Esta parte requiere tener OWASP Dependency-Check instalado (ver [Prerequisitos](#prerequisitos)). Si no tienes la herramienta instalada, el facilitador demostrará esta sección.
 
-**macOS (con Homebrew):**
-```bash
-brew install dependency-check
-```
+### Paso 2.1: Verificar Instalación de OWASP Dependency-Check
 
-**Windows (con Chocolatey):**
-```powershell
-choco install dependency-check
-```
-
-**Linux / Manual:**
-```bash
-# Descargar última versión
-wget https://github.com/jeremylong/DependencyCheck/releases/download/v9.0.0/dependency-check-9.0.0-release.zip
-
-# Extraer
-unzip dependency-check-9.0.0-release.zip
-
-# Agregar al PATH (opcional)
-export PATH=$PATH:$(pwd)/dependency-check/bin
-```
-
-**Verificar instalación:**
+**Verificar que la herramienta esté instalada:**
 ```bash
 dependency-check --version
-
-# Output esperado:
-# Dependency-Check Core version 9.0.0
 ```
+
+**Output esperado:**
+```
+Dependency-Check Core version 9.0.0 (o superior)
+```
+
+**Si NO está instalado:**
+
+- **macOS (con Homebrew):**
+  ```bash
+  brew install dependency-check
+  ```
+
+- **Windows (con Chocolatey):**
+  ```powershell
+  choco install dependency-check
+  ```
+
+- **Linux / Manual:**
+  ```bash
+  # Descargar última versión
+  wget https://github.com/jeremylong/DependencyCheck/releases/download/v9.0.0/dependency-check-9.0.0-release.zip
+
+  # Extraer
+  unzip dependency-check-9.0.0-release.zip
+
+  # Agregar al PATH (opcional)
+  export PATH=$PATH:$(pwd)/dependency-check/bin
+  ```
+
+**⏱️ Nota de tiempo:** La instalación toma 10-15 minutos. En la primera ejecución, Dependency-Check descargará la base de datos NVD (~200MB), lo cual toma 10-15 minutos adicionales.
 
 ---
 
@@ -266,6 +348,21 @@ start ../reportes/dependency-check-report.html
 ```
 
 ### Paso 2.4: Interpretar el Reporte
+
+**⚠️ NOTA EDUCATIVA:** Es posible que OWASP Dependency-Check reporte **0 vulnerabilidades** o un número menor al esperado en proyectos .NET/NuGet. Esto se debe a:
+
+1. **Soporte limitado de NuGet:** OWASP DC fue diseñado originalmente para Java/Maven y tiene cobertura incompleta del ecosistema .NET
+2. **Mapeo CPE incorrecto:** Puede no identificar correctamente los paquetes NuGet en la base de datos NVD
+3. **No consulta GitHub Security Advisories:** Muchas vulnerabilidades .NET se reportan primero en GHSA, no en NVD
+
+**Comparativa de detección (ejemplo real):**
+
+| Herramienta | Vulnerabilidades detectadas | Fuente de datos |
+|-------------|----------------------------|-----------------|
+| `dotnet list package --vulnerable` | 7 (4 directas + 3 transitivas) | GitHub Security Advisories, NuGet Gallery |
+| OWASP Dependency-Check | 0-3 (puede variar) | NVD (CVE database) |
+
+**💡 Lección de seguridad:** Este hallazgo demuestra el principio de **defensa en profundidad** - nunca confíes en una sola herramienta. Usa múltiples herramientas complementarias y, para .NET, prioriza las herramientas nativas del ecosistema (`dotnet` CLI, Snyk, GitHub Dependabot).
 
 El reporte HTML contiene varias secciones:
 
@@ -365,9 +462,14 @@ diff proyecto-vulnerable/VulnerableAPI.csproj proyecto-actualizado/VulnerableAPI
 <   <PackageReference Include="Microsoft.Data.SqlClient" Version="2.0.0" />
 ---
 >   <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
->   <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.3.1" />
+>   <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.1.0" />
 >   <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
 ```
+
+**📝 Nota sobre versiones seguras:**
+- **Newtonsoft.Json:** 13.0.3 ✅ (parcheado desde 11.0.2)
+- **System.IdentityModel.Tokens.Jwt:** 8.1.0 ✅ (parcheado desde 6.5.0, versión 7.x aún vulnerable)
+- **Microsoft.Data.SqlClient:** 5.2.0 ✅ (parcheado desde 2.1.4)
 
 ---
 
@@ -400,20 +502,22 @@ dotnet remove package Newtonsoft.Json
 dotnet remove package System.IdentityModel.Tokens.Jwt
 dotnet remove package Microsoft.Data.SqlClient
 
-# Agregar versiones actualizadas
+# Agregar versiones actualizadas y SEGURAS
 dotnet add package Newtonsoft.Json --version 13.0.3
-dotnet add package System.IdentityModel.Tokens.Jwt --version 7.3.1
+dotnet add package System.IdentityModel.Tokens.Jwt --version 8.1.0
 dotnet add package Microsoft.Data.SqlClient --version 5.2.0
 
 # Restaurar paquetes
 dotnet restore
 ```
 
+**⚠️ IMPORTANTE:** Asegúrate de usar `System.IdentityModel.Tokens.Jwt` versión **8.1.0 o superior**. Las versiones 7.x todavía contienen vulnerabilidades conocidas.
+
 ---
 
 ### Paso 3.3: Verificar Correcciones
 
-**Método 1: dotnet CLI**
+**Método 1: dotnet CLI (Dependencias Directas)**
 
 ```bash
 dotnet list package --vulnerable
@@ -426,6 +530,43 @@ No vulnerable packages found
 ```
 
 ✅ **Checkpoint:** Deberías ver "No vulnerable packages found".
+
+---
+
+**⚠️ NOTA EDUCATIVA - Dependencias Transitivas:**
+
+El comando anterior **solo verifica dependencias directas**. Para un análisis completo de seguridad, debes incluir las **dependencias transitivas** (dependencias de tus dependencias):
+
+```bash
+dotnet list package --vulnerable --include-transitive
+```
+
+**Hallazgo importante:** Incluso después de actualizar todas las dependencias directas a versiones "seguras", es común encontrar vulnerabilidades en dependencias transitivas:
+
+```
+Ejemplo:
+✅ Tu código usa: Microsoft.Data.SqlClient 5.2.0 (sin CVEs directos)
+⚠️ Pero SqlClient 5.2.0 depende internamente de: System.Text.Encodings.Web 4.7.2 (con CVE-2021-26701)
+```
+
+**💡 Lección de seguridad:** Actualizar dependencias directas es solo el primer paso. Una estrategia completa de seguridad requiere:
+
+1. Analizar **toda la cadena de dependencias** con `--include-transitive`
+2. Mantener un **SBOM (Software Bill of Materials)** actualizado con todas las dependencias (ISO 27002:2022 Control 8.19)
+3. Forzar actualizaciones de transitivas con sobrescrituras explícitas cuando sea necesario:
+
+```xml
+<!-- Ejemplo: Forzar versión segura de dependencia transitiva -->
+<ItemGroup>
+  <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+</ItemGroup>
+```
+
+4. Configurar políticas de escaneo continuo que incluyan transitivas en CI/CD
+
+**Práctica recomendada:** Siempre ejecuta ambos comandos:
+- `dotnet list package --vulnerable` → Verificación rápida
+- `dotnet list package --vulnerable --include-transitive` → Análisis completo
 
 ---
 
@@ -634,6 +775,229 @@ Si usas Visual Studio:
 
 ---
 
+## 🎓 Lecciones Aprendidas: Casos de Estudio Reales
+
+Esta sección documenta hallazgos educativos importantes descubiertos durante la validación de este laboratorio. **Estos NO son bugs del lab**, sino oportunidades valiosas de aprendizaje que reflejan desafíos reales que encontrarás en el mundo profesional.
+
+### Caso 1: Limitaciones de Herramientas por Ecosistema
+
+**Situación:** Durante la validación, OWASP Dependency-Check reportó **0 vulnerabilidades** en `proyecto-vulnerable`, mientras que `dotnet list package --vulnerable` detectó correctamente **7 vulnerabilidades** (4 directas + 3 transitivas).
+
+**¿Por qué sucede esto?**
+
+| Factor | OWASP Dependency-Check | dotnet CLI | Snyk / Dependabot |
+|--------|------------------------|------------|-------------------|
+| **Diseño original** | Java/Maven (2012) | .NET nativo (2016+) | Multi-ecosistema (2015+) |
+| **Base de datos** | NVD (CVE.org) | GitHub Security Advisories + NuGet Gallery | Base propia + GHSA + NVD |
+| **Mapeo de paquetes** | CPE (puede fallar con NuGet) | NuGet Package ID directo | API nativa de cada ecosistema |
+| **Actualización** | Manual/semanal | En tiempo real | Tiempo real + ML |
+| **Cobertura .NET** | ⚠️ Parcial (60-70%) | ✅ Completa (100%) | ✅ Completa (95-100%) |
+
+**Ejemplo técnico del problema:**
+
+```bash
+# OWASP DC busca en NVD:
+CPE: cpe:2.3:a:newtonsoft:json:9.0.1
+❌ No encuentra match → Reporta 0 vulnerabilidades
+
+# dotnet CLI consulta GHSA directamente:
+Package: Newtonsoft.Json@9.0.1
+NuGet Package ID: Newtonsoft.Json
+✅ Encuentra GHSA-5crp-9r3c-p9vr → Reporta CVE-2018-1000127
+```
+
+**💡 Lección profesional:**
+
+**Defensa en Profundidad para SCA:**
+- ❌ Nunca confíes en una sola herramienta de seguridad
+- ✅ Usa herramientas **específicas del ecosistema** como primera línea de defensa
+- ✅ Complementa con herramientas genéricas para cobertura adicional
+- ✅ Implementa **múltiples capas de verificación**:
+  1. **Desarrollo local:** `dotnet list package --vulnerable` pre-commit
+  2. **CI/CD:** GitHub Dependabot + Snyk en pipeline
+  3. **Auditoría periódica:** OWASP Dependency-Check mensual para SBOM compliance
+
+**Aplicación al mundo real:**
+- **Proyecto Java:** OWASP DC es excelente (96% cobertura) → Usa como herramienta principal
+- **Proyecto .NET:** `dotnet` CLI + Snyk/Dependabot son esenciales → OWASP DC como complemento para compliance/reporting
+- **Proyecto Node.js:** `npm audit` + Snyk → OWASP DC para informes ejecutivos
+- **Proyectos multi-lenguaje:** Combina herramientas específicas de cada ecosistema
+
+---
+
+### Caso 2: El Mito del "Proyecto Seguro" - Dependencias Transitivas
+
+**Situación:** `proyecto-actualizado` tiene **0 vulnerabilidades en dependencias directas**, pero al ejecutar `dotnet list package --vulnerable --include-transitive` se descubren **5 vulnerabilidades en dependencias transitivas**.
+
+**Análisis de la cadena de dependencias:**
+
+```
+proyecto-actualizado/
+└── Microsoft.Data.SqlClient 5.2.0 ✅ (sin CVEs directos)
+    ├── Azure.Identity 1.6.0 ⚠️ (con CVE-2024-35255)
+    │   └── System.Text.Json 6.0.0 ⚠️ (con CVE-2024-43485)
+    ├── System.Configuration.ConfigurationManager 6.0.0 ⚠️
+    │   └── System.Security.Cryptography.ProtectedData 6.0.0 ⚠️
+    └── System.Text.Encodings.Web 4.7.2 ⚠️ (con CVE-2021-26701)
+```
+
+**Tabla de vulnerabilidades transitivas encontradas:**
+
+| Paquete Transitivo | Versión | CVE | Severidad | Introducido por |
+|-------------------|---------|-----|-----------|----------------|
+| Azure.Identity | 1.6.0 | CVE-2024-35255 | High | Microsoft.Data.SqlClient |
+| System.Text.Json | 6.0.0 | CVE-2024-43485 | High | Azure.Identity |
+| System.Text.Encodings.Web | 4.7.2 | CVE-2021-26701 | Moderate | SqlClient + otros |
+| System.Security.Cryptography.* | 6.0.0 | CVE-2023-29331 | Moderate | ConfigurationManager |
+| System.Configuration.* | 6.0.0 | CVE-2023-36049 | Moderate | SqlClient |
+
+**📊 Estadísticas impactantes:**
+
+```
+Análisis de superficie de ataque:
+- Dependencias directas:     3 paquetes
+- Dependencias transitivas:  47 paquetes (!!!)
+- Radio de expansión:        15.6x
+
+Vulnerabilidades:
+- En directas:     0 CVEs ✅
+- En transitivas:  5 CVEs ⚠️
+- % oculto:        100% (!!)
+```
+
+**💡 Lección profesional:**
+
+**El "Iceberg de Dependencias":**
+
+```
+                    [Tu código]
+                        |
+        ┌───────────────┴───────────────┐
+        │   3 dependencias directas     │  ← Lo que ves
+════════╧═══════════════════════════════╧═════════
+                                              ↓
+        ┌─────────────────────────────────┐
+        │   47 dependencias transitivas   │  ← Lo que NO ves
+        │   (pero que te pueden hackear)  │
+        └─────────────────────────────────┘
+```
+
+**Estrategias de mitigación:**
+
+1. **Verificación completa en CI/CD:**
+```yaml
+# .github/workflows/security.yml
+- name: Check ALL dependencies (including transitive)
+  run: |
+    dotnet list package --vulnerable --include-transitive | tee vulnerable.txt
+    if grep -q "has the following vulnerable packages" vulnerable.txt; then
+      echo "❌ VULNERABLE TRANSITIVE DEPENDENCIES FOUND!"
+      exit 1  # Rompe el build
+    fi
+```
+
+2. **Sobrescritura de versiones transitivas:**
+```xml
+<!-- VulnerableAPI.csproj -->
+<ItemGroup>
+  <!-- Dependencias directas -->
+  <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+
+  <!-- SOBRESCRITURA: Forzar versión segura de transitiva vulnerable -->
+  <PackageReference Include="System.Text.Encodings.Web" Version="8.0.0" />
+  <PackageReference Include="Azure.Identity" Version="1.12.0" />
+</ItemGroup>
+```
+
+3. **Auditoría de toda la cadena:**
+```bash
+# Generar SBOM completo con todas las dependencias
+dotnet list package --include-transitive > sbom.txt
+
+# Analizar profundidad de la cadena
+dotnet list package --include-transitive --format json | \
+  jq '.projects[].frameworks[].transitives | length'
+```
+
+4. **Políticas de control:**
+```json
+// Directory.Packages.props (Central Package Management)
+{
+  "ManagePackageVersionsCentrally": true,
+  "CentralPackageVersions": {
+    "System.Text.Encodings.Web": "8.0.0",  // Fuerza esta versión en TODAS las transitivas
+    "System.Text.Json": "8.0.4"
+  }
+}
+```
+
+**Aplicación a estándares:**
+
+- **ISO 27002:2022 Control 8.19:** "Mantener inventario actualizado de **TODOS** los componentes de software" → Incluye transitivas
+- **SBOM (Software Bill of Materials):** Debe incluir dependencias directas Y transitivas para compliance real
+- **OWASP A06:2021 (Vulnerable Components):** "Incluyendo componentes **no directamente usados** pero presentes en el sistema"
+
+---
+
+### Caso 3: Versiones "Seguras" que No Lo Son
+
+**Situación real documentada:** Muchos equipos actualizan a la "última versión estable" sin verificar el changelog completo.
+
+**Ejemplo del lab:**
+
+```diff
+# Actualización ingenua:
+- System.IdentityModel.Tokens.Jwt: 5.6.0  (vulnerable)
++ System.IdentityModel.Tokens.Jwt: 7.0.0  (¡TODAVÍA VULNERABLE!)
+
+# Actualización correcta:
+- System.IdentityModel.Tokens.Jwt: 5.6.0  (vulnerable)
++ System.IdentityModel.Tokens.Jwt: 8.1.0  (realmente parcheado)
+```
+
+**Timeline de vulnerabilidad:**
+
+```
+v5.6.0 (2019) → GHSA-59j7-ghrg-fj52 descubierto
+v6.5.0 (2020) → Parche inicial (incompleto)
+v7.0.0 (2021) → Nueva vulnerabilidad CVE-2022-xxxxx
+v7.6.3 (2022) → Parche parcial
+v8.1.0 (2023) → Finalmente seguro ✅
+```
+
+**💡 Lección:** Actualizar ≠ Asegurar. Siempre verifica:
+1. **Advisory completo:** Lee el GitHub Security Advisory
+2. **Versión de parche mínima:** No asumas que "más nueva = segura"
+3. **Re-escaneo post-actualización:** Verifica con `--vulnerable` después de cada cambio
+
+---
+
+### Resumen Ejecutivo: Estrategia SCA Completa
+
+**Checklist para implementar en tu organización:**
+
+- [ ] **Defensa en profundidad:** Usa mínimo 2 herramientas SCA (específica del ecosistema + genérica)
+- [ ] **Cobertura completa:** Siempre incluye dependencias transitivas (`--include-transitive`)
+- [ ] **Automatización CI/CD:** Escaneo obligatorio en cada PR + schedule semanal
+- [ ] **SBOM actualizado:** Genera y versiona SBOM completo (ISO 27002:2022 8.19)
+- [ ] **Políticas de actualización:** Define SLAs por severidad (Critical: 24h, High: 1 semana, etc.)
+- [ ] **Central Package Management:** Control de versiones transitivas con Directory.Packages.props
+- [ ] **Alertas en tiempo real:** GitHub Dependabot o Snyk con notificaciones a Slack/Teams
+- [ ] **Auditoría periódica:** Review mensual de toda la cadena de dependencias
+
+**Métricas de éxito:**
+
+```
+KPIs sugeridos:
+- MTTD (Mean Time To Detect):     < 24 horas
+- MTTR (Mean Time To Remediate):  < 7 días para High/Critical
+- Cobertura de escaneo:           100% de PRs + main branch
+- False positive rate:            < 10%
+- Dependencias sin CVEs conocidos: > 95%
+```
+
+---
+
 ## Entregables del Laboratorio
 
 Al finalizar, debes tener:
@@ -813,3 +1177,27 @@ Antes de finalizar el Día 2, verifica:
 ---
 
 **¿Dudas o problemas?** Levanta la mano o consulta con el Facilitador 2.
+
+---
+
+**Versión:** 1.2
+**Última actualización:** Enero 2025
+
+**Cambios en v1.2:**
+- 🎓 Agregada sección "Lecciones Aprendidas: Casos de Estudio Reales" con 3 casos educativos
+- 🎓 Agregada nota educativa en Paso 2.4 sobre limitaciones de OWASP DC con .NET/NuGet
+- 🎓 Agregada nota educativa en Paso 3.3 sobre dependencias transitivas con ejemplos prácticos
+- 📊 Incluida tabla comparativa de detección: OWASP DC vs dotnet CLI vs Snyk/Dependabot
+- 📊 Documentado el "Iceberg de Dependencias" (3 directas vs 47 transitivas)
+- 🛡️ Agregadas estrategias de mitigación con ejemplos de código (CI/CD, sobrescrituras, SBOM)
+- 📈 Incluidos KPIs sugeridos (MTTD, MTTR, cobertura) para medir éxito de SCA
+- ✅ Mapeo a estándares: ISO 27002:2022 Control 8.19, OWASP A06:2021
+- ✅ Checklist ejecutivo para implementar estrategia SCA completa en organizaciones
+
+**Cambios en v1.1:**
+- ✅ Agregada sección de Prerequisitos con tiempos de instalación
+- ✅ Duración ajustada de 75 a 90 minutos (incluye setup)
+- ✅ Corregidas versiones de dependencias seguras (System.IdentityModel.Tokens.Jwt 8.1.0)
+- ✅ Agregada tabla completa de CVEs con GHSA advisories
+- ✅ Agregada solución de referencia para ejercicio práctico
+- ✅ Clarificada nota sobre versiones "Latest" que cambian con el tiempo

@@ -44,7 +44,7 @@ const sidebars: SidebarsConfig = {
             'dia-2/labs/lab-analisis-inspeccion',
             // 'dia-2/labs/lab-2-2-setup-entorno',      // Oculto temporalmente
             // 'dia-2/labs/lab-2-3-sast-sonarqube',     // Oculto temporalmente
-            // 'dia-2/labs/lab-2-4-dependency-check',   // Oculto temporalmente
+            'dia-2/labs/lab-2-4-dependency-check',
           ],
         },
       ],
