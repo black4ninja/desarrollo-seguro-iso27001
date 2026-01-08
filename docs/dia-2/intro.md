@@ -31,8 +31,26 @@ Al finalizar el Día 2, podrás:
 
 📄 [Ver contenido completo: Dinámica](https://padlet.com/afdez/el-museo-de-los-horrores-fxwakfeavyr1dy48)
 
+### Threat Modeling con STRIDE
 
-### Laboratorios
+📄 [Ver contenido completo: Threat Modeling con STRIDE](./threat-modeling-stride)
+
+---
+
+## 🔬 Laboratorios
+
+### Lab 2.1: Workshop de Threat Modeling con STRIDE
+
+**Tipo:** Práctica en equipo
+**Duración:** 60 minutos
+
+Este laboratorio aplica los conceptos de STRIDE a un escenario real de aplicación bancaria.
+
+📄 [Ver contenido completo: Lab 2.1 - Threat Modeling](./labs/lab-2-1-threat-modeling)
+
+**Entregables:** Documento de Threat Model con DFD, amenazas identificadas y mitigaciones.
+
+---
 
 ### Lab: Inspección de Seguridad
 **Tipo:** Práctica en equipo
@@ -50,8 +68,9 @@ Al finalizar el Día 2, podrás:
 
 ## 📦 Entregables del Día 2
 
-1. ✅ Componente inspeccionado
-2. ✅ Reporte de análisis de la inspección
+1. ✅ Documento de Threat Model (DFD + amenazas + mitigaciones)
+2. ✅ Componente inspeccionado
+3. ✅ Reporte de análisis de la inspección
 
 ---
 
