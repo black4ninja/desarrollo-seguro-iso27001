@@ -56,6 +56,33 @@ function HomepageFeatures() {
         </>
       ),
     },
+    {
+      title: '🛠️ Controles de seguridad de la información',
+      description: (
+        <>
+          Implementa 19 controles de seguridad de la información en tu ciclo 
+          de vida de desarrollo.
+        </>
+      ),
+    },
+    {
+      title: '🔄 Prevención de Problemas de Seguridad de la Información',
+      description: (
+        <>
+          Prevención de problemas, reducción de costos y riesgos
+          de seguridad de la información.
+        </>
+      ),
+    },
+    {
+      title: '👥 Metodología Práctica',
+      description: (
+        <>
+          Laboratorios hands-on, threat modeling, inspecciones y mejora del
+          ciclo de vida.
+        </>
+      ),
+    },
   ];
 
   return (
