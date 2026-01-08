@@ -96,12 +96,9 @@ const sidebars: SidebarsConfig = {
         'dia-5/intro',
         {
           type: 'category',
-          label: 'Actividades Finales',
+          label: 'Laboratorios',
           items: [
-            'dia-5/actividades/auditoria-completa',
-            'dia-5/actividades/plan-accion',
-            'dia-5/actividades/presentaciones',
-            'dia-5/actividades/examen',
+            'dia-5/labs/lab-logging-monitoring',
           ],
         },
       ],

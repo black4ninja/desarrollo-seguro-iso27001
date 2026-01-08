@@ -16,6 +16,16 @@ sidebar_position: 1
 | 11:50 - 12:10 | 20 min | ☕ Receso | - |
 | 12:10 - 13:00 | 50 min | **Lab:** Code Reviews | Práctica |
 
+## 🎯 Objetivos del Día
+
+Al finalizar el Día 3, podrás:
+
+1. ✅ Comprender el costo de los defectos de seguridad en el SDLC
+2. ✅ Crear checklists de seguridad por fase del ciclo de vida
+3. ✅ Adaptar checklists a roles individuales del equipo
+4. ✅ Realizar code reviews enfocados en seguridad
+5. ✅ Identificar vulnerabilidades mediante revisión de código
+
 ## 📚 Contenido
 
 ### El Abogado del Diablo

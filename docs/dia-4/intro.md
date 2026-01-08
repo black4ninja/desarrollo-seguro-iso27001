@@ -16,6 +16,16 @@ sidebar_position: 1
 | 11:50 - 12:10 | 20 min | ☕ Receso | - |
 | 12:10 - 13:00 | 50 min | **Lab:** Gestión de riesgos ISO 27001 - Parte 3 (SoA continuación y cierre) | Práctica |
 
+## 🎯 Objetivos del Día
+
+Al finalizar el Día 4, podrás:
+
+1. ✅ Crear inventarios de activos según ISO 27001
+2. ✅ Desarrollar Risk Treatment Plans (RTP) con opciones de tratamiento
+3. ✅ Diseñar Action Plans (AP) ejecutables y realistas
+4. ✅ Elaborar Statement of Applicability (SoA) completo
+5. ✅ Aplicar el ciclo completo de gestión de riesgos ISO 27001
+
 ## 📚 Contenido
 
 ### Clasifica tu vida
