@@ -14,7 +14,7 @@ sidebar_position: 1
 | 09:50 - 10:10 | 20 min | ☕ Receso | - |
 | 10:10 - 11:50 | 100 min | **Lab:** Creación de checklists de equipo e individuales (Parte 2) | Práctica |
 | 11:50 - 12:10 | 20 min | ☕ Receso | - |
-| 12:10 - 13:00 | 50 min | ¿Qué te llevas del curso? | Cierre |
+| 12:10 - 13:00 | 50 min | Cierre del curso | Cierre |
 
 ## 🎯 Objetivos del Día
 
@@ -36,21 +36,34 @@ Al finalizar el Día 5, podrás:
 
 📄 [Ver contenido completo: ¿Cuánto nos cuestan los defectos?](https://docs.google.com/presentation/d/1S7Y9B5oOpbkhhUR-3sbZPS_Xc2YgxV7z6jv8JBlZ2E0/edit?usp=sharing)
 
+
 ### Laboratorios
 
-### Lab: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
+### Lab 5.1: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
 **Tipo:** Práctica en equipo
 
 📄 [Ver contenido completo: Lab: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue](./labs/lab-checklists)
 
 **Entregables:** Checklists de equipo de análisis, diseño, desarrollo, pruebas y entrega.
 
-### Lab: Creación de checklists individuales
+### Lab 5.2: Creación de checklists individuales
 **Tipo:** Práctica individual
 
 📄 [Ver contenido completo: Lab: Creación de checklists individuales](./labs/lab-checklists-individuales)
 
 **Entregables:** Checklists individuales de análisis, diseño, desarrollo, pruebas y entrega.
+
+### Mejora continua
+
+📄 [Ver contenido completo: Mejora continua](https://docs.google.com/presentation/d/15GSZ4t26P66GvhO9oAS_JE0-VjLsRJ6hgRl9f37GDrw/edit?usp=drive_link)
+
+📄 [Ver contenido completo: Plantilla de bitácora de experimentos](https://docs.google.com/spreadsheets/d/1wyqiHtwX9XipvklxB-BywgdPvqnatnhx1hOF6HzvOGU/edit?usp=sharing)
+
+### Cierre del curso
+
+📄 [Ver contenido completo: Cierre del curso](https://docs.google.com/presentation/d/1NcAenAQbVB2DjmJri5YtGhyraid36ss4gubXMgKJX0c/edit?usp=sharing)
+
+
 
 ## 📦 Entregables del Día 5
 

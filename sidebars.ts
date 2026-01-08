@@ -153,6 +153,7 @@ const sidebars: SidebarsConfig = {
             'recursos/templates/reporte-auditoria',
             'recursos/templates/threat-model',
             'recursos/templates/plan-mejora',
+            'recursos/templates/experimentos',
           ],
         },
       ],
