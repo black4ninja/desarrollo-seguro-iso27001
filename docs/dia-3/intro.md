@@ -2,29 +2,32 @@
 sidebar_position: 1
 ---
 
-# Día 3: Implementación de Controles
+# Día 3: Fortalecimiento de Capacidades
 
 ## 📅 Agenda del Día (5 horas)
 
 | Hora | Duración | Actividad | Tipo |
 |------|----------|-----------|------|
 | 08:00 - 08:15 | 15 min | El abogado del diablo | Dinámica |
-| 08:15 - 09:05 | 50 min | ¿Cuánto nos cuestan los defectos? | Teoría |
-| 09:05 - 09:50 | 45 min | **Lab:** Creación de checklists de equipo e individuales (Parte 1) | Práctica |
-| 09:50 - 10:10 | 20 min | ☕ Receso | - |
-| 10:10 - 11:50 | 100 min | **Lab:** Creación de checklists de equipo e individuales (Parte 2) | Práctica |
-| 11:50 - 12:10 | 20 min | ☕ Receso | - |
-| 12:10 - 13:00 | 50 min | **Lab:** Code Reviews | Práctica |
+| 08:15 - 09:05 | 50 min | **Lab:** RBAC (Role-Based Access Control) | Práctica |
+| 09:05 - 09:55 | 50 min | Mejora continua | Teoría |
+| 09:55 - 10:15 | 20 min | ☕ Receso | - |
+| 10:15 - 11:55 | 100 min | **Lab:** Logging y Monitoring de Seguridad | Práctica |
+| 11:55 - 12:15 | 20 min | ☕ Receso | - |
+| 12:15 - 13:00 | 45 min | **Lab:** Code Reviews | Práctica |
 
 ## 🎯 Objetivos del Día
 
 Al finalizar el Día 3, podrás:
 
-1. ✅ Comprender el costo de los defectos de seguridad en el SDLC
-2. ✅ Crear checklists de seguridad por fase del ciclo de vida
-3. ✅ Adaptar checklists a roles individuales del equipo
-4. ✅ Realizar code reviews enfocados en seguridad
-5. ✅ Identificar vulnerabilidades mediante revisión de código
+1. ✅ Desafiar supuestos y fortalecer argumentos de seguridad mediante pensamiento crítico
+2. ✅ Implementar Role-Based Access Control (RBAC) en aplicaciones
+3. ✅ Comprender los principios de mejora continua en seguridad
+4. ✅ Implementar logging estructurado de eventos de seguridad con Serilog
+5. ✅ Configurar monitoring y alertas de seguridad
+6. ✅ Aplicar controles ISO 27001 8.15 (Logging) y 8.16 (Monitoring)
+7. ✅ Realizar code reviews enfocados en seguridad
+8. ✅ Identificar vulnerabilidades mediante revisión de código
 
 ## 📚 Contenido
 
@@ -32,38 +35,38 @@ Al finalizar el Día 3, podrás:
 
 📄 [Ver contenido completo: Abogado del Diablo](https://docs.google.com/presentation/d/1nlUzUe8zbOvQ1XUxAsenhzsHPkITZ7R7Enur8yHY4A0/edit?usp=sharing)
 
-### ¿Cuánto nos cuestan los defectos?
+### Mejora continua
 
-📄 [Ver contenido completo: ¿Cuánto nos cuestan los defectos?](https://docs.google.com/presentation/d/1S7Y9B5oOpbkhhUR-3sbZPS_Xc2YgxV7z6jv8JBlZ2E0/edit?usp=sharing)
+📄 [Ver contenido completo: Mejora continua](https://docs.google.com/presentation/d/15GSZ4t26P66GvhO9oAS_JE0-VjLsRJ6hgRl9f37GDrw/edit?usp=sharing)
 
-### Laboratorios
+---
 
-### Lab: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
+## 🔬 Laboratorios
+
+### Lab: Logging y Monitoring de Seguridad
 **Tipo:** Práctica en equipo
+**Duración:** 90 minutos
 
-📄 [Ver contenido completo: Lab: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue](./labs/lab-checklists)
+Este laboratorio cubre la implementación completa de logging y monitoring de seguridad.
 
-**Entregables:** Checklists de equipo de análisis, diseño, desarrollo, pruebas y entrega.
+📄 [Ver contenido completo: Lab Logging y Monitoring](./labs/lab-logging-monitoring)
 
-### Lab: Creación de checklists individuales
-**Tipo:** Práctica individual
-
-📄 [Ver contenido completo: Lab: Creación de checklists individuales](./labs/lab-checklists-individuales)
-
-**Entregables:** Checklists individuales de análisis, diseño, desarrollo, pruebas y entrega.
+---
 
 ### Lab: Code Reviews
 **Tipo:** Práctica en equipo
+**Duración:** 45 minutos
 
-📄 [Ver contenido completo: Lab: Code Reviews](./labs/lab-code-reviews)
+Este laboratorio cubre la realización de code reviews enfocados en seguridad.
+
+📄 [Ver contenido completo: Lab Code Reviews](../dia-5/labs/lab-code-reviews)
 
 **Entregables:** Reporte de code review.
 
 ## 📦 Entregables del Día 3
 
-1. ✅ Checklists de equipo de análisis, diseño, desarrollo, pruebas y entrega
-2. ✅ Checklists individuales de equipo de análisis, diseño, desarrollo, pruebas y entrega
-3. ✅ Reporte de code review
+1. ✅ Reporte de logging y monitoring implementado
+2. ✅ Reporte de code review
 
 ---
 

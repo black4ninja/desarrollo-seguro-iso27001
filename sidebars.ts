@@ -31,75 +31,75 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'Día 2: Preparación para Implementar',
+      label: 'Día 2: Mejora del Ciclo de Vida',
       items: [
         'dia-2/intro',
-        'dia-2/threat-modeling-stride',
         {
           type: 'category',
           label: 'Laboratorios',
           items: [
-            'dia-2/labs/lab-2-1-threat-modeling',
-            'dia-2/labs/lab-inspeccion',
-            'dia-2/labs/lab-analisis-inspeccion',
-            // 'dia-2/labs/lab-2-2-setup-entorno',      // Oculto temporalmente
-            // 'dia-2/labs/lab-2-3-sast-sonarqube',     // Oculto temporalmente
-            'dia-2/labs/lab-2-4-dependency-check',
+            'dia-2/labs/lab-inventario',
+            'dia-2/labs/lab-rtp',
+            'dia-2/labs/lab-ap',
+            'dia-2/labs/lab-soa',
+            // 'dia-2/labs/lab-4-1-security-gates',           // Oculto temporalmente
+            // 'dia-2/labs/lab-4-2-logging-monitoring',       // Oculto temporalmente
+            // 'dia-2/labs/lab-4-3-gestion-secretos',         // Oculto temporalmente
+            // 'dia-2/labs/lab-4-4-security-tests',           // Oculto temporalmente
           ],
         },
       ],
     },
     {
       type: 'category',
-      label: 'Día 3: Implementación de Controles',
+      label: 'Día 3: Fortalecimiento',
       items: [
         'dia-3/intro',
         {
           type: 'category',
           label: 'Laboratorios',
           items: [
-            'dia-3/labs/lab-checklists',
-            'dia-3/labs/lab-checklists-individuales',
-            'dia-3/labs/lab-code-reviews',
-            // 'dia-3/labs/lab-3-1-api-security',              // Oculto temporalmente
-            // 'dia-3/labs/lab-3-2-dast-zap',                  // Oculto temporalmente
-            // 'dia-3/labs/lab-3-3-pentesting-apis',           // Oculto temporalmente
-            // 'dia-3/labs/lab-3-4-auditoria-configuraciones', // Oculto temporalmente
+            'dia-3/labs/lab-logging-monitoring',
+            'dia-5/labs/lab-code-reviews',
           ],
         },
       ],
     },
     {
       type: 'category',
-      label: 'Día 4: Mejora del Ciclo de Vida',
+      label: 'Día 4: Preparación para Implementar',
       items: [
         'dia-4/intro',
+        'dia-4/threat-modeling-stride',
         {
           type: 'category',
           label: 'Laboratorios',
           items: [
-            'dia-4/labs/lab-inventario',
-            'dia-4/labs/lab-rtp',
-            'dia-4/labs/lab-ap',
-            'dia-4/labs/lab-soa',
-            // 'dia-4/labs/lab-4-1-security-gates',           // Oculto temporalmente
-            // 'dia-4/labs/lab-4-2-logging-monitoring',       // Oculto temporalmente
-            // 'dia-4/labs/lab-4-3-gestion-secretos',         // Oculto temporalmente
-            // 'dia-4/labs/lab-4-4-security-tests',           // Oculto temporalmente
+            'dia-4/labs/lab-2-1-threat-modeling',
+            'dia-4/labs/lab-inspeccion',
+            'dia-4/labs/lab-analisis-inspeccion',
+            // 'dia-4/labs/lab-2-2-setup-entorno',      // Oculto temporalmente
+            // 'dia-4/labs/lab-2-3-sast-sonarqube',     // Oculto temporalmente
+            'dia-4/labs/lab-2-4-dependency-check',
           ],
         },
       ],
     },
     {
       type: 'category',
-      label: 'Día 5: Fortalecimiento',
+      label: 'Día 5: Implementación de Controles',
       items: [
         'dia-5/intro',
         {
           type: 'category',
           label: 'Laboratorios',
           items: [
-            'dia-5/labs/lab-logging-monitoring',
+            'dia-5/labs/lab-checklists',
+            'dia-5/labs/lab-checklists-individuales',
+            // 'dia-5/labs/lab-3-1-api-security',              // Oculto temporalmente
+            // 'dia-5/labs/lab-3-2-dast-zap',                  // Oculto temporalmente
+            // 'dia-5/labs/lab-3-3-pentesting-apis',           // Oculto temporalmente
+            // 'dia-5/labs/lab-3-4-auditoria-configuraciones', // Oculto temporalmente
           ],
         },
       ],

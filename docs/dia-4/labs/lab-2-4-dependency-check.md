@@ -770,7 +770,7 @@ Si usas Visual Studio:
 1. ✅ Revisar dependencias vulnerables semanalmente
 2. ✅ Ejecutar `dotnet list package --outdated` antes de cada release
 3. ✅ Configurar alertas automáticas (Dependabot, Snyk)
-4. ✅ Incluir escaneo de dependencias en CI/CD (veremos en Día 4)
+4. ✅ Incluir escaneo de dependencias en CI/CD (veremos en Día 2)
 5. ✅ Mantener un SBOM actualizado
 
 ---
@@ -1060,7 +1060,7 @@ jobs:
           path: reports/
 ```
 
-**En el Día 4** implementaremos esto en un pipeline completo.
+**En el Día 2** implementaremos esto en un pipeline completo.
 
 ---
 
@@ -1160,7 +1160,7 @@ jobs:
 
 ## Checklist Final
 
-Antes de finalizar el Día 2, verifica:
+Antes de finalizar el Día 4, verifica:
 
 - [ ] Identificaste las 3 dependencias vulnerables con `dotnet list package --vulnerable`
 - [ ] Ejecutaste OWASP Dependency-Check y generaste reporte HTML
@@ -1170,9 +1170,9 @@ Antes de finalizar el Día 2, verifica:
 - [ ] Comparaste reportes antes/después
 - [ ] Entiendes cuándo actualizar (Critical/High/Medium/Low)
 
-**Si todo está ✅, has completado el Día 2! 🎉**
+**Si todo está ✅, has completado el Día 4! 🎉**
 
-**Mañana (Día 3):** APIs Security, DAST con OWASP ZAP, y Pentesting Manual.
+**Mañana (Día 5):** Implementación de Controles, Checklists y Code Reviews.
 
 ---
 

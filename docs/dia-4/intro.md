@@ -2,77 +2,75 @@
 sidebar_position: 1
 ---
 
-# Día 4: Mejora del Ciclo de Vida con Controles
+# Día 4: Preparación para Implementar Controles
 
 ## 📅 Agenda del Día (5 horas)
 
 | Hora | Duración | Actividad | Tipo |
 |------|----------|-----------|------|
-| 08:00 - 08:15 | 15 min | Clasifica tu vida | Dinámica |
-| 08:15 - 09:00 | 45 min | **Lab:** Inventario de activos | Práctica |
-| 09:00 - 09:50 | 50 min | **Lab:** Gestión de riesgos ISO 27001 - Parte 1 (RTP) | Práctica |
+| 08:00 - 08:15 | 15 min | El museo de los horrores | Dinámica |
+| 08:15 - 09:50 | 95 min | **Lab:** Inspección de seguridad | Práctica |
 | 09:50 - 10:10 | 20 min | ☕ Receso | - |
-| 10:10 - 11:50 | 100 min | **Lab:** Gestión de riesgos ISO 27001 - Parte 2 (AP y SoA) | Práctica |
+| 10:10 - 11:50 | 100 min | **Lab:** Análisis de la inspección (Parte 1) | Práctica |
 | 11:50 - 12:10 | 20 min | ☕ Receso | - |
-| 12:10 - 13:00 | 50 min | **Lab:** Gestión de riesgos ISO 27001 - Parte 3 (SoA continuación y cierre) | Práctica |
+| 12:10 - 13:00 | 50 min | **Lab:** Análisis de la inspección (Parte 2) | Práctica |
 
 ## 🎯 Objetivos del Día
 
 Al finalizar el Día 4, podrás:
 
-1. ✅ Crear inventarios de activos según ISO 27001
-2. ✅ Desarrollar Risk Treatment Plans (RTP) con opciones de tratamiento
-3. ✅ Diseñar Action Plans (AP) ejecutables y realistas
-4. ✅ Elaborar Statement of Applicability (SoA) completo
-5. ✅ Aplicar el ciclo completo de gestión de riesgos ISO 27001
+1. ✅ Integrar seguridad en cada fase del SDLC
+2. ✅ Realizar Threat Modeling con STRIDE
+3. ✅ Configurar y usar SonarQube para análisis SAST
+4. ✅ Identificar dependencias vulnerables
+5. ✅ Aplicar checklists de Code Review
 
 ## 📚 Contenido
 
-### Clasifica tu vida
+### El Museo de los Horrores
 
-📄 [Ver contenido completo: Clasifica tu vida](https://docs.google.com/presentation/d/1rQoYapA8L662gZntS8XU18CCUIXzvkn2m-UzFXGMrBE/edit?usp=sharing)
+📄 [Ver contenido completo: Dinámica](https://padlet.com/afdez/el-museo-de-los-horrores-fxwakfeavyr1dy48)
 
-### Laboratorios
+### Threat Modeling con STRIDE
 
-#### Lab: Inventario de activos
-**Tipo:** Práctica en equipo
-**Duración:** 45 minutos
-
-📄 [Ver contenido completo: Lab: Inventario de activos](./labs/lab-inventario)
-
-**Entregables:** Inventario de activos.
+📄 [Ver contenido completo: Threat Modeling con STRIDE](./threat-modeling-stride)
 
 ---
 
-#### Lab: Gestión de riesgos ISO 27001 (RTP, AP y SoA)
+## 🔬 Laboratorios
+
+### Lab 2.1: Workshop de Threat Modeling con STRIDE
+
 **Tipo:** Práctica en equipo
-**Duración:** 200 minutos (dividido en 3 partes)
+**Duración:** 60 minutos
 
-Este laboratorio integrado cubre el ciclo completo de gestión de riesgos según ISO 27001:
+Este laboratorio aplica los conceptos de STRIDE a un escenario real de aplicación bancaria.
 
-**Parte 1: Risk Treatment Plan (RTP)** - 50 minutos
-📄 [Ver contenido completo: Lab RTP](./labs/lab-rtp)
-Decisiones estratégicas de tratamiento de riesgos.
+📄 [Ver contenido completo: Lab 2.1 - Threat Modeling](./labs/lab-2-1-threat-modeling)
 
-**Parte 2: Action Plan (AP)** - 100 minutos (incluye inicio de SoA)
-📄 [Ver contenido completo: Lab AP](./labs/lab-ap)
-📄 [Ver contenido completo: Lab SoA](./labs/lab-soa)
-Plan de acción ejecutable y mapeo a controles ISO.
+**Entregables:** Documento de Threat Model con DFD, amenazas identificadas y mitigaciones.
 
-**Parte 3: Statement of Applicability (SoA)** - 50 minutos
-Finalización de la declaración de aplicabilidad formal.
+---
 
-**Entregables:**
-- Plan de tratamiento de riesgos (RTP)
-- Plan de acción para implementación (AP)
-- Declaración de aplicabilidad completa (SoA)
+### Lab: Inspección de Seguridad
+**Tipo:** Práctica en equipo
+
+📄 [Ver contenido completo: Lab: Inspección de Seguridad](./labs/lab-inspeccion)
+
+**Entregables:** Bitácoras de defectos de los inspectores.
+
+### Lab: Análisis de la Inspección de Seguridad
+**Tipo:** Práctica en equipo
+
+📄 [Ver contenido completo: Lab: Análisis de la Inspección de Seguridad](./labs/lab-analisis-inspeccion)
+
+**Entregables:** Componente inspeccionado y reporte de análisis de la inspección.
 
 ## 📦 Entregables del Día 4
 
-1. ✅ Inventario de activos
-2. ✅ Risk Treatment Plan (RTP)
-3. ✅ Action Plan (AP)
-4. ✅ Statement of Applicability (SOA)
+1. ✅ Documento de Threat Model (DFD + amenazas + mitigaciones)
+2. ✅ Componente inspeccionado
+3. ✅ Reporte de análisis de la inspección
 
 ---
 

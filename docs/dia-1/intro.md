@@ -80,4 +80,4 @@ R: Sí, pero SOLO en aplicaciones de prueba (como DVWA) o con autorización expl
 
 ---
 
-**Próximo:** [Día 2 - Preparación para Implementar](../dia-2/intro)
+**Próximo:** [Día 2 - Mejora del Ciclo de Vida](../dia-2/intro)
