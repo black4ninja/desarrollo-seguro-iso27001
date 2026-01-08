@@ -4,21 +4,17 @@ sidebar_position: 1
 
 # Día 4: Mejora del Ciclo de Vida con Controles
 
-## 📅 Agenda del Día (8 horas)
+## 📅 Agenda del Día (5 horas)
 
 | Hora | Duración | Actividad | Tipo |
 |------|----------|-----------|------|
-| 09:00 - 10:00 | 60 min | DevSecOps - Shift Left Security | Teoría |
-| 10:00 - 10:45 | 45 min | CI/CD Security | Teoría |
-| 10:45 - 11:00 | 15 min | ☕ Receso | - |
-| 11:00 - 12:30 | 90 min | **Lab 4.1:** Security Gates en CI/CD | Práctica |
-| 12:30 - 13:30 | 60 min | 🍽️ Almuerzo | - |
-| 13:30 - 14:00 | 30 min | Logging, monitoring y detección | Teoría |
-| 14:00 - 15:00 | 60 min | **Lab 4.2:** Logging y monitoring | Práctica |
-| 15:00 - 15:15 | 15 min | ☕ Receso | - |
-| 15:15 - 16:15 | 60 min | **Lab 4.3:** Gestión de secretos | Práctica |
-| 16:15 - 17:15 | 60 min | **Lab 4.4:** Security unit tests | Práctica |
-| 17:15 - 18:00 | 45 min | Proceso de auditoría continua | Discusión |
+| 08:00 - 08:15 | 15 min | Clasifica tu vida | Dinámica |
+| 08:15 - 09:00 | 45 min | **Lab:** Inventario de activos | Práctica |
+| 09:00 - 09:50 | 50 min | **Lab:** Gestión de riesgos ISO 27001 - Parte 1 (RTP) | Práctica |
+| 09:50 - 10:10 | 20 min | ☕ Receso | - |
+| 10:10 - 11:50 | 100 min | **Lab:** Gestión de riesgos ISO 27001 - Parte 2 (AP y SoA) | Práctica |
+| 11:50 - 12:10 | 20 min | ☕ Receso | - |
+| 12:10 - 13:00 | 50 min | **Lab:** Gestión de riesgos ISO 27001 - Parte 3 (SoA continuación y cierre) | Práctica |
 
 ## 📚 Contenido
 
@@ -30,6 +26,7 @@ sidebar_position: 1
 
 #### Lab: Inventario de activos
 **Tipo:** Práctica en equipo
+**Duración:** 45 minutos
 
 📄 [Ver contenido completo: Lab: Inventario de activos](./labs/lab-inventario)
 
@@ -37,30 +34,28 @@ sidebar_position: 1
 
 ---
 
-#### Lab: Risk Treatment Plan (RTP)
+#### Lab: Gestión de riesgos ISO 27001 (RTP, AP y SoA)
 **Tipo:** Práctica en equipo
+**Duración:** 200 minutos (dividido en 3 partes)
 
-📄 [Ver contenido completo: Lab: Risk Treatment Plan (RTP)](./labs/lab-rtp)
+Este laboratorio integrado cubre el ciclo completo de gestión de riesgos según ISO 27001:
 
-**Entregables:** Plan de tratamiento de riesgos.
+**Parte 1: Risk Treatment Plan (RTP)** - 50 minutos
+📄 [Ver contenido completo: Lab RTP](./labs/lab-rtp)
+Decisiones estratégicas de tratamiento de riesgos.
 
----
+**Parte 2: Action Plan (AP)** - 100 minutos (incluye inicio de SoA)
+📄 [Ver contenido completo: Lab AP](./labs/lab-ap)
+📄 [Ver contenido completo: Lab SoA](./labs/lab-soa)
+Plan de acción ejecutable y mapeo a controles ISO.
 
-#### Lab: Action Plan (AP)
-**Tipo:** Práctica en equipo
+**Parte 3: Statement of Applicability (SoA)** - 50 minutos
+Finalización de la declaración de aplicabilidad formal.
 
-📄 [Ver contenido completo: Lab: Action Plan (AP)](./labs/lab-ap)
-
-**Entregables:** Plan de acción para implementación de controles.
-
----
-
-#### Lab: Statement of Applicability (SOA)
-**Tipo:** Práctica en equipo
-
-📄 [Ver contenido completo: Lab: Statement of Applicability (SOA)](./labs/lab-soa)
-
-**Entregables:** Declaración de aplicabilidad formal (documento completo).
+**Entregables:**
+- Plan de tratamiento de riesgos (RTP)
+- Plan de acción para implementación (AP)
+- Declaración de aplicabilidad completa (SoA)
 
 ## 📦 Entregables del Día 4
 
