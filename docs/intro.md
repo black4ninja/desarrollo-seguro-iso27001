@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Bienvenida al Curso
 
-¡Bienvenido al **Curso de Desarrollo Seguro e ISO 27001/27002:2022**!
+¡Bienvenido al **Curso de Desarrollo Seguro**!
 
 ## 📖 Acerca de este Curso
 
