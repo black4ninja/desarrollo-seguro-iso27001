@@ -53,14 +53,14 @@ A lo largo de 5 días, desarrollarás competencias en:
 - ✅ ¿Cuánto nos cuestan los defectos?
 - ✅ Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
 - ✅ Creación de checklists individuales de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
-- ✅ ¿Qué te llevas del curso?
+- ✅ Cierre
 
 ## 📋 Requisitos Previos
 
 ### Conocimientos
 - Desarrollo de software (C#, Java, Python o JavaScript)
 - Conceptos básicos de redes y HTTP
-- Git y control de versiones
+- Control de versiones
 - Familiaridad con línea de comandos
 
 ## 📚 Recursos Adicionales
