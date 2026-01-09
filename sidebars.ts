@@ -33,10 +33,13 @@ const sidebars: SidebarsConfig = {
       label: 'Día 2: Preparación para Implementar Controles de Seguridad de la Información',
       items: [
         'dia-2/intro',
+        'dia-2/threat-modeling-stride',
         {
           type: 'category',
           label: 'Laboratorios',
           items: [
+            'dia-4/labs/lab-2-1-threat-modeling',
+            'dia-4/labs/lab-2-4-dependency-check',
             'dia-2/labs/lab-inventario',
             'dia-2/labs/lab-rtp',
             'dia-2/labs/lab-ap',
@@ -70,17 +73,14 @@ const sidebars: SidebarsConfig = {
       label: 'Día 4: Inspecciones de Seguridad de la Información',
       items: [
         'dia-4/intro',
-        'dia-4/threat-modeling-stride',
         {
           type: 'category',
           label: 'Laboratorios',
           items: [
-            'dia-4/labs/lab-2-1-threat-modeling',
             'dia-4/labs/lab-inspeccion',
             'dia-4/labs/lab-analisis-inspeccion',
             // 'dia-4/labs/lab-2-2-setup-entorno',      // Oculto temporalmente
             // 'dia-4/labs/lab-2-3-sast-sonarqube',     // Oculto temporalmente
-            'dia-4/labs/lab-2-4-dependency-check',
           ],
         },
       ],

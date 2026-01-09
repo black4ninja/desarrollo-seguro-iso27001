@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Lab: Inspección de Seguridad
+# Lab 4.1: Inspección de Seguridad
 
 ## Reunión de inspección de seguridad
 

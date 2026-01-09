@@ -20,12 +20,14 @@ sidebar_position: 1
 
 Al finalizar el Día 2, podrás:
 
-1. ✅ Crear inventarios de activos según ISO 27001
-2. ✅ Desarrollar Risk Treatment Plans (RTP) con opciones de tratamiento
-3. ✅ Diseñar Action Plans (AP) ejecutables y realistas
-4. ✅ Elaborar Statement of Applicability (SoA) completo
-5. ✅ Aplicar el ciclo completo de gestión de riesgos ISO 27001
-6. ✅ Implementar Role-Based Access Control (RBAC) en aplicaciones
+1. ✅ Realizar Threat Modeling con STRIDE
+2. ✅ Crear inventarios de activos según ISO 27001
+3. ✅ Desarrollar Risk Treatment Plans (RTP) con opciones de tratamiento
+4. ✅ Diseñar Action Plans (AP) ejecutables y realistas
+5. ✅ Elaborar Statement of Applicability (SoA) completo
+6. ✅ Aplicar el ciclo completo de gestión de riesgos ISO 27001
+7. ✅ Implementar Role-Based Access Control (RBAC) en aplicaciones
+8. ✅ Identificar dependencias vulnerables
 
 ## 📚 Contenido
 
@@ -33,7 +35,24 @@ Al finalizar el Día 2, podrás:
 
 📄 [Ver contenido completo: Clasifica tu vida](https://docs.google.com/presentation/d/1rQoYapA8L662gZntS8XU18CCUIXzvkn2m-UzFXGMrBE/edit?usp=sharing)
 
+### Threat Modeling con STRIDE
+
+📄 [Ver contenido completo: Threat Modeling con STRIDE](./threat-modeling-stride)
+
 ### Laboratorios
+
+### Lab 2.1: Workshop de Threat Modeling con STRIDE
+
+**Tipo:** Práctica en equipo
+**Duración:** 60 minutos
+
+Este laboratorio aplica los conceptos de STRIDE a un escenario real de aplicación bancaria.
+
+📄 [Ver contenido completo: Lab 2.1 - Threat Modeling](./labs/lab-2-1-threat-modeling)
+
+**Entregables:** Documento de Threat Model con DFD, amenazas identificadas y mitigaciones.
+
+---
 
 #### Lab: Inventario de activos
 **Tipo:** Práctica en equipo
@@ -70,10 +89,11 @@ Finalización de la declaración de aplicabilidad formal.
 
 ## 📦 Entregables del Día 2
 
-1. ✅ Inventario de activos
-2. ✅ Risk Treatment Plan (RTP)
-3. ✅ Action Plan (AP)
-4. ✅ Statement of Applicability (SOA)
+1. ✅ Documento de Threat Model (DFD + amenazas + mitigaciones)
+2. ✅ Inventario de activos
+3. ✅ Risk Treatment Plan (RTP)
+4. ✅ Action Plan (AP)
+5. ✅ Statement of Applicability (SOA)
 
 ---
 
