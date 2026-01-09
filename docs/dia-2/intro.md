@@ -21,14 +21,13 @@ sidebar_position: 1
 
 Al finalizar el Día 2, podrás:
 
-1. ✅ Conocer, evaluar e implementar RBAC en aplicaciones
-2. ✅ Realizar Threat Modeling con STRIDE
-3. ✅ Crear inventarios de activos según ISO 27001
-4. ✅ Desarrollar Risk Treatment Plans (RTP) con opciones de tratamiento
-5. ✅ Diseñar Action Plans (AP) ejecutables y realistas
-6. ✅ Elaborar Statement of Applicability (SoA) completo
-7. ✅ Aplicar la planeación de riesgos ISO 27001:2022
-8. ✅ Identificar dependencias vulnerables
+1. ✅ Realizar Threat Modeling con STRIDE
+2. ✅ Crear inventarios de activos según ISO 27001
+3. ✅ Desarrollar Risk Treatment Plans (RTP) con opciones de tratamiento
+4. ✅ Diseñar Action Plans (AP) ejecutables y realistas
+5. ✅ Elaborar Statement of Applicability (SoA) completo
+6. ✅ Aplicar la planeación de riesgos ISO 27001:2022
+7. ✅ Identificar dependencias vulnerables
 
 ## 📚 Contenido
 

@@ -22,6 +22,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 ### ¿Cómo vamos a aprender?
 - Habrá algunas sesiones teóricas, asegúrate de que la comunicación sea no sólo de los instructores hacia ti, sino entre tú y los instructores, y entre todos ustedes. Estamos en un espacio de aprendizaje donde todos vamos a aprender de todos. 
 - La mayoría de las sesiones serán laboratorios prácticos, unos sobre un entorno que los facilitadores van a proveer, y otros sobre tu mismo trabajo, de tal forma que el trabajo del curso sea trabajo productivo para su organización.
+- Cada día está estructurado con una agenda, sin embargo, la agenda es flexible de acuerdo a experiencia e implementaciones previas dentro de su organización.
 
 ## 📅 Estructura del Curso
 
@@ -32,7 +33,6 @@ A lo largo de 5 días, desarrollarás competencias en:
 
 ### [Día 2: Preparación para Implementar Controles de Seguridad de la Información](./dia-2/intro)
 - ✅ Clasifica tu vida
-- ✅ RBAC
 - ✅ Threat Modeling
 - ✅ Inventario de activos
 - ✅ Gestión de riesgos (RTP, AP y SoA)
@@ -65,12 +65,6 @@ A lo largo de 5 días, desarrollarás competencias en:
 - Control de versiones
 - Familiaridad con línea de comandos
 
-## 📚 Recursos Adicionales
-
-- [Guía del Facilitador](./recursos/guia-facilitador)
-- [Checklists de Seguridad](./recursos/checklists/code-review)
-- [Guías de Herramientas](./recursos/herramientas/sonarqube)
-- [Templates](./recursos/templates/reporte-auditoria)
 
 ## 🚀 ¡Comencemos!
 
