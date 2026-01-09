@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Lab: Risk Treatment Plan (RTP)
+# Lab 2.3: Risk Treatment Plan (RTP)
 
 ## 🎯 ¿Qué es el RTP?
 

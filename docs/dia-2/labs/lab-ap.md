@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Lab: Action Plan (AP)
+# Lab 2.3: Action Plan (AP)
 
 ## 🎯 ¿Qué es el Action Plan?
 

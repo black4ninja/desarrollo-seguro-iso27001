@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Lab: Statement of Applicability (SOA)
+# Lab 2.3: Statement of Applicability (SOA)
 
 ## 🎯 ¿Qué es el SOA?
 

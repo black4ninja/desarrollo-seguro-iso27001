@@ -33,17 +33,18 @@ const sidebars: SidebarsConfig = {
       label: 'Día 2: Preparación para Implementar Controles de Seguridad de la Información',
       items: [
         'dia-2/intro',
+        'dia-2/rbac',
         'dia-2/threat-modeling-stride',
         {
           type: 'category',
           label: 'Laboratorios',
           items: [
             'dia-4/labs/lab-2-1-threat-modeling',
-            //'dia-4/labs/lab-2-4-dependency-check',
-            'dia-2/labs/lab-inventario',
+            'dia-2/labs/lab-2-2-inventario',
             'dia-2/labs/lab-rtp',
             'dia-2/labs/lab-ap',
             'dia-2/labs/lab-soa',
+            'dia-4/labs/lab-2-4-dependency-check',
             // 'dia-2/labs/lab-4-1-security-gates',           // Oculto temporalmente
             // 'dia-2/labs/lab-4-2-logging-monitoring',       // Oculto temporalmente
             // 'dia-2/labs/lab-4-3-gestion-secretos',         // Oculto temporalmente

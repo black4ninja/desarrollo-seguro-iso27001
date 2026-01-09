@@ -22,13 +22,13 @@ sidebar_position: 1
 
 Al finalizar el Día 2, podrás:
 
-1. ✅ Realizar Threat Modeling con STRIDE
-2. ✅ Crear inventarios de activos según ISO 27001
-3. ✅ Desarrollar Risk Treatment Plans (RTP) con opciones de tratamiento
-4. ✅ Diseñar Action Plans (AP) ejecutables y realistas
-5. ✅ Elaborar Statement of Applicability (SoA) completo
-6. ✅ Aplicar el ciclo completo de gestión de riesgos ISO 27001
-7. ✅ Implementar Role-Based Access Control (RBAC) en aplicaciones
+1. ✅ Conocer, evaluar e implementar RBAC en aplicaciones
+2. ✅ Realizar Threat Modeling con STRIDE
+3. ✅ Crear inventarios de activos según ISO 27001
+4. ✅ Desarrollar Risk Treatment Plans (RTP) con opciones de tratamiento
+5. ✅ Diseñar Action Plans (AP) ejecutables y realistas
+6. ✅ Elaborar Statement of Applicability (SoA) completo
+7. ✅ Aplicar la planeación de riesgos ISO 27001:2022
 8. ✅ Identificar dependencias vulnerables
 
 ## 📚 Contenido
@@ -37,16 +37,25 @@ Al finalizar el Día 2, podrás:
 
 📄 [Ver contenido completo: Clasifica tu vida](https://docs.google.com/presentation/d/1rQoYapA8L662gZntS8XU18CCUIXzvkn2m-UzFXGMrBE/edit?usp=sharing)
 
+---
+
+### RBAC
+
+📄 [Ver contenido completo: RBAC](./rbac)
+
+---
+
 ### Threat Modeling con STRIDE
 
 📄 [Ver contenido completo: Threat Modeling con STRIDE](./threat-modeling-stride)
+
+---
 
 ### Laboratorios
 
 ### Lab 2.1: Workshop de Threat Modeling con STRIDE
 
 **Tipo:** Práctica en equipo
-**Duración:** 60 minutos
 
 Este laboratorio aplica los conceptos de STRIDE a un escenario real de aplicación bancaria.
 
@@ -58,9 +67,8 @@ Este laboratorio aplica los conceptos de STRIDE a un escenario real de aplicaci�
 
 #### Lab: Inventario de activos
 **Tipo:** Práctica en equipo
-**Duración:** 45 minutos
 
-📄 [Ver contenido completo: Lab: Inventario de activos](./labs/lab-inventario)
+📄 [Ver contenido completo: Lab 2.2: Inventario de activos](./labs/lab-inventario)
 
 **Entregables:** Inventario de activos.
 
@@ -68,7 +76,6 @@ Este laboratorio aplica los conceptos de STRIDE a un escenario real de aplicaci�
 
 #### Lab: Gestión de riesgos ISO 27001 (RTP, AP y SoA)
 **Tipo:** Práctica en equipo
-**Duración:** 200 minutos (dividido en 3 partes)
 
 Este laboratorio integrado cubre el ciclo completo de gestión de riesgos según ISO 27001:
 
