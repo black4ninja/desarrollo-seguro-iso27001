@@ -10,22 +10,23 @@ sidebar_position: 1
 | Hora | Duración | Actividad | Tipo |
 |------|----------|-----------|------|
 | 08:00 - 09:00 | 60 min | Presentación y expectativas | Intro |
-| 09:00 - 09:50 | 50 min | Introducción a ISO y OWASP | Teoría |
-| 09:50 - 10:10 | 20 min | ☕ Receso | - |
-| 10:10 - 11:50 | 100 min | **Lab 1.1:** Práctica controles de ISO | Práctica |
-| 11:50 - 12:10 | 20 min | ☕ Receso | - |
-| 12:10 - 13:00 | 50 min | Preparación para inspección de seguridad | Práctica |
+| 09:00 - 10:00 | 60 min | Introducción a ISO 27001 | Teoría |
+| 10:00 - 10:20 | 20 min | ☕ Receso | - |
+| 10:20 - 11:20 | 60 min | Introducción a ISO 27001 | Teoría |
+| 11:20 - 13:00 | 100 min | **Lab 1.1:** Práctica controles de ISO y OWASP | Práctica |
 
 
 ## 🎯 Objetivos del Día
 
 Al finalizar el Día 1, podrás:
 
-1. ✅ Comprender el marco normativo ISO 27001/27002:2022
-2. ✅ Identificar las vulnerabilidades del OWASP Top 10
-3. ✅ Mapear controles ISO a vulnerabilidades OWASP
-4. ✅ Explotar vulnerabilidades básicas en DVWA
+1. ✅ Sensibilizar sobre la importancia de la seguridad de la informzación
+2. ✅ Comprender el marco normativo ISO 27001:2022
+3. ✅ Identificar las vulnerabilidades del OWASP Top 10
+4. ✅ Mapear controles ISO a vulnerabilidades OWASP
 5. ✅ Realizar reconocimiento de aplicaciones web
+
+---
 
 ## 📚 Contenido Teórico
 
@@ -33,9 +34,13 @@ Al finalizar el Día 1, podrás:
 
 📄 [Ver contenido completo: Presentaciones y expectativas](https://padlet.com/edjuarezp1/desarrollo-seguro-sgf83yviy1mmpcy2)
 
+---
+
 ### Introducción a ISO 27001
 
 📄 [Ver contenido completo: Introducción a ISO 27001](https://docs.google.com/presentation/d/11ZiM_yI5Au4D1wAwae2dKe9fiT9plT4l40wRjwhTWjk/edit?usp=sharing)
+
+---
 
 ## 🔬 Laboratorios Prácticos
 
@@ -53,10 +58,6 @@ En este laboratorio:
 
 ---
 
-### Lab: Preparación para inspección de seguridad
-**Tipo:** Práctica en equipo
-
-📄 [Ver contenido completo: Lab: Preparación para inspección de seguridad](./labs/lab-preparacion-inspeccion)
 
 ## 📚 Recursos Adicionales
 

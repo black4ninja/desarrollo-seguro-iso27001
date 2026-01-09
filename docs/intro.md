@@ -32,9 +32,10 @@ A lo largo de 5 días, desarrollarás competencias en:
 
 ### [Día 2: Preparación para Implementar Controles de Seguridad de la Información](./dia-2/intro)
 - ✅ Clasifica tu vida
+- ✅ Threat Modeling
+- ✅ RBAC
 - ✅ Inventario de activos
 - ✅ Gestión de riesgos (RTP, AP y SoA)
-- ✅ RBAC
 
 ### [Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información](./dia-3/intro)
 - ✅ El abogado del diablo
