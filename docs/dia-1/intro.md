@@ -56,28 +56,6 @@ En este laboratorio:
 
 📄 [Ver guía completa del Lab 1.1](./labs/lab-1-1-mapeo-controles)
 
----
-
-
-## 📚 Recursos Adicionales
-
-- [Checklist para inspección](./recursos/checklists/inspeccion)
-<!-- @Alex lo de arriba ya son recursos de la sesión, lo de abajo hay que revisarlos si todavía aplican -->
-- [OWASP Top 10:2021](https://owasp.org/Top10/)
-- [ISO/IEC 27002:2022](https://www.iso.org/standard/75652.html)
-- [DVWA GitHub](https://github.com/digininja/DVWA)
-- [nmap Reference Guide](https://nmap.org/book/man.html)
-
-## ❓ Preguntas Frecuentes
-
-**P: ¿Necesito experiencia previa en seguridad?**
-R: No, este día comienza desde conceptos fundamentales.
-
-**P: ¿Qué hago si no puedo instalar Docker?**
-R: Los facilitadores tienen VMs de respaldo y opciones de trabajo en parejas.
-
-**P: ¿Es legal hacer pentesting?**
-R: Sí, pero SOLO en aplicaciones de prueba (como DVWA) o con autorización explícita.
 
 ---
 

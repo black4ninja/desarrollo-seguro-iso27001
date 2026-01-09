@@ -8,8 +8,8 @@ sidebar_position: 1
 
 | Hora | Duración | Actividad | Tipo |
 |------|----------|-----------|------|
-| 08:00 - 08:15 | 15 min | Hackeando Hollywood | Dinámica |
-| 08:15 - 09:00 | 45 min | ¿Cuánto nos cuestan los defectos? | Teoría |
+| 08:00 - 08:20 | 20 min | Hackeando Hollywood | Dinámica |
+| 08:20 - 09:00 | 40 min | ¿Cuánto nos cuestan los defectos? | Teoría |
 | 09:00 - 10:00 | 60 min | **Lab 5.1:** Creación y mejora de las checklists | Práctica |
 | 10:00 - 10:20 | 20 min | ☕ Receso | - |
 | 10:20 - 11:00 | 40 min | **Lab 5.2:** Creación de checklists individuales | Práctica |

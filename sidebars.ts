@@ -39,7 +39,7 @@ const sidebars: SidebarsConfig = {
           label: 'Laboratorios',
           items: [
             'dia-4/labs/lab-2-1-threat-modeling',
-            'dia-4/labs/lab-2-4-dependency-check',
+            //'dia-4/labs/lab-2-4-dependency-check',
             'dia-2/labs/lab-inventario',
             'dia-2/labs/lab-rtp',
             'dia-2/labs/lab-ap',

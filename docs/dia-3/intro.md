@@ -9,7 +9,7 @@ sidebar_position: 1
 | Hora | Duración | Actividad | Tipo |
 |------|----------|-----------|------|
 | 08:00 - 08:20 | 20 min | El abogado del diablo | Dinámica |
-| 08:20 - 09:55 | 90 min | **Lab 3.1:** Logging y Monitoring de Seguridad | Práctica |
+| 08:20 - 09:50 | 90 min | **Lab 3.1:** Logging y Monitoring de Seguridad | Práctica |
 | 09:50 - 10:10 | 20 min | ☕ Receso | - |
 | 10:10 - 11:40 | 90 min | **Lab 3.2:** Code Reviews | Práctica |
 | 11:40 - 12:00 | 20 min | ☕ Receso | - |

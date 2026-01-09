@@ -8,13 +8,15 @@ sidebar_position: 1
 
 | Hora | Duración | Actividad | Tipo |
 |------|----------|-----------|------|
-| 08:00 - 08:15 | 15 min | Clasifica tu vida | Dinámica |
-| 08:15 - 09:00 | 45 min | **Lab:** Inventario de activos | Práctica |
-| 09:00 - 09:50 | 50 min | **Lab:** Gestión de riesgos ISO 27001 - Parte 1 (RTP) | Práctica |
-| 09:50 - 10:10 | 20 min | ☕ Receso | - |
-| 10:10 - 11:50 | 100 min | **Lab:** Gestión de riesgos ISO 27001 - Parte 2 (AP y SoA) | Práctica |
-| 11:50 - 12:10 | 20 min | ☕ Receso | - |
-| 12:10 - 13:00 | 50 min | **Lab:** Gestión de riesgos ISO 27001 - Parte 3 (SoA continuación y cierre) | Práctica |
+| 08:00 - 08:20 | 20 min | Clasifica tu vida | Dinámica |
+| 08:20 - 08:50 | 30 min | RBAC | Teoría |
+| 08:50 - 09:30 | 40 min | Threat Modeling | Teoría |
+| 09:30 - 09:50 | 20 min | ☕ Receso | - |
+| 09:50 - 10:50 | 60 min | **Lab 2.1:** Threat Modeling con STRIDE | Práctica |
+| 10:50 - 11:20 | 30 min | **Lab 2.2:** Inventario de activos | Práctica |
+| 11:20 - 11:40 | 20 min | ☕ Receso | - |
+| 11:40 - 12:20 | 40 min | **Lab 2.3:** Gestión de riesgos ISO 27001 (RTP, AP y SoA) | Práctica |
+| 12:20 - 13:00 | 40 min | **Lab 2.4:** Revisión de dependencias | Práctica |
 
 ## 🎯 Objetivos del Día
 
