@@ -33,7 +33,7 @@ const sidebars: SidebarsConfig = {
       label: 'Día 2: Preparación para Implementar Controles de Seguridad de la Información',
       items: [
         'dia-2/intro',
-        'dia-2/rbac',
+        //'dia-2/rbac',
         'dia-2/threat-modeling-stride',
         {
           type: 'category',

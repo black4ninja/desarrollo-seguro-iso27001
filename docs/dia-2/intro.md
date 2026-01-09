@@ -9,11 +9,10 @@ sidebar_position: 1
 | Hora | Duración | Actividad | Tipo |
 |------|----------|-----------|------|
 | 08:00 - 08:20 | 20 min | Clasifica tu vida | Dinámica |
-| 08:20 - 08:50 | 30 min | RBAC | Teoría |
-| 08:50 - 09:30 | 40 min | Threat Modeling | Teoría |
-| 09:30 - 09:50 | 20 min | ☕ Receso | - |
-| 09:50 - 10:50 | 60 min | **Lab 2.1:** Threat Modeling con STRIDE | Práctica |
-| 10:50 - 11:20 | 30 min | **Lab 2.2:** Inventario de activos | Práctica |
+| 08:20 - 09:00 | 40 min | Threat Modeling | Teoría |
+| 09:00 - 10:20 | 80 min | **Lab 2.1:** Threat Modeling con STRIDE | Práctica |
+| 10:20 - 10:40 | 20 min | ☕ Receso | - |
+| 10:40 - 11:20 | 40 min | **Lab 2.2:** Inventario de activos | Práctica |
 | 11:20 - 11:40 | 20 min | ☕ Receso | - |
 | 11:40 - 12:20 | 40 min | **Lab 2.3:** Gestión de riesgos ISO 27001 (RTP, AP y SoA) | Práctica |
 | 12:20 - 13:00 | 40 min | **Lab 2.4:** Revisión de dependencias | Práctica |
@@ -36,12 +35,6 @@ Al finalizar el Día 2, podrás:
 ### Clasifica tu vida
 
 📄 [Ver contenido completo: Clasifica tu vida](https://docs.google.com/presentation/d/1rQoYapA8L662gZntS8XU18CCUIXzvkn2m-UzFXGMrBE/edit?usp=sharing)
-
----
-
-### RBAC
-
-📄 [Ver contenido completo: RBAC](./rbac)
 
 ---
 
