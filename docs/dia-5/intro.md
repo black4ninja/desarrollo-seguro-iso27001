@@ -9,12 +9,13 @@ sidebar_position: 1
 | Hora | Duración | Actividad | Tipo |
 |------|----------|-----------|------|
 | 08:00 - 08:15 | 15 min | Hackeando Hollywood | Dinámica |
-| 08:15 - 09:05 | 50 min | ¿Cuánto nos cuestan los defectos? | Teoría |
-| 09:05 - 09:50 | 45 min | **Lab:** Creación de checklists de equipo e individuales (Parte 1) | Práctica |
-| 09:50 - 10:10 | 20 min | ☕ Receso | - |
-| 10:10 - 11:50 | 100 min | **Lab:** Creación de checklists de equipo e individuales (Parte 2) | Práctica |
-| 11:50 - 12:10 | 20 min | ☕ Receso | - |
-| 12:10 - 13:00 | 50 min | Cierre del curso | Cierre |
+| 08:15 - 09:00 | 45 min | ¿Cuánto nos cuestan los defectos? | Teoría |
+| 09:00 - 10:00 | 60 min | **Lab 5.1:** Creación y mejora de las checklists | Práctica |
+| 10:00 - 10:20 | 20 min | ☕ Receso | - |
+| 10:20 - 11:00 | 40 min | **Lab 5.2:** Creación de checklists individuales | Práctica |
+| 11:00 - 11:20 | 20 min | ☕ Receso | - |
+| 11:20 - 12:30 | 70 min | **Lab 5.3:** Mejora Continua | Práctica |
+| 12:30 - 13:00 | 30 min | Cierre del curso | Cierre |
 
 ## 🎯 Objetivos del Día
 
@@ -24,7 +25,8 @@ Al finalizar el Día 5, podrás:
 2. ✅ Comprender el costo de los defectos de seguridad en el SDLC
 3. ✅ Crear checklists de seguridad por fase del ciclo de vida
 4. ✅ Adaptar checklists a roles individuales del equipo
-5. ✅ Reflexionar sobre los aprendizajes del curso y su aplicación práctica
+5. ✅ Definir experimentos para mejorar el SDLC
+6. ✅ Reflexionar sobre los aprendizajes del curso y su aplicación práctica
 
 ## 📚 Contenido
 
@@ -42,22 +44,24 @@ Al finalizar el Día 5, podrás:
 ### Lab 5.1: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
 **Tipo:** Práctica en equipo
 
-📄 [Ver contenido completo: Lab: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue](./labs/lab-checklists)
+📄 [Ver contenido completo: Lab 5.1: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue](./labs/lab-5-1-checklists)
 
 **Entregables:** Checklists de equipo de análisis, diseño, desarrollo, pruebas y entrega.
 
 ### Lab 5.2: Creación de checklists individuales
 **Tipo:** Práctica individual
 
-📄 [Ver contenido completo: Lab: Creación de checklists individuales](./labs/lab-checklists-individuales)
+📄 [Ver contenido completo: Lab 5.2: Creación de checklists individuales](./labs/lab-5-2-checklists-individuales)
 
 **Entregables:** Checklists individuales de análisis, diseño, desarrollo, pruebas y entrega.
 
-### Mejora continua
+### Lab 5.3: Mejora continua
+**Tipo:** Práctica en equipo
 
-📄 [Ver contenido completo: Mejora continua](https://docs.google.com/presentation/d/15GSZ4t26P66GvhO9oAS_JE0-VjLsRJ6hgRl9f37GDrw/edit?usp=drive_link)
+📄 [Ver contenido completo: Lab 5.3: Mejora continua](./labs/lab-5-3-mejora)
 
-📄 [Ver contenido completo: Plantilla de bitácora de experimentos](https://docs.google.com/spreadsheets/d/1wyqiHtwX9XipvklxB-BywgdPvqnatnhx1hOF6HzvOGU/edit?usp=sharing)
+**Entregables:** Bitácora de experimentos
+
 
 ### Cierre del curso
 

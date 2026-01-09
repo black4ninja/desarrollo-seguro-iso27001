@@ -94,8 +94,9 @@ const sidebars: SidebarsConfig = {
           type: 'category',
           label: 'Laboratorios',
           items: [
-            'dia-5/labs/lab-checklists',
-            'dia-5/labs/lab-checklists-individuales',
+            'dia-5/labs/lab-5-1-checklists',
+            'dia-5/labs/lab-5-2-checklists-individuales',
+            'dia-5/labs/lab-5-3-mejora',
             // 'dia-5/labs/lab-3-1-api-security',              // Oculto temporalmente
             // 'dia-5/labs/lab-3-2-dast-zap',                  // Oculto temporalmente
             // 'dia-5/labs/lab-3-3-pentesting-apis',           // Oculto temporalmente

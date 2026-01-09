@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Lab: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue 
+# Lab 5.1: Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue 
 
 Hasta ahora la inspección nos sirvió para determinar el nivel de calidad de nuestras prácticas de seguridad de la información. Ahora es el momento de mejorar nuestros instrumentos de verificación de la calidad de la seguridad de información.
 

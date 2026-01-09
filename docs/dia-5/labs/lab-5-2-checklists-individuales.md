@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Lab: Creación de checklists individuales de Análisis, Diseño, Desarrollo, Pruebas y Despliegue 
+# Lab 5.2: Creación de checklists individuales de Análisis, Diseño, Desarrollo, Pruebas y Despliegue 
 
 Ya que contamos con las checklists de revisión del equipo para cada fase, ahora es tiempo de reconocer las habilidades y estilos que tenemos como individuos. Para mejorar la calidad, es necesario contar con instrumentos de verificación efectivos para cada uno de nosotros, ya que cada quien inyecta defectos diferentes y con frecuencias distintas. 
 
