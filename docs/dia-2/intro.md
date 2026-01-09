@@ -25,6 +25,7 @@ Al finalizar el Día 2, podrás:
 3. ✅ Diseñar Action Plans (AP) ejecutables y realistas
 4. ✅ Elaborar Statement of Applicability (SoA) completo
 5. ✅ Aplicar el ciclo completo de gestión de riesgos ISO 27001
+6. ✅ Implementar Role-Based Access Control (RBAC) en aplicaciones
 
 ## 📚 Contenido
 

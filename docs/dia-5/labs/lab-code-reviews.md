@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Lab: Code Reviews Orientados a Seguridad
+# Lab: 3.2: Code Reviews Orientados a Seguridad
 
 ## 🎯 Objetivos
 

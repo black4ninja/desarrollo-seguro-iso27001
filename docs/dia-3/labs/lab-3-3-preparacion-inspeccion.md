@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Lab: Preparación para la Inspección de Seguridad
+# Lab 3.3: Preparación para la Inspección de Seguridad
 
 ## Proceso general
 
@@ -53,6 +53,5 @@ Acciones del equipo de inspección:
 
 ### Entregables
 
-- Encargado del componente listo para presentar
 - Checklist lista para realizar inspección
 - Bitácora de la inspección

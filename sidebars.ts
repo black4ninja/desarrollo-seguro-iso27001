@@ -24,7 +24,6 @@ const sidebars: SidebarsConfig = {
             'dia-1/labs/lab-1-1-mapeo-controles',
             // 'dia-1/labs/lab-1-2-dvwa',             // Oculto temporalmente
             // 'dia-1/labs/lab-1-3-reconocimiento',   // Oculto temporalmente
-            'dia-1/labs/lab-preparacion-inspeccion',
           ],
         },
       ],
@@ -61,6 +60,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'dia-3/labs/lab-logging-monitoring',
             'dia-5/labs/lab-code-reviews',
+            'dia-3/labs/lab-3-3-preparacion-inspeccion',
           ],
         },
       ],

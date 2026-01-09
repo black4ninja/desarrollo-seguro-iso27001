@@ -25,8 +25,9 @@ Al finalizar el Día 5, podrás:
 2. ✅ Comprender el costo de los defectos de seguridad en el SDLC
 3. ✅ Crear checklists de seguridad por fase del ciclo de vida
 4. ✅ Adaptar checklists a roles individuales del equipo
-5. ✅ Definir experimentos para mejorar el SDLC
-6. ✅ Reflexionar sobre los aprendizajes del curso y su aplicación práctica
+5. ✅ Comprender los principios de mejora continua en seguridad
+6. ✅ Definir experimentos para mejorar el SDLC
+7. ✅ Reflexionar sobre los aprendizajes del curso y su aplicación práctica
 
 ## 📚 Contenido
 

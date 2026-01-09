@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Lab: Logging y Monitoring de Seguridad
+# Lab: 3.1 Logging y Monitoring de Seguridad
 
 ## 🎯 Objetivos del Laboratorio
 
