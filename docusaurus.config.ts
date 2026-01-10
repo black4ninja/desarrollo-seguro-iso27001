@@ -31,7 +31,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/black4ninja/desarrollo-seguro-iso27001/tree/main/',
+          // editUrl: 'https://github.com/black4ninja/desarrollo-seguro-iso27001/tree/main/',
         },
         blog: false,
         theme: {
