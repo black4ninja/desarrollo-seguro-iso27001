@@ -16,15 +16,18 @@ sidebar_position: 1
 
 ## Términos de Gestión de Riesgos
 
+- **Riesgo** - Cualquier aspecto que amenace o restrinja la capacidad de una organización de lograr su objetivo
 - **Activo** - Cualquier recurso con valor para la organización (datos, sistemas, infraestructura, personas)
 - **Amenaza** - Causa potencial de incidente no deseado que puede causar daño a un activo
 - **Impacto** - Consecuencia de la materialización de un riesgo (financiero, reputacional, operacional, legal)
 - **IDOR (Insecure Direct Object Reference)** - Vulnerabilidad que permite acceder a objetos sin autorización adecuada
 - **Probabilidad** - Posibilidad de que una amenaza se materialice
-- **Riesgo** - Combinación de la probabilidad de un evento y su impacto (Riesgo = Probabilidad × Impacto)
+- **Magnitud** - Combinación de la probabilidad de un evento y su impacto (Riesgo = Probabilidad × Impacto)
 - **Riesgo Inherente** - Riesgo antes de aplicar controles de mitigación
 - **Riesgo Residual** - Riesgo que permanece después de aplicar controles
 - **Vulnerabilidad** - Debilidad que puede ser explotada por una amenaza
+- **Gestión de riesgos de seguridad de la información** - Proceso continuo de identificar, resolver y prevenir problemas de seguridad
+- **Evaluación de riesgos** - Proceso para identificar vulnerabilidades y amenazas a los recursos de datos usados por una organización para lograr sus objetivos de negocio y determinar contramedidas para reducir su nivel de aceptación. 
 
 ## Términos de Desarrollo Seguro
 
