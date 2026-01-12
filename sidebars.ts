@@ -122,20 +122,22 @@ const sidebars: SidebarsConfig = {
           label: 'Checklists',
           items: [
             'recursos/checklists/inspeccion',
-            'recursos/checklists/code-review',
-            'recursos/checklists/configuraciones',
-            'recursos/checklists/apis',
+            // Checklists por agregar - ocultos temporalmente
+            // 'recursos/checklists/code-review',
+            // 'recursos/checklists/configuraciones',
+            // 'recursos/checklists/apis',
           ],
         },
-        {
-          type: 'category',
-          label: 'Herramientas',
-          items: [
-            'recursos/herramientas/sonarqube',
-            'recursos/herramientas/dependency-check',
-            'recursos/herramientas/owasp-zap',
-          ],
-        },
+        // Herramientas - oculto temporalmente
+        // {
+        //   type: 'category',
+        //   label: 'Herramientas',
+        //   items: [
+        //     'recursos/herramientas/sonarqube',
+        //     'recursos/herramientas/dependency-check',
+        //     'recursos/herramientas/owasp-zap',
+        //   ],
+        // },
         {
           type: 'category',
           label: 'Templates',
@@ -143,9 +145,10 @@ const sidebars: SidebarsConfig = {
             'recursos/templates/inspeccion',
             'recursos/templates/inventario',
             'recursos/templates/reporte-auditoria',
-            'recursos/templates/threat-model',
-            'recursos/templates/plan-mejora',
             'recursos/templates/experimentos',
+            // Templates por agregar - ocultos temporalmente
+            // 'recursos/templates/threat-model',
+            // 'recursos/templates/plan-mejora',
           ],
         },
       ],
