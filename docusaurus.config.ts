@@ -56,11 +56,6 @@ const config: Config = {
           position: 'left',
           label: 'Contenido del Curso',
         },
-        {
-          href: 'https://github.com/black4ninja/desarrollo-seguro-iso27001',
-          label: 'GitHub',
-          position: 'right',
-        },
       ],
     },
     footer: {
@@ -92,23 +87,6 @@ const config: Config = {
           ],
         },
         {
-          title: 'Recursos',
-          items: [
-            {
-              label: 'Guía del Facilitador',
-              to: '/docs/recursos/guia-facilitador',
-            },
-            {
-              label: 'Checklists',
-              to: '/docs/recursos/checklists',
-            },
-            {
-              label: 'Herramientas',
-              to: '/docs/recursos/herramientas',
-            },
-          ],
-        },
-        {
           title: 'Sesión',
           items: [
             {
@@ -117,7 +95,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Curso Desarrollo Seguro. Construido con Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Integral Vending | Curso creación código seguro`,
     },
     prism: {
       theme: prismThemes.github,
