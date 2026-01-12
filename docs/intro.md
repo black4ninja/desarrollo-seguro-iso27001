@@ -31,25 +31,25 @@ A lo largo de 5 días, desarrollarás competencias en:
 - ✅ Introducción a ISO 27001:2022
 - ✅ Práctica controles de ISO y OWASP
 
-### [Día 2: Preparación para Implementar Controles de Seguridad de la Información](./dia-2/intro)
+### Día 2: Preparación para Implementar Controles de Seguridad de la Información
 - ✅ Clasifica tu vida
 - ✅ Threat Modeling
 - ✅ Inventario de activos
 - ✅ Gestión de riesgos (RTP, AP y SoA)
 - ✅ Revisión de dependencias
 
-### [Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información](./dia-3/intro)
+### Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información
 - ✅ El abogado del diablo
 - ✅ Logging y monitoreo
 - ✅ Code reviews
 - ✅ Preparación para inspección de seguridad
 
-### [Día 4: Inspecciones de Seguridad de la Información](./dia-4/intro)
+### Día 4: Inspecciones de Seguridad de la Información
 - ✅ El museo de los horrores
 - ✅ Inspección de seguridad
 - ✅ Análisis de la inspección
 
-### [Día 5: Mejora del Ciclo de Vida de Desarrollo con Controles de Seguridad de la Información](./dia-5/intro)
+### Día 5: Mejora del Ciclo de Vida de Desarrollo con Controles de Seguridad de la Información
 - ✅ Hackeando Hollywood
 - ✅ ¿Cuánto nos cuestan los defectos?
 - ✅ Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
