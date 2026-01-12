@@ -109,11 +109,10 @@ const config: Config = {
           ],
         },
         {
-          title: 'Más',
+          title: 'Sesión',
           items: [
             {
-              label: 'GitHub',
-              href: 'https://github.com/black4ninja/desarrollo-seguro-iso27001',
+              html: '<div id="footer-logout-container"></div>',
             },
           ],
         },

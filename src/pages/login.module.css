@@ -1,0 +1,163 @@
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 60px);
+  padding: 2rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.loginBox {
+  background: white;
+  border-radius: 12px;
+  padding: 3rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  width: 100%;
+}
+
+.loginBox h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: #1c1e21;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  font-weight: 600;
+  color: #1c1e21;
+  font-size: 0.95rem;
+}
+
+.formGroup input {
+  padding: 0.75rem 1rem;
+  border: 2px solid #e1e4e8;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.formGroup input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.formGroup input:disabled {
+  background-color: #f6f8fa;
+  cursor: not-allowed;
+}
+
+.loginButton {
+  padding: 0.875rem 1.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.loginButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.loginButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.errorMessage {
+  padding: 0.75rem 1rem;
+  background-color: #fff5f5;
+  border: 1px solid #fc8181;
+  border-radius: 6px;
+  color: #c53030;
+  font-size: 0.9rem;
+}
+
+.securityNotice {
+  margin-top: 1.5rem;
+  padding: 0.75rem;
+  background-color: #fffbeb;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.securityNotice small {
+  color: #78350f;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .loginContainer {
+    padding: 1rem;
+  }
+
+  .loginBox {
+    padding: 2rem 1.5rem;
+  }
+
+  .loginBox h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Dark mode support */
+[data-theme='dark'] .loginBox {
+  background: #1c1e21;
+  color: #e3e3e3;
+}
+
+[data-theme='dark'] .loginBox h1 {
+  color: #e3e3e3;
+}
+
+[data-theme='dark'] .subtitle {
+  color: #a0a0a0;
+}
+
+[data-theme='dark'] .formGroup label {
+  color: #e3e3e3;
+}
+
+[data-theme='dark'] .formGroup input {
+  background-color: #2a2a2a;
+  border-color: #444;
+  color: #e3e3e3;
+}
+
+[data-theme='dark'] .formGroup input:focus {
+  border-color: #667eea;
+}
+
+[data-theme='dark'] .securityNotice {
+  background-color: #2a2a2a;
+}
+
+[data-theme='dark'] .securityNotice small {
+  color: #d4a574;
+}
