@@ -22,7 +22,7 @@ sidebar_position: 1
 - **Impacto** - Consecuencia de la materialización de un riesgo (financiero, reputacional, operacional, legal)
 - **IDOR (Insecure Direct Object Reference)** - Vulnerabilidad que permite acceder a objetos sin autorización adecuada
 - **Probabilidad** - Posibilidad de que una amenaza se materialice
-- **Magnitud** - Combinación de la probabilidad de un evento y su impacto (Riesgo = Probabilidad × Impacto)
+- **Magnitud** - Combinación de la probabilidad de un evento y su impacto (Magnitud = Probabilidad × Impacto)
 - **Riesgo Inherente** - Riesgo antes de aplicar controles de mitigación
 - **Riesgo Residual** - Riesgo que permanece después de aplicar controles
 - **Vulnerabilidad** - Debilidad que puede ser explotada por una amenaza
