@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Lab 2.1 - Workshop de Threat Modeling con STRIDE
 
-**Duración:** 60 minutos
+**Duración:** 40 minutos
 **Tipo:** Práctica en equipo
 **Prerequisito:** Haber revisado el contenido teórico de Threat Modeling con STRIDE
 
@@ -44,7 +44,7 @@ Trabajaremos con **BankingApp**, una aplicación bancaria simplificada con las s
 
 ---
 
-## 📝 Parte 1: Crear el Data Flow Diagram (DFD) (20 min)
+## 📝 Parte 1: Crear el Data Flow Diagram (DFD)
 
 ### Paso 1.1: Identificar Componentes
 
@@ -127,7 +127,7 @@ Vamos a identificar los **elementos del DFD** de BankingApp:
 └─────────────────────────────────────────────────┘
 ```
 
-### Actividad (15 min)
+### Actividad
 
 **En tu equipo:**
 
@@ -139,7 +139,7 @@ Vamos a identificar los **elementos del DFD** de BankingApp:
 
 ---
 
-## 🔷 Parte 2: Aplicar STRIDE (25 min)
+## 🔷 Parte 2: Aplicar STRIDE (15 min)
 
 ### Paso 2.1: Recordatorio de STRIDE
 
@@ -192,7 +192,7 @@ Vamos a analizar **P3: Realizar Transferencia** como ejemplo.
 
 ---
 
-### Actividad (20 min)
+### Actividad
 
 **En tu equipo, analizar estos procesos con STRIDE:**
 
@@ -216,7 +216,7 @@ Vamos a analizar **P3: Realizar Transferencia** como ejemplo.
 
 ---
 
-## 📊 Parte 3: Priorizar y Documentar Amenazas (15 min)
+## 📊 Parte 3: Priorizar y Documentar Amenazas (10 min)
 
 ### Paso 3.1: Matriz de Riesgo
 
@@ -254,7 +254,7 @@ Para cada amenaza identificada, completar:
 
 ---
 
-### Actividad (10 min)
+### Actividad
 
 **En tu equipo:**
 

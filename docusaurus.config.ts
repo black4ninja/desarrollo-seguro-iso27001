@@ -68,11 +68,11 @@ const config: Config = {
               label: 'Día 1: ISO 27001 y OWASP Top 10',
               to: '/docs/dia-1/intro',
             },
-            // Días 2-5 ocultos temporalmente - se habilitarán conforme avance el curso
-            // {
-            //   label: 'Día 2: Preparación',
-            //   to: '/docs/dia-2/intro',
-            // },
+            {
+              label: 'Día 2: Preparación',
+              to: '/docs/dia-2/intro',
+            },
+            // Días 3-5 ocultos temporalmente - se habilitarán conforme avance el curso
             // {
             //   label: 'Día 3: Implementación',
             //   to: '/docs/dia-3/intro',

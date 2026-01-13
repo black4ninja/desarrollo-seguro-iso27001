@@ -28,27 +28,27 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    // Día 2-5 ocultos temporalmente - se habilitarán conforme avance el curso
-    // {
-    //   type: 'category',
-    //   label: 'Día 2: Preparación para Implementar Controles de Seguridad de la Información',
-    //   items: [
-    //     'dia-2/intro',
-    //     'dia-2/threat-modeling-stride',
-    //     {
-    //       type: 'category',
-    //       label: 'Laboratorios',
-    //       items: [
-    //         'dia-4/labs/lab-2-1-threat-modeling',
-    //         'dia-2/labs/lab-2-2-inventario',
-    //         'dia-2/labs/lab-rtp',
-    //         'dia-2/labs/lab-ap',
-    //         'dia-2/labs/lab-soa',
-    //         'dia-4/labs/lab-2-4-dependency-check',
-    //       ],
-    //     },
-    //   ],
-    // },
+    {
+      type: 'category',
+      label: 'Día 2: Preparación para Implementar Controles de Seguridad de la Información',
+      items: [
+        'dia-2/intro',
+        'dia-2/threat-modeling-stride',
+        {
+          type: 'category',
+          label: 'Laboratorios',
+          items: [
+            'dia-4/labs/lab-2-1-threat-modeling',
+            'dia-2/labs/lab-2-2-inventario',
+            'dia-2/labs/lab-rtp',
+            'dia-2/labs/lab-ap',
+            'dia-2/labs/lab-soa',
+            'dia-4/labs/lab-2-4-dependency-check',
+          ],
+        },
+      ],
+    },
+    // Día 3-5 ocultos temporalmente - se habilitarán conforme avance el curso
     // {
     //   type: 'category',
     //   label: 'Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información',

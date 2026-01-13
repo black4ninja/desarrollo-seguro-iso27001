@@ -20,7 +20,7 @@ sidebar_position: 1
 
 Al finalizar el Día 1, podrás:
 
-1. ✅ Sensibilizar sobre la importancia de la seguridad de la informzación
+1. ✅ Sensibilizar sobre la importancia de la seguridad de la información
 2. ✅ Comprender el marco normativo ISO 27001:2022
 3. ✅ Identificar las vulnerabilidades del OWASP Top 10
 4. ✅ Mapear controles ISO a vulnerabilidades OWASP
