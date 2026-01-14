@@ -38,7 +38,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 - ✅ Gestión de riesgos (RTP, AP y SoA)
 - ✅ Revisión de dependencias
 
-### Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información
+### [Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información](./dia-3/intro)
 - ✅ El abogado del diablo
 - ✅ Logging y monitoreo
 - ✅ Code reviews

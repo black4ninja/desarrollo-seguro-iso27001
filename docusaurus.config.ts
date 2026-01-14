@@ -72,11 +72,11 @@ const config: Config = {
               label: 'Día 2: Preparación',
               to: '/docs/dia-2/intro',
             },
-            // Días 3-5 ocultos temporalmente - se habilitarán conforme avance el curso
-            // {
-            //   label: 'Día 3: Implementación',
-            //   to: '/docs/dia-3/intro',
-            // },
+            {
+              label: 'Día 3: Fortalecimiento',
+              to: '/docs/dia-3/intro',
+            },
+            // Días 4-5 ocultos temporalmente - se habilitarán conforme avance el curso
             // {
             //   label: 'Día 4: Mejora Continua',
             //   to: '/docs/dia-4/intro',

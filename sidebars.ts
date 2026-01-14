@@ -48,23 +48,24 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    // Día 3-5 ocultos temporalmente - se habilitarán conforme avance el curso
-    // {
-    //   type: 'category',
-    //   label: 'Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información',
-    //   items: [
-    //     'dia-3/intro',
-    //     {
-    //       type: 'category',
-    //       label: 'Laboratorios',
-    //       items: [
-    //         'dia-3/labs/lab-logging-monitoring',
-    //         'dia-5/labs/lab-code-reviews',
-    //         'dia-3/labs/lab-3-3-preparacion-inspeccion',
-    //       ],
-    //     },
-    //   ],
-    // },
+    {
+      type: 'category',
+      label: 'Día 3: Fortalecimiento de Capacidades para Implementar Controles de Seguridad de la Información',
+      items: [
+        'dia-3/intro',
+        'dia-3/herramientas-referencia',
+        {
+          type: 'category',
+          label: 'Laboratorios',
+          items: [
+            'dia-3/labs/lab-logging-monitoring',
+            'dia-5/labs/lab-code-reviews',
+            'dia-3/labs/lab-3-3-preparacion-inspeccion',
+          ],
+        },
+      ],
+    },
+    // Día 4-5 ocultos temporalmente - se habilitarán conforme avance el curso
     // {
     //   type: 'category',
     //   label: 'Día 4: Inspecciones de Seguridad de la Información',
