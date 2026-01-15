@@ -118,6 +118,7 @@ const sidebars: SidebarsConfig = {
             'recursos/procesos/inspeccion',
             'recursos/procesos/commits',
             'recursos/procesos/branching',
+            'recursos/procesos/transicion-agil',
           ],
         },
         {
