@@ -44,7 +44,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 - ✅ Code reviews
 - ✅ Preparación para inspección de seguridad
 
-### Día 4: Inspecciones de Seguridad de la Información
+### [Día 4: Inspecciones de Seguridad de la Información](./dia-4/intro)
 - ✅ El museo de los horrores
 - ✅ Inspección de seguridad
 - ✅ Análisis de la inspección

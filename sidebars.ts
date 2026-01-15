@@ -65,22 +65,22 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    // Día 4-5 ocultos temporalmente - se habilitarán conforme avance el curso
-    // {
-    //   type: 'category',
-    //   label: 'Día 4: Inspecciones de Seguridad de la Información',
-    //   items: [
-    //     'dia-4/intro',
-    //     {
-    //       type: 'category',
-    //       label: 'Laboratorios',
-    //       items: [
-    //         'dia-4/labs/lab-inspeccion',
-    //         'dia-4/labs/lab-analisis-inspeccion',
-    //       ],
-    //     },
-    //   ],
-    // },
+    {
+      type: 'category',
+      label: 'Día 4: Inspecciones de Seguridad de la Información',
+      items: [
+        'dia-4/intro',
+        {
+          type: 'category',
+          label: 'Laboratorios',
+          items: [
+            'dia-4/labs/lab-inspeccion',
+            'dia-4/labs/lab-analisis-inspeccion',
+          ],
+        },
+      ],
+    },
+    // Día 5 oculto temporalmente - se habilitará conforme avance el curso
     // {
     //   type: 'category',
     //   label: 'Día 5: Mejora del Ciclo de Vida de Desarrollo con Controles de Seguridad de la Información',
