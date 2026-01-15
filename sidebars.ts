@@ -116,6 +116,8 @@ const sidebars: SidebarsConfig = {
           label: 'Procesos',
           items: [
             'recursos/procesos/inspeccion',
+            'recursos/procesos/commits',
+            'recursos/procesos/branching',
           ],
         },
         {
@@ -129,16 +131,16 @@ const sidebars: SidebarsConfig = {
             // 'recursos/checklists/apis',
           ],
         },
-        // Herramientas - oculto temporalmente
-        // {
-        //   type: 'category',
-        //   label: 'Herramientas',
-        //   items: [
-        //     'recursos/herramientas/sonarqube',
-        //     'recursos/herramientas/dependency-check',
-        //     'recursos/herramientas/owasp-zap',
-        //   ],
-        // },
+        {
+          type: 'category',
+          label: 'Herramientas',
+          items: [
+            'recursos/herramientas/docker',
+            // 'recursos/herramientas/sonarqube',
+            // 'recursos/herramientas/dependency-check',
+            // 'recursos/herramientas/owasp-zap',
+          ],
+        },
         {
           type: 'category',
           label: 'Templates',
