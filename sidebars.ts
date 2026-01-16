@@ -80,23 +80,22 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    // Día 5 oculto temporalmente - se habilitará conforme avance el curso
-    // {
-    //   type: 'category',
-    //   label: 'Día 5: Mejora del Ciclo de Vida de Desarrollo con Controles de Seguridad de la Información',
-    //   items: [
-    //     'dia-5/intro',
-    //     {
-    //       type: 'category',
-    //       label: 'Laboratorios',
-    //       items: [
-    //         'dia-5/labs/lab-5-1-checklists',
-    //         'dia-5/labs/lab-5-2-checklists-individuales',
-    //         'dia-5/labs/lab-5-3-mejora',
-    //       ],
-    //     },
-    //   ],
-    // },
+    {
+      type: 'category',
+      label: 'Día 5: Mejora del Ciclo de Vida de Desarrollo con Controles de Seguridad de la Información',
+      items: [
+        'dia-5/intro',
+        {
+          type: 'category',
+          label: 'Laboratorios',
+          items: [
+            'dia-5/labs/lab-5-1-checklists',
+            'dia-5/labs/lab-5-2-checklists-individuales',
+            'dia-5/labs/lab-5-3-mejora',
+          ],
+        },
+      ],
+    },
     {
       type: 'category',
       label: 'Recursos',

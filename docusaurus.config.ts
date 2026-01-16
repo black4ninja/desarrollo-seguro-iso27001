@@ -80,11 +80,10 @@ const config: Config = {
               label: 'Día 4: Inspecciones',
               to: '/docs/dia-4/intro',
             },
-            // Día 5 oculto temporalmente - se habilitará conforme avance el curso
-            // {
-            //   label: 'Día 5: Mejora Continua',
-            //   to: '/docs/dia-5/intro',
-            // },
+            {
+              label: 'Día 5: Mejora Continua',
+              to: '/docs/dia-5/intro',
+            },
           ],
         },
         {

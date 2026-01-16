@@ -49,7 +49,7 @@ A lo largo de 5 días, desarrollarás competencias en:
 - ✅ Inspección de seguridad
 - ✅ Análisis de la inspección
 
-### Día 5: Mejora del Ciclo de Vida de Desarrollo con Controles de Seguridad de la Información
+### [Día 5: Mejora del Ciclo de Vida de Desarrollo con Controles de Seguridad de la Información](./dia-5/intro)
 - ✅ Hackeando Hollywood
 - ✅ ¿Cuánto nos cuestan los defectos?
 - ✅ Creación y mejora de las checklists de Análisis, Diseño, Desarrollo, Pruebas y Despliegue
